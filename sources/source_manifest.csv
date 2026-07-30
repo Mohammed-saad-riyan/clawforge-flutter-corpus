@@ -1,0 +1,17 @@
+source_id,kind,repo_full_name,ref,quality,notes
+S001,repo,bizz84/starter_architecture_flutter_firebase,main,5,Reference app based on Riverpod Architecture
+S002,repo,Erengun/Flutter-Riverpod-2.0-Template,main,5,Production-ready template with Riverpod Freezed GoRouter
+S003,repo,momentous-developments/flutter-starter-app,main,5,Production-ready starter with Riverpod GoRouter clean architecture
+S004,repo,DevDabbagh/Flutter-Riverpod-Clean-Architecture-Template,main,5,Riverpod 3 clean architecture with GoRouter Dio Retrofit
+S005,repo,Uuttssaavv/flutter-clean-architecture-riverpod,main,5,Clean architecture Riverpod starter
+S006,repo,guilherme-v/flutter-clean-architecture-example,main,4,Architecture comparison and tests
+S007,repo,brianegan/flutter_architecture_samples,main,4,Classic architecture samples and testing reference
+S008,repo,SimpleBoilerplates/Flutter,main,4,Boilerplate using Riverpod Dio go_router Freezed
+S009,repo,namanh11611/flutter_mvvm_riverpod,main,4,MVVM Riverpod Supabase starter
+S010,repo,momshaddinury/flutter_template,main,4,Production-ready clean architecture template
+S011,repo,flutter/flutter,master,5,Flutter framework baseline and docs source
+S012,repo,flutter/samples,main,5,Official sample apps and best practices
+S013,issue,flutter/flutter,112915,5,go_router redirection with Riverpod discussion
+S014,discussion,rrousselGit/riverpod,1357,5,go_router integration discussion
+S015,repo,bizz84/go_router_deep_links_example,master,4,Deep link and redirect pattern reference
+S016,repo,djanogly/starter_architecture_flutter_firebase-1,main,4,Older reference architecture and issue history
