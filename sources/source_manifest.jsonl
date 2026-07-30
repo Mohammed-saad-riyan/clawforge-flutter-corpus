@@ -1,0 +1,16 @@
+{"source_id":"S001","kind":"repo","repo_full_name":"bizz84/starter_architecture_flutter_firebase","ref":"main","quality":5,"notes":"Reference app based on Riverpod Architecture"}
+{"source_id":"S002","kind":"repo","repo_full_name":"Erengun/Flutter-Riverpod-2.0-Template","ref":"main","quality":5,"notes":"Production-ready template with Riverpod Freezed GoRouter"}
+{"source_id":"S003","kind":"repo","repo_full_name":"momentous-developments/flutter-starter-app","ref":"main","quality":5,"notes":"Production-ready starter with Riverpod GoRouter clean architecture"}
+{"source_id":"S004","kind":"repo","repo_full_name":"DevDabbagh/Flutter-Riverpod-Clean-Architecture-Template","ref":"main","quality":5,"notes":"Riverpod 3 clean architecture with GoRouter Dio Retrofit"}
+{"source_id":"S005","kind":"repo","repo_full_name":"Uuttssaavv/flutter-clean-architecture-riverpod","ref":"main","quality":5,"notes":"Clean architecture Riverpod starter"}
+{"source_id":"S006","kind":"repo","repo_full_name":"guilherme-v/flutter-clean-architecture-example","ref":"main","quality":4,"notes":"Architecture comparison and tests"}
+{"source_id":"S007","kind":"repo","repo_full_name":"brianegan/flutter_architecture_samples","ref":"main","quality":4,"notes":"Classic architecture samples and testing reference"}
+{"source_id":"S008","kind":"repo","repo_full_name":"SimpleBoilerplates/Flutter","ref":"main","quality":4,"notes":"Boilerplate using Riverpod Dio go_router Freezed"}
+{"source_id":"S009","kind":"repo","repo_full_name":"namanh11611/flutter_mvvm_riverpod","ref":"main","quality":4,"notes":"MVVM Riverpod Supabase starter"}
+{"source_id":"S010","kind":"repo","repo_full_name":"momshaddinury/flutter_template","ref":"main","quality":4,"notes":"Production-ready clean architecture template"}
+{"source_id":"S011","kind":"repo","repo_full_name":"flutter/flutter","ref":"master","quality":5,"notes":"Flutter framework baseline and docs source"}
+{"source_id":"S012","kind":"repo","repo_full_name":"flutter/samples","ref":"main","quality":5,"notes":"Official sample apps and best practices"}
+{"source_id":"S013","kind":"issue","repo_full_name":"flutter/flutter","ref":"112915","quality":5,"notes":"go_router redirection with Riverpod discussion"}
+{"source_id":"S014","kind":"discussion","repo_full_name":"rrousselGit/riverpod","ref":"1357","quality":5,"notes":"go_router integration discussion"}
+{"source_id":"S015","kind":"repo","repo_full_name":"bizz84/go_router_deep_links_example","ref":"master","quality":4,"notes":"Deep link and redirect pattern reference"}
+{"source_id":"S016","kind":"repo","repo_full_name":"djanogly/starter_architecture_flutter_firebase-1","ref":"main","quality":4,"notes":"Older reference architecture and issue history"}
