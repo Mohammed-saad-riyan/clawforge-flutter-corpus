@@ -15,3 +15,11 @@ S013,issue,flutter/flutter,112915,5,go_router redirection with Riverpod discussi
 S014,discussion,rrousselGit/riverpod,1357,5,go_router integration discussion
 S015,repo,bizz84/go_router_deep_links_example,master,4,Deep link and redirect pattern reference
 S016,repo,djanogly/starter_architecture_flutter_firebase-1,main,4,Older reference architecture and issue history
+S017,repo,Amir-beigi-84/flutter-clean-architecture,main,4,Command template with MVVM+BLoC+Dio
+S018,repo,reafeichtinger/flutter_production_boilerplate_riverpod,main,4,Production boilerplate with Riverpod and linting
+S019,repo,scalio/bazel-flutter,main,3,Bazel build reference for Flutter projects
+S020,repo,GetStream/flutter-video-samples,main,4,Real-world sample apps and SDK integration
+S021,repo,fluttercommunity/flutter_styleguide,main,4,Style guide and team conventions
+S022,repo,flutter/website,main,5,Official docs and code sample reference
+S023,repo,flutter/packages,main,5,Official Flutter-maintained packages reference
+S024,repo,flutter/tests,main,5,Contributed tests repository for breaking changes coverage
