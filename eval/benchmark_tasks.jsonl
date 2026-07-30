@@ -1,0 +1,3 @@
+{"task_id":"T001","prompt":"Build a Flutter login flow with Riverpod and GoRouter","expected_patterns":["auth","state_management","navigation"],"difficulty":"medium"}
+{"task_id":"T002","prompt":"Add offline-first list caching with repository pattern","expected_patterns":["data_layer","state_management","testing"],"difficulty":"medium"}
+{"task_id":"T003","prompt":"Create responsive settings screen with theming and forms","expected_patterns":["ui","forms","architecture"],"difficulty":"easy"}
