@@ -1,0 +1,1511 @@
+{
+  "project": {
+    "name": "dashboard_reborn",
+    "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147",
+    "description": "A very sexy Flutter template!",
+    "packages": {
+      "cupertino_icons": "^1.0.3",
+      "easy_dynamic_theme": "^2.2.0",
+      "eva_icons_flutter": "^3.0.0",
+      "flare_flutter": "^3.0.0",
+      "gradient_widgets": "^0.6.0",
+      "liquid_swipe": "^2.1.0",
+      "url_launcher": "^5.5.0"
+    },
+    "dev_packages": {
+      "flutter_launcher_icons": "^0.9.0"
+    },
+    "flutter_version": "flutter",
+    "dart_sdk": ">=2.2.2 <3.0.0"
+  },
+  "files": [
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/pages/note_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:easy_dynamic_theme/easy_dynamic_theme.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/main.dart",
+          "line_number": 8,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "easy_dynamic_theme",
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/colors.dart",
+      "imports": [
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyColors",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/colors.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "MaterialColors",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/colors.dart",
+          "line_number": 16,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "GradientColors",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/colors.dart",
+          "line_number": 27,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "ShadowColors",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/colors.dart",
+          "line_number": 34,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/page_transformer.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:meta/meta.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageVisibilityResolver",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/page_transformer.dart",
+          "line_number": 10,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "PageVisibility",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/page_transformer.dart",
+          "line_number": 62,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "PageTransformer",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/page_transformer.dart",
+          "line_number": 95,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_PageTransformerState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/page_transformer.dart",
+          "line_number": 106,
+          "extends": "State<PageTransformer>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "meta"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "TitleStylesDefault",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 5,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "BodyStylesDefault",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 29,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "HeadingStylesDefault",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 50,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "HeadingStylesMaterial",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 71,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "SubHeadingStylesMaterial",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 92,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "HeadingStylesGradient",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 113,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "SubHeadingStylesGradient",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 134,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "LabelStyles",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/text_styles.dart",
+          "line_number": 155,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/utils/ui_helpers.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:url_launcher/url_launcher.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flutter",
+        "url_launcher"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/material_page.dart",
+      "imports": [
+        {
+          "path": "dart:ui",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/pages/liquid_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/sexy_bottom_sheet.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:eva_icons_flutter/eva_icons_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flare_flutter/flare_actor.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/rendering.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyMaterialPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/material_page.dart",
+          "line_number": 14,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MyMaterialPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/material_page.dart",
+          "line_number": 19,
+          "extends": "State<MyMaterialPage>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "eva_icons_flutter",
+        "flare_flutter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/home_page.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/pages/about_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/pages/gradients_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/pages/material_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/sexy_tile.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:easy_dynamic_theme/easy_dynamic_theme.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:eva_icons_flutter/eva_icons_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyHomePage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/home_page.dart",
+          "line_number": 15,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MyHomePageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/home_page.dart",
+          "line_number": 20,
+          "extends": "State<MyHomePage>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "easy_dynamic_theme",
+        "eva_icons_flutter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/liquid_page.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flare_flutter/flare_actor.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:liquid_swipe/liquid_swipe.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyLiquidPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/liquid_page.dart",
+          "line_number": 7,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MyLiquidPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/liquid_page.dart",
+          "line_number": 12,
+          "extends": "State<MyLiquidPage>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flare_flutter",
+        "flutter",
+        "liquid_swipe"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/about_page.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/sexy_tile.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:eva_icons_flutter/eva_icons_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyAboutPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/about_page.dart",
+          "line_number": 9,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MyAboutPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/about_page.dart",
+          "line_number": 14,
+          "extends": "State<MyAboutPage>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "eva_icons_flutter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/gradients_page.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/page_transformer.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/parallax_cards.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/swiping_cards.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:eva_icons_flutter/eva_icons_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:gradient_widgets/gradient_widgets.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ParallaxCardItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/gradients_page.dart",
+          "line_number": 30,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "MyGradientsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/gradients_page.dart",
+          "line_number": 68,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MyGradientsPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/gradients_page.dart",
+          "line_number": 73,
+          "extends": "State<MyGradientsPage>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "eva_icons_flutter",
+        "flutter",
+        "gradient_widgets"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/note_page.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/pages/home_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/sexy_tile.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:eva_icons_flutter/eva_icons_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyNotePage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/note_page.dart",
+          "line_number": 10,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MyNotePageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/pages/note_page.dart",
+          "line_number": 15,
+          "extends": "State<MyNotePage>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "eva_icons_flutter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_tile.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "SexyTile",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_tile.dart",
+          "line_number": 5,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": "math",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "dart:ui",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/widgets/sexy_tile.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "SexyBottomSheet",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+          "line_number": 25,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_SexyBottomSheetState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+          "line_number": 30,
+          "extends": "State<SexyBottomSheet>",
+          "implements": [],
+          "mixins": [
+            "SingleTickerProviderStateMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "ExpandedSheetItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+          "line_number": 183,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "SheetItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+          "line_number": 255,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "SheetHeader",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+          "line_number": 262,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "MenuButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/sexy_bottom_sheet.dart",
+          "line_number": 274,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/parallax_cards.dart",
+      "imports": [
+        {
+          "path": "package:dashboard_reborn/pages/gradients_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/colors.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/page_transformer.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:gradient_widgets/gradient_widgets.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:meta/meta.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ParallaxCards",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/parallax_cards.dart",
+          "line_number": 13,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flutter",
+        "gradient_widgets",
+        "meta"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/swiping_cards.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/pages/gradients_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/text_styles.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:dashboard_reborn/utils/ui_helpers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:gradient_widgets/gradient_widgets.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "SwipingCards",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S147/lib/widgets/swiping_cards.dart",
+          "line_number": 13,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dashboard_reborn",
+        "flutter",
+        "gradient_widgets"
+      ],
+      "patterns_detected": []
+    }
+  ],
+  "summary": {
+    "total_files": 15,
+    "total_classes": 39,
+    "total_widgets": 23,
+    "total_providers": 0,
+    "packages_used": [
+      "dashboard_reborn",
+      "easy_dynamic_theme",
+      "eva_icons_flutter",
+      "flare_flutter",
+      "flutter",
+      "gradient_widgets",
+      "liquid_swipe",
+      "meta",
+      "url_launcher"
+    ],
+    "patterns_detected": [
+      "bloc"
+    ],
+    "widget_types": {
+      "stateless": 7,
+      "stateful": 8,
+      "state": 8
+    },
+    "provider_types": {}
+  }
+}

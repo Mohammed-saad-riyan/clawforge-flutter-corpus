@@ -1,0 +1,996 @@
+{
+  "project": {
+    "name": "intro_views_flutter",
+    "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142",
+    "description": "A Flutter package for simple material design app intro screens with some cool animations.",
+    "packages": {},
+    "dev_packages": {
+      "flutter_test": "git/path",
+      "flutter_lints": "^1.0.3"
+    },
+    "flutter_version": "flutter",
+    "dart_sdk": ">=2.12.0 <3.0.0"
+  },
+  "files": [
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/test/intro_views_flutter_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/intro_views_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../example/lib/main.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_test",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/example/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/intro_views_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "App",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/example/lib/main.dart",
+          "line_number": 8,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "HomePage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/example/lib/main.dart",
+          "line_number": 114,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/intro_views_flutter.dart",
+      "imports": [],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/page_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "Page",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page.dart",
+          "line_number": 5,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_BodyPageTransform",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page.dart",
+          "line_number": 120,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ImagePageTransform",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page.dart",
+          "line_number": 154,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_TitlePageTransform",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page.dart",
+          "line_number": 185,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/intro_views_flutter.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/animation_gesture/animated_page_dragger.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/animation_gesture/page_dragger.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/animation_gesture/page_reveal.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/page_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/pager_indicator_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/slide_update_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/ui/page.dart",
+          "is_package": true,
+          "alias": "into_ui_page",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/ui/page_indicator_buttons.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/ui/pager_indicator.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "IntroViewsFlutter",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/intro_views_flutter.dart",
+          "line_number": 18,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_IntroViewsFlutterState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/intro_views_flutter.dart",
+          "line_number": 142,
+          "extends": "State<IntroViewsFlutter>",
+          "implements": [],
+          "mixins": [
+            "TickerProviderStateMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/pager_indicator.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/helpers/extensions.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/page_bubble_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/pager_indicator_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/ui/page_bubble.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PagerIndicator",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/pager_indicator.dart",
+          "line_number": 9,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page_bubble.dart",
+      "imports": [
+        {
+          "path": "dart:ui",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/page_bubble_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageBubble",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page_bubble.dart",
+          "line_number": 7,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page_indicator_buttons.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/page_button_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "DefaultButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page_indicator_buttons.dart",
+          "line_number": 6,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "DoneButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page_indicator_buttons.dart",
+          "line_number": 50,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "PageIndicatorButtons",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/ui/page_indicator_buttons.dart",
+          "line_number": 89,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/clipper/circular_reveal_clipper.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CircularRevealClipper",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/clipper/circular_reveal_clipper.dart",
+          "line_number": 6,
+          "extends": "CustomClipper<Rect>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/page_view_model.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageViewModel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/page_view_model.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": [
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/slide_update_model.dart",
+      "imports": [
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "SlideUpdate",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/slide_update_model.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/page_button_view_model.dart",
+      "imports": [
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageButtonViewModel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/page_button_view_model.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "intro_views_flutter"
+      ],
+      "patterns_detected": [
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/page_bubble_view_model.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageBubbleViewModel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/page_bubble_view_model.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": [
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/pager_indicator_view_model.dart",
+      "imports": [
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/page_view_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PagerIndicatorViewModel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/models/pager_indicator_view_model.dart",
+          "line_number": 5,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "intro_views_flutter"
+      ],
+      "patterns_detected": [
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/page_reveal.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/clipper/circular_reveal_clipper.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageReveal",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/page_reveal.dart",
+          "line_number": 5,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/animated_page_dragger.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "dart:ui",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/slide_update_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AnimatedPageDragger",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/animated_page_dragger.dart",
+          "line_number": 11,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/page_dragger.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/helpers/constants.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:intro_views_flutter/src/models/slide_update_model.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageDragger",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/page_dragger.dart",
+          "line_number": 8,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_PageDraggerState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/animation_gesture/page_dragger.dart",
+          "line_number": 30,
+          "extends": "State<PageDragger>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "intro_views_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/helpers/extensions.dart",
+      "imports": [
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S142/lib/src/helpers/constants.dart",
+      "imports": [],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    }
+  ],
+  "summary": {
+    "total_files": 19,
+    "total_classes": 23,
+    "total_widgets": 16,
+    "total_providers": 0,
+    "packages_used": [
+      "flutter",
+      "flutter_test",
+      "intro_views_flutter"
+    ],
+    "patterns_detected": [
+      "bloc",
+      "viewmodel"
+    ],
+    "widget_types": {
+      "stateless": 12,
+      "stateful": 2,
+      "state": 2
+    },
+    "provider_types": {}
+  }
+}

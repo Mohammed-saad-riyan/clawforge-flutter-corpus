@@ -1,0 +1,111 @@
+source_id,kind,repo_full_name,ref,quality,notes
+S001,repo,bizz84/starter_architecture_flutter_firebase,main,5,Reference app based on Riverpod Architecture
+S002,repo,Erengun/Flutter-Riverpod-2.0-Template,main,5,Production-ready template with Riverpod Freezed GoRouter
+S003,repo,momentous-developments/flutter-starter-app,main,5,Production-ready starter with Riverpod GoRouter clean architecture
+S004,repo,DevDabbagh/Flutter-Riverpod-Clean-Architecture-Template,main,5,Riverpod 3 clean architecture with GoRouter Dio Retrofit
+S005,repo,Uuttssaavv/flutter-clean-architecture-riverpod,main,5,Clean architecture Riverpod starter
+S006,repo,guilherme-v/flutter-clean-architecture-example,main,4,Architecture comparison and tests
+S007,repo,brianegan/flutter_architecture_samples,main,4,Classic architecture samples and testing reference
+S008,repo,SimpleBoilerplates/Flutter,main,4,Boilerplate using Riverpod Dio go_router Freezed
+S009,repo,namanh11611/flutter_mvvm_riverpod,main,4,MVVM Riverpod Supabase starter
+S010,repo,momshaddinury/flutter_template,main,4,Production-ready clean architecture template
+S011,repo,flutter/flutter,master,5,Flutter framework baseline and docs source
+S012,repo,flutter/samples,main,5,Official sample apps and best practices
+S015,repo,bizz84/go_router_deep_links_example,master,4,Deep link and redirect pattern reference
+S016,repo,djanogly/starter_architecture_flutter_firebase-1,main,4,Older reference architecture and issue history
+S017,repo,Amir-beigi-84/flutter-clean-architecture,main,4,Command template with MVVM+BLoC+Dio
+S018,repo,reafeichtinger/flutter_production_boilerplate_riverpod,main,4,Production boilerplate with Riverpod and linting
+S019,repo,scalio/bazel-flutter,main,3,Bazel build reference for Flutter projects
+S020,repo,GetStream/flutter-video-samples,main,4,Real-world sample apps and SDK integration
+S021,repo,fluttercommunity/flutter_styleguide,main,4,Style guide and team conventions
+S022,repo,flutter/website,main,5,Official docs and code sample reference
+S023,repo,flutter/packages,main,5,Official Flutter-maintained packages reference
+S024,repo,flutter/tests,main,5,Contributed tests repository for breaking changes coverage
+S100,repo,abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard,main,4,★7107 Responsive Admin Panel or Dashboard using Flutter
+S101,repo,jameskokoska/Cashew,main,4,★4513 💸 An app created to help users manage a budget and
+S102,repo,hungps/flutter_pokedex,main,4,★2534 Pokedex app built with Flutter (with lots of anima
+S103,repo,flyerhq/flutter_chat_ui,main,4,"★2321 Free and open-source chat SDK. Build fast, real-ti"
+S104,repo,duytq94/flutter-chat-demo,main,4,★1830 The chat app made by Flutter and Firebase
+S105,repo,olayemii/flutter-ui-kits,main,4,★1479 Free Flutter UI Kits developed by Olayemi Garuba
+S106,repo,RIP-Comm/sossoldi,main,4,"★1384 ""Sossoldi"" is a wealth management / personal finan"
+S107,repo,xvrh/lottie-flutter,main,4,★1295 Render After Effects animations natively on Flutte
+S108,repo,bukunmialuko/flutter_ui_kit_obkm,main,4,★1077 100+ Mobile UI Kit
+S109,repo,felixblaschke/simple_animations,main,4,★1058 Flutter package for creating awesome animations.
+S110,repo,GetStream/stream-chat-flutter,main,4,★1051 Flutter Chat SDK - Build your own chat app experie
+S111,repo,wger-project/flutter,main,4,★951 Flutter fitness/workout app for wger
+S112,repo,adar2378/pin_code_fields,main,4,★793 A flutter package which will help you to generate 
+S113,repo,woosignal/flutter-woocommerce-app,main,4,★712 WooCommerce App template that uses Flutter. Integr
+S114,repo,SinaSys/flutter_go_rest_app,main,4,★284 🚀 User management app built in flutter using clean
+S115,repo,iampawan/Flutter-UI-Kit,main,3,★6291 Flutter app for collection of UI in a UIKit
+S116,repo,flutterchina/flukit,main,3,"★5940  A Flutter UI Kit（一个 Flutter UI组件库），包含 ScaleView, "
+S117,repo,abuanwar072/E-commerce-Complete-Flutter-UI,main,3,★4828 The FlutterShop template makes it easier to develo
+S118,repo,FlutterOpen/flutter-ui-nice,main,3,★3800 More than 130+ pages in this beautiful app and mor
+S119,repo,TheAlphamerc/flutter_ecommerce_app,main,3,★3462 E-Commerce App built in flutter
+S120,repo,Idean/Flutter-Neumorphic,main,3,"★2189 A complete, ready to use, Neumorphic ui kit for Fl"
+S121,repo,abuanwar072/Flutter-responsive-email-ui---Mobile-Tablet-and-Web,main,3,★1834 We redesign the outlook app also make it responsiv
+S122,repo,aagarwal1012/Animated-Text-Kit,main,3,★1773 🔔  A flutter package to create cool and beautiful 
+S123,repo,The-ring-io/flutter_staggered_animations,main,3,"★1674 Easily add staggered animations to your ListView, "
+S124,repo,leo-elstin/Flutter-UI-Kits,main,3,★1533 Flutter UI Designs !! 
+S125,repo,Codelessly/ResponsiveFramework,main,3,★1404 Easily make Flutter apps responsive. Automatically
+S126,repo,CharlyKeleb/SocialMedia-App,main,3,★1219 A fully functional social media app built with flu
+S127,repo,Tarikul711/flutter-food-delivery-app-ui,main,3,★1203 The food ordering & delivery application designed 
+S128,repo,MarcusNg/flutter_facebook_responsive_ui,main,3,★1200 https://youtu.be/HvLb5gdUfDE
+S129,repo,rohan20/flutter-chat-app,main,3,★1148 A chat app built on Flutter with firebase authenti
+S130,repo,Widle-Studio/Grocery-App,main,3,"★1139 Flutter Grocery Shopping App (Mobile App, Web App)"
+S131,repo,MarcinusX/flutter_ui_challenge_flight_search,main,3,★1001 An advanced UI design implemented in Flutter 
+S132,repo,Davies-K/Taskez,main,3,★968 A Productivity Mobile Application UI kit built wit
+S133,repo,RivaanRanawat/instagram-flutter-clone,main,3,★926 Responsive Instagram Clone developed with Flutter 
+S134,repo,bizz84/complete-flutter-course,main,3,★897 Flutter Foundations Course - eCommerce App
+S135,repo,Tkko/Flutter_Pinput,main,3,★858 Flutter package to create Pin code input text fiel
+S136,repo,AkoWu101/flutter_starter_kit,main,3,★804 A starter kit for beginner learns with Bloc patter
+S137,repo,OpenConsultingGroup/Taxi-App,main,3,★791 Taxi booking app built using Flutter
+S138,repo,atornel/RestaurantAppUIKit,main,3,★718 Flutter representation of a full Restaurant app UI
+S139,repo,Santos-Enoque/complete_flutter_ecommerce,main,3,★689 This repo will contain the backend code and the Ui
+S140,repo,developerpaaji/Flutter-Dribbble-Challenge,main,3,★685 A Flutter ui kit made with designs from dribbble.
+S141,repo,dreautall/waterfly-iii,main,3,"★682 Unofficial Android App for Firefly III, a free and"
+S142,repo,aagarwal1012/IntroViews-Flutter,main,3,★665 ☀️ A Flutter package for some material design app 
+S143,repo,AliAnilKocak/Flutter-Shopping-UI-Kit,main,3,★660 I developed this application just for learning pur
+S144,repo,bravekingzhang/flutter_chat_box,main,3,★657 Flutter开发的和ChatGPT聊天的App，全平台支持
+S145,repo,vinothvino42/SwiggyUI,main,3,★626 The SwiggyUI app is a user interface replica of th
+S146,repo,ashishrawat2911/firekart_app,main,3,★604 An Ecommerce application built in Flutter using No
+S147,repo,urmilshroff/dashboard_reborn,main,3,★589 A very sexy Flutter UI template✨
+S148,repo,DevStack06/Whatsapp-Clone-Flutter,main,3,★584 The Repository of  Chat App development UI PART  u
+S149,repo,ahkohd/FlutterGrocery-ShoppingAppUI,main,3,★578 🍔😋 Grocery Shopping  App template UI kit in Flutte
+S150,repo,abuanwar072/Flutter-Shop-UI-Kit,main,3,★573 If you are planning to create an e-commerce app us
+S151,repo,developerpaaji/chat_app,main,3,★569 A flutter chat app built with firestore. It is clo
+S152,repo,creativecreatorormaybenot/funvas,main,3,★557 Fun canvas animations in Flutter based on time and
+S153,repo,afgprogrammer/Flutter-Complete-e-commerce,main,3,★555 Flutter e-commerce Application  design and Animati
+S154,repo,Norbert515/BookSearch,main,3,★550 A digital BookShelf for your reading progress.
+S155,repo,piggyvault/piggyvault,main,3,★542 Family finance management app.
+S156,repo,ntminhdn/Flutter-Bloc-CleanArchitecture,main,3,★539 
+S157,repo,firgia/FD-Project-Management,main,3,★530 Create responsive dashboard Project Management des
+S158,repo,vedartm/rick-and-morty-info,main,3,★523 Made with Clean architecture + TDD + GraphQL + flu
+S159,repo,EmadBeltaje/flutter_getx_template,main,3,★516 Create flutter project with all needed configurati
+S160,repo,cometchat/cometchat-uikit-flutter,main,3,★506 Voice & Video Calling and Text Chat App for Flutte
+S161,repo,TolyFx/toly_ui,main,3,★495 The All-Platform Responsive UI Library For Flutter
+S162,repo,cscoderr/flutter_advanced,main,3,"★482 A collection of custom/advanced Flutter design, an"
+S163,repo,hawkkiller/sizzle_starter,main,3,★468 A production-ready template for flutter applicatio
+S164,repo,flow-mn/flow,main,3,"★465 A personal finance tracker app built with love, an"
+S165,repo,arafaysaleem/ez_tickets_app,main,3,★439 A cinema ticket booking app made with Flutter SDK
+S166,repo,sdegenaar/liquid_glass_widgets,main,3,★431 Flutter UI kit implementing Apple's iOS 26 Liquid 
+S167,repo,wednesday-solutions/flutter_template,main,3,★401 A Flutter template application showcasing - Clean 
+S168,repo,luckysmg/flutter_swipe_action_cell,main,3,★352 A flutter UI package provides a cell widget that h
+S169,repo,AhmedAbdoElhawary/flutter-clean-architecture-instagram,main,3,★326 A full-featured Instagram clone built with Flutter
+S170,repo,GetStream/flutter-samples,main,3,★315 A collection of sample apps that use Stream
+S171,repo,Sameera-Perera/Flutter-TDD-Clean-Architecture-E-Commerce-App,main,3,★305 A modern E-Commerce mobile application built with 
+S172,repo,SinaSys/flutter_ecommerce_app,main,3,★259 🛒 E-Commerce App built in flutter using GetX
+S173,repo,Nabinji/100-DaysOf-Futter,main,3,"★203 Flutter UI design, API, Animation, Firebase with v"
+S174,repo,lportals/portal_labs,main,3,"★192 A curated collection of +50 premium, highly custom"
+S175,repo,enzoftware/hotelyn,main,3,★190 Explore a sleek Flutter demo for a hotel booking a
+S176,repo,100mslive/100ms-flutter,main,3,"★171 Flutter Live Streaming, Video Conferencing SDK & S"
+S177,repo,januscaler/flutter_janus_client,main,3,★152 A plugin that allows the flutter app to communicat
+S178,repo,tao-zhi-1992/flutter_confetti,main,3,★148 🎉 confetti animation in Flutter🎉
+S179,repo,Erengun/Flutter-Riverpod-Quickstart-Template,main,3,★139 ⚡️ Production-ready Flutter quick-start template —
+S180,repo,smew-tech/Flutter_Clean_Architecture,main,3,★136 Flutter clean architecture
+S181,repo,nixrajput/social-media-app-flutter,main,3,★120 Rippl is a social media application developed usin
+S182,repo,rajajain08/particles_flutter,main,3,★116 Easy way to add particles animation in Flutter pro
+S183,repo,Milad-Akarie/cue,main,3,★114 Cue is a declarative Flutter animation package
+S184,repo,RWKV-APP/RWKV_APP,main,3,"★108 Cross-platform, local-first RWKV chat built with F"
+S185,repo,Iamzaryab/Flutter-Movie-App-with-Clean-Architecture-and-RiverPod-State-Management,main,3,★105 FilmKu is an open-source Flutter movie application
+S186,repo,mo7amedaliEbaid/nibbles-ecommerce-food,main,3,★103 A full-featured food delivery app built with Flutt
+S187,repo,deveminsahin/starter_app,main,3,★79 AI-Ready Enterprise Flutter Starter with Clean Arc

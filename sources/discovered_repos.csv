@@ -1,0 +1,501 @@
+source_id,kind,repo_full_name,ref,quality,stars,forks,last_push,description,topics
+D0001,repo,abuanwar072/Flutter-Responsive-Admin-Panel-or-Dashboard,main,4,7107,2008,2026-07-28,Responsive Admin Panel or Dashboard using Flutter,app;dashboard;dashboard-templates;flutter;web
+D0002,repo,jameskokoska/Cashew,main,4,4513,744,2026-03-09,💸 An app created to help users manage a budget and purchases,android;budget-app;budgeting;finance;flutter
+D0003,repo,hungps/flutter_pokedex,main,4,2534,579,2026-04-03,Pokedex app built with Flutter (with lots of animations) using Clean Architecture,clean-architecture;clean-code;flutter;flutter-apps;flutter-demo
+D0004,repo,flyerhq/flutter_chat_ui,main,4,2321,856,2026-04-18,"Free and open-source chat SDK. Build fast, real-time apps and generative AI agents with a high-perfo",android;chat;dart;flutter;ios
+D0005,repo,duytq94/flutter-chat-demo,main,4,1830,683,2026-02-28,The chat app made by Flutter and Firebase,chat;demo;firebase;flutter
+D0006,repo,olayemii/flutter-ui-kits,main,4,1479,446,2026-06-20,Free Flutter UI Kits developed by Olayemi Garuba,android;flutter;ios;mobile;mobile-development
+D0007,repo,RIP-Comm/sossoldi,main,4,1384,204,2026-07-26,"""Sossoldi"" is a wealth management / personal finance / Net Worth tracking app, made with Flutter.",dart;flutter;personal-finance;wealth-management
+D0008,repo,xvrh/lottie-flutter,main,4,1295,226,2026-07-23,Render After Effects animations natively on Flutter. This package is a pure Dart implementation of a,dart;flutter;flutter-web;flutter-widget;lottie
+D0009,repo,bukunmialuko/flutter_ui_kit_obkm,main,4,1077,295,2026-05-15,100+ Mobile UI Kit,flutter;flutter-apps;flutter-ui;uikit
+D0010,repo,felixblaschke/simple_animations,main,4,1058,104,2026-05-23,Flutter package for creating awesome animations.,
+D0011,repo,GetStream/stream-chat-flutter,main,4,1051,384,2026-07-31,"Flutter Chat SDK - Build your own chat app experience using Dart, Flutter and the Stream Chat Messag",chat;chat-sdk;dart;dart-package;dartlang
+D0012,repo,wger-project/flutter,main,4,951,425,2026-07-31,Flutter fitness/workout app for wger,dart;fitness;flutter;gym;hacktoberfest
+D0013,repo,adar2378/pin_code_fields,main,4,793,385,2026-05-20,A flutter package which will help you to generate pin code fields with beautiful design and animatio,android;animation;dart;flutter;ios
+D0014,repo,woosignal/flutter-woocommerce-app,main,4,712,242,2026-05-23,"WooCommerce App template that uses Flutter. Integrated to work with WooCommerce stores, connect and ",android;app;dart;ecommerce;flutter
+D0015,repo,namanh11611/flutter_mvvm_riverpod,main,4,338,120,2026-07-20,A base Flutter project with MVVM architecture and Riverpod state management.,flutter;mvvm;riverpod
+D0016,repo,SinaSys/flutter_go_rest_app,main,4,284,64,2026-06-26,"🚀 User management app built in flutter using clean architecture, MVVM,  get it,  dio, RxDart, bloc, ",bloc;clean-architecture;cubit;dartz;dio
+D0017,repo,iampawan/Flutter-UI-Kit,main,3,6291,1150,2022-06-13,Flutter app for collection of UI in a UIKit,dart;flutter;uikit
+D0018,repo,flutterchina/flukit,main,3,5940,663,2024-05-20," A Flutter UI Kit（一个 Flutter UI组件库），包含 ScaleView, Swiper, PullRefresh, WaterMark, GradientCircularPr",flutter
+D0019,repo,abuanwar072/E-commerce-Complete-Flutter-UI,main,3,4828,1992,2024-08-23,The FlutterShop template makes it easier to develop an e-commerce app using Flutter. It includes all,android;android-app;ecommerce;flutter;flutter-ecommerce
+D0020,repo,FlutterOpen/flutter-ui-nice,main,3,3800,603,2023-05-16,More than 130+ pages in this beautiful app and more than 45 developers has contributed to it.,animation;api;app;course;demo
+D0021,repo,TheAlphamerc/flutter_ecommerce_app,main,3,3462,1272,2022-02-10,E-Commerce App built in flutter,flutter;flutter-app;flutter-apps;flutter-demo;flutter-examples
+D0022,repo,Idean/Flutter-Neumorphic,main,3,2189,416,2024-05-18,"A complete, ready to use, Neumorphic ui kit for Flutter, 🕶️ dark mode compatible",android;button;card;concave;convex
+D0023,repo,abuanwar072/Flutter-responsive-email-ui---Mobile-Tablet-and-Web,main,3,1834,452,2021-08-04,"We redesign the outlook app also make it responsive so that you can run it everywhere on your phone,",android-application;flutter;ios;responsive-design
+D0024,repo,aagarwal1012/Animated-Text-Kit,main,3,1773,320,2025-10-04,🔔  A flutter package to create cool and beautiful text animations. [Flutter Favorite Package],animated-text-kit;animation;dart;flutter;flutter-package
+D0025,repo,The-ring-io/flutter_staggered_animations,main,3,1674,130,2023-03-22,"Easily add staggered animations to your ListView, GridView, Column and Row children.",
+D0026,repo,leo-elstin/Flutter-UI-Kits,main,3,1533,408,2022-08-28,Flutter UI Designs !! ,flutter;flutter-demo;flutter-examples;flutter-ui;flutter-widget
+D0027,repo,Codelessly/ResponsiveFramework,main,3,1404,159,2025-06-09,Easily make Flutter apps responsive. Automatically adapt UI to different screen sizes. Responsivenes,android;bootstrap;bootstrap4;demo;flutter
+D0028,repo,CharlyKeleb/SocialMedia-App,main,3,1219,381,2025-03-30,A fully functional social media app built with flutter with multiple features,chat;chat-application;dart;dart-frameworks;firebase
+D0029,repo,Tarikul711/flutter-food-delivery-app-ui,main,3,1203,605,2024-08-03,The food ordering & delivery application designed based on the real-life scenario. Anyone can use th,dominos;ecommerce;ecommerce-application;ecommerce-shopping-solution;flutter
+D0030,repo,MarcusNg/flutter_facebook_responsive_ui,main,3,1200,370,2023-01-17,https://youtu.be/HvLb5gdUfDE,
+D0031,repo,rohan20/flutter-chat-app,main,3,1148,316,2021-09-21,A chat app built on Flutter with firebase authentication and image sharing capability.,dart;firebase;flutter;google-flutter
+D0032,repo,Widle-Studio/Grocery-App,main,3,1139,517,2023-04-07,"Flutter Grocery Shopping App (Mobile App, Web App)",dart;ecommerce;ecommerce-application;ecommerce-shopping-solution;ecommerce-store
+D0033,repo,MarcinusX/flutter_ui_challenge_flight_search,main,3,1001,223,2021-07-10,An advanced UI design implemented in Flutter ,animations;flutter;mobile-development
+D0034,repo,Davies-K/Taskez,main,3,968,190,2023-11-04,A Productivity Mobile Application UI kit built with Flutter,android;android-ui-kit;flutter;flutter-example;flutter-ui
+D0035,repo,RivaanRanawat/instagram-flutter-clone,main,3,926,495,2023-10-19,Responsive Instagram Clone developed with Flutter & Firebase,firebase;flutter;flutterfire
+D0036,repo,bizz84/complete-flutter-course,main,3,897,296,2025-05-12,Flutter Foundations Course - eCommerce App,firebase;flutter
+D0037,repo,guilherme-v/flutter-clean-architecture-example,main,3,875,200,2024-11-12,"A flutter's implementation of a ""clean architecture"" comparing BLoC, Cubit, GetIt, MobX, Provider, a",architecture;bloc;bloc-architecture;clean-architecture;cubit
+D0038,repo,Tkko/Flutter_Pinput,main,3,858,214,2026-02-04,Flutter package to create Pin code input text field with every pixel customization possibility 🎨 wit,android-autofill;autofill;code;flutter;flutter-package
+D0039,repo,AkoWu101/flutter_starter_kit,main,3,804,130,2022-05-18,"A starter kit for beginner learns with Bloc pattern, RxDart, sqflite, Fluro and Dio to architect a f",android;flutter;flutter-bloc;flutter-demo;flutter-examples
+D0040,repo,OpenConsultingGroup/Taxi-App,main,3,791,322,2024-06-04,Taxi booking app built using Flutter,flutter;flutter-apps;flutter-bloc-pattern;flutter-examples
+D0041,repo,atornel/RestaurantAppUIKit,main,3,718,247,2020-04-30,Flutter representation of a full Restaurant app UI KIT.,flutter;flutter-apps;flutter-ui;restaurant-app;uikit
+D0042,repo,Santos-Enoque/complete_flutter_ecommerce,main,3,689,411,2020-12-02,This repo will contain the backend code and the Ui of the flutter ecommerce app,
+D0043,repo,developerpaaji/Flutter-Dribbble-Challenge,main,3,685,156,2021-01-17,A Flutter ui kit made with designs from dribbble.,banking-applications;dribbble;flutter;flutter-examples;payment
+D0044,repo,dreautall/waterfly-iii,main,3,682,63,2026-07-27,"Unofficial Android App for Firefly III, a free and open source personal finance manager.",android;application;firefly-iii;fireflyiii;flutter
+D0045,repo,SimpleBoilerplates/Flutter,main,3,666,111,2023-04-04,"A boilerplate project for Flutter using RiverPod, Dio, go_router, Freezed and generated with very_go",android;bloc;bloc-pattern;dart;dio
+D0046,repo,aagarwal1012/IntroViews-Flutter,main,3,665,140,2023-10-11,☀️ A Flutter package for some material design app intro screens with some cool animations.,dart;flutter;flutter-package;hacktoberfest;intro-screen
+D0047,repo,AliAnilKocak/Flutter-Shopping-UI-Kit,main,3,660,203,2023-05-24,I developed this application just for learning purpose. There are over 20 screen variations.,ecommerce;flutter;flutterdesign;flutterui;mobile
+D0048,repo,Uuttssaavv/flutter-clean-architecture-riverpod,main,3,658,197,2024-12-24,Clean architecture in Flutter using Riverpod.,clean-architecture;flutter;riverpod
+D0049,repo,bravekingzhang/flutter_chat_box,main,3,657,149,2024-02-22,Flutter开发的和ChatGPT聊天的App，全平台支持,chatgpt;flutter
+D0050,repo,vinothvino42/SwiggyUI,main,3,626,238,2021-09-11,"The SwiggyUI app is a user interface replica of the popular food delivery platform - Swiggy, develop",app;clone;dart;deliveryapp;flutter
+D0051,repo,ashishrawat2911/firekart_app,main,3,604,113,2024-11-04,An Ecommerce application built in Flutter using Nodejs and MySQl.,ecommerce;firebase;flutter;flutter-apps;flutter-bloc
+D0052,repo,urmilshroff/dashboard_reborn,main,3,589,115,2021-05-12,A very sexy Flutter UI template✨,animations;dart;flutter;material-design;mobile-app
+D0053,repo,DevStack06/Whatsapp-Clone-Flutter,main,3,584,247,2024-03-16,The Repository of  Chat App development UI PART  using Flutter (Youtube Series),chatapp;flutter;flutter-apps;flutter-chat;flutter-chat-app
+D0054,repo,ahkohd/FlutterGrocery-ShoppingAppUI,main,3,578,216,2023-09-10,🍔😋 Grocery Shopping  App template UI kit in Flutter ,android;app;flutter;food-ordering;freebie
+D0055,repo,abuanwar072/Flutter-Shop-UI-Kit,main,3,573,206,2022-02-28,If you are planning to create an e-commerce app using Flutter then this Shop UI Kit would be the per,android;app;ecommerce;flutter;ios
+D0056,repo,developerpaaji/chat_app,main,3,569,154,2021-01-17,"A flutter chat app built with firestore. It is clone of messenger.User can create stories,chat and s",camera;chat;chat-app;dribbble;facebook
+D0057,repo,creativecreatorormaybenot/funvas,main,3,557,41,2026-03-14,Fun canvas animations in Flutter based on time and math functions.,canvas;dart;flutter;flutter-package
+D0058,repo,afgprogrammer/Flutter-Complete-e-commerce,main,3,555,174,2025-01-19,Flutter e-commerce Application  design and Animation - day 16-17,e-commerce;e-commerce-app;flutter;flutter-animation;flutter-application
+D0059,repo,Norbert515/BookSearch,main,3,550,145,2018-12-31,A digital BookShelf for your reading progress.,android;animations;flutter;medium
+D0060,repo,piggyvault/piggyvault,main,3,542,123,2024-09-22,Family finance management app.,abp;csharp;dart2;dotnet-core;finance
+D0061,repo,ntminhdn/Flutter-Bloc-CleanArchitecture,main,3,539,239,2025-04-04,,
+D0062,repo,firgia/FD-Project-Management,main,3,530,166,2022-03-12,Create responsive dashboard Project Management design using Flutter,design;desktop-app;flutter;flutterweb;mobile-app
+D0063,repo,vedartm/rick-and-morty-info,main,3,523,90,2021-09-23,Made with Clean architecture + TDD + GraphQL + flutter_bloc + CodeCov + GitHooks + GitHub Actions (C,bloc;clean-architecture;codecov;dart;flutter
+D0064,repo,EmadBeltaje/flutter_getx_template,main,3,516,138,2026-03-22,"Create flutter project with all needed configuration in two minutes (theme, localization, connect to",android;api;app;dart;error-handle
+D0065,repo,cometchat/cometchat-uikit-flutter,main,3,506,42,2026-07-27,Voice & Video Calling and Text Chat App for Flutter,app;calling;chat;conference;flutter
+D0066,repo,TolyFx/toly_ui,main,3,495,44,2026-07-01,The All-Platform Responsive UI Library For Flutter.,
+D0067,repo,cscoderr/flutter_advanced,main,3,482,68,2026-05-28,"A collection of custom/advanced Flutter design, animations and UI ",animation;animations;dart;flutter;flutter-apps
+D0068,repo,hawkkiller/sizzle_starter,main,3,468,50,2026-04-01,A production-ready template for flutter applications.,bloc;ci;dart;flutter;lints
+D0069,repo,flow-mn/flow,main,3,465,69,2026-07-26,"A personal finance tracker app built with love, and Flutter",dart;dartlang;expense;expense-manager;expense-tracker
+D0070,repo,arafaysaleem/ez_tickets_app,main,3,439,108,2023-09-30,A cinema ticket booking app made with Flutter SDK,android;cinema-app;clean-architecture;clean-code;flutter
+D0071,repo,sdegenaar/liquid_glass_widgets,main,3,431,62,2026-07-31,Flutter UI kit implementing Apple's iOS 26 Liquid Glass design language - a comprehensive glass widg,apple-design;dart;flutter;flutter-widgets;fragment-shader
+D0072,repo,wednesday-solutions/flutter_template,main,3,401,83,2024-06-28,"A Flutter template application showcasing - Clean architecture, Responsive design, State management,",autoroute;clean-architecture;dart;dio;e2e-tests
+D0073,repo,luckysmg/flutter_swipe_action_cell,main,3,352,63,2026-07-18,A flutter UI package provides a cell widget that has leading and trailing swipe action menu.,android;animation;animations;dart;flutter
+D0074,repo,AhmedAbdoElhawary/flutter-clean-architecture-instagram,main,3,326,96,2026-02-25,"A full-featured Instagram clone built with Flutter, powered by Firebase for backend services and Ago",android;awesome-animation;bloc;clean-architecture;clean-code
+D0075,repo,GetStream/flutter-samples,main,3,315,129,2026-07-08,A collection of sample apps that use Stream,chat;chat-app;dart;flutter;flutter-apps
+D0076,repo,Sameera-Perera/Flutter-TDD-Clean-Architecture-E-Commerce-App,main,3,305,105,2026-02-11,"A modern E-Commerce mobile application built with Flutter, TDD, Clean Architecture, and BLoC.",clean-architecture;clean-code;flutter;flutter-app;flutter-e-commerce
+D0077,repo,SinaSys/flutter_ecommerce_app,main,3,259,73,2026-06-26,🛒 E-Commerce App built in flutter using GetX,android;flutter-aimation;flutter-apps;flutter-e-commerce;flutter-ecommerce-template
+D0078,repo,Nabinji/100-DaysOf-Futter,main,3,203,141,2026-05-16,"Flutter UI design, API, Animation, Firebase with video on Youtube. ",api;api-rest;firebase;firebase-auth;firebase-realtime-database
+D0079,repo,lportals/portal_labs,main,3,192,14,2026-07-30,"A curated collection of +50 premium, highly customizable Flutter UI interactions and widgets built w",
+D0080,repo,enzoftware/hotelyn,main,3,190,60,2026-07-27,"Explore a sleek Flutter demo for a hotel booking app 🏩 ❤️ Witness the synergy of code and care, deli",booking;dart;flutter;flutter-app;flutter-architecture
+D0081,repo,100mslive/100ms-flutter,main,3,171,91,2026-06-10,"Flutter Live Streaming, Video Conferencing SDK & Sample App",audio;chat;conference;dart;ffmpeg
+D0082,repo,momshaddinury/flutter_template,main,3,153,40,2026-04-06,A production-ready Flutter application template built with Clean Architecture principles,clean-architecture;clean-code;flutter;flutter-templates;go-router
+D0083,repo,januscaler/flutter_janus_client,main,3,152,94,2026-05-06,A plugin that allows the flutter app to communicate with a Janus server using different transport me,audiocall;chat;datachannel;flutter;flutter-apps
+D0084,repo,tao-zhi-1992/flutter_confetti,main,3,148,19,2026-07-31,🎉 confetti animation in Flutter🎉,
+D0085,repo,Erengun/Flutter-Riverpod-Quickstart-Template,main,3,139,18,2026-06-17,"⚡️ Production-ready Flutter quick-start template — Riverpod, Freezed, GoRouter, Mason, API + Auth, o",flutter;riverpod;template
+D0086,repo,smew-tech/Flutter_Clean_Architecture,main,3,136,61,2023-04-21,Flutter clean architecture,architecture;bloc;ci-cd;clean-architecture;cubit
+D0087,repo,nixrajput/social-media-app-flutter,main,3,120,41,2026-07-17,Rippl is a social media application developed using Flutter and managed with the GetX state manageme,collaborate;flutter;flutter-app;flutter-apps;flutter-getx
+D0088,repo,rajajain08/particles_flutter,main,3,116,12,2026-07-29,Easy way to add particles animation in Flutter project.,dart;flutter;flutter-apps;flutter-examples;particle-physics
+D0089,repo,Milad-Akarie/cue,main,3,114,10,2026-07-07,Cue is a declarative Flutter animation package,
+D0090,repo,RWKV-APP/RWKV_APP,main,3,108,14,2026-07-28,"Cross-platform, local-first RWKV chat built with Flutter for Android, iOS, Windows, macOS, and Linux",desktop-app;inference;llm;mobile-app;offline-app
+D0091,repo,Iamzaryab/Flutter-Movie-App-with-Clean-Architecture-and-RiverPod-State-Management,main,3,105,27,2026-07-29,FilmKu is an open-source Flutter movie application that exemplifies clean architecture principles wh,bloc;clean-architecture;flutter;flutter-apps;flutterbloc
+D0092,repo,mo7amedaliEbaid/nibbles-ecommerce-food,main,3,103,17,2026-03-23,"A full-featured food delivery app built with Flutter & Firebase — ecommerce, QR code ordering, kid a",bloc;clean-architecture;dart;ecommerce-app;firebase-auth
+D0093,repo,deveminsahin/starter_app,main,3,79,15,2026-06-19,"AI-Ready Enterprise Flutter Starter with Clean Architecture, DDD, and 100% Test Coverage.",ai-assisted-coding;bloc;clean-architecture;ddd;enterprise
+D0094,repo,jamesblasco/layout,main,2,754,75,2023-09-03,"Flutter | Create responsive layouts for mobile, web and desktop",dart;flutter;responsive;responsive-design;responsive-grid
+D0095,repo,flutterkit/zerker,main,2,701,65,2025-09-02,Zerker is a lightweight and powerful flutter graphic animation library,canvas;flutter;flutter-game;flutter-games;flutter-graphic
+D0096,repo,benyaminbeyzaie/circular_bottom_navigation,main,2,691,99,2024-03-18,Circular bottom navigation is a bottom navigation library for flutter with circular indicator and co,flutter;hacktoberfest;ui
+D0097,repo,nathansdev/ContraFlutterKit,main,2,689,86,2024-06-14,A Flutter UI kit with 50 plus screens for beginners to learn.,android;awesome-list;contra-wireframe-kit;dart;design
+D0098,repo,woltapp/wolt_modal_sheet,main,2,641,91,2025-08-08,"This package provides a responsive modal with multiple pages, motion animation for page transitions,",dart;flutter;hactoberfest
+D0099,repo,hnvn/flutter_flip_panel,main,2,616,84,2022-04-02,A package for flip panel with built-in animation,animation-3d;dart;flutter
+D0100,repo,FilledStacks/responsive_builder,main,2,524,90,2024-07-03,A set of widgets to make responsive UI building in flutter more readable,
+D0101,repo,HitenDev/flutter_effects,main,2,502,57,2022-09-29,flutter animation effects | custom widget | custom renderobject ,animation;customwidget;effect;effects;flutter
+D0102,repo,fluttercandies/like_button,main,2,476,99,2025-05-19,Like Button is a flutter library that allows you to create a button with animation effects similar t,flutter-library;like-animation;like-button;twitter-heart
+D0103,repo,Furqankhanzada/flutter_eCommerce_ui_kit,main,2,474,147,2023-07-25,Flutter - E Commerce UI KIT ( completely free for everyone ),ecommerce;flutter;flutter-apps;flutter-demo;flutter-devloper
+D0104,repo,thevvh/flutter_chatgpt,main,2,461,58,2025-02-10,Flutter ChatGPT APP. The chatgpt chat app implemented by flutter supports custom modes and contextua,android;chatgpt;firebase;flutter;ios
+D0105,repo,usman18/Flutter-UI-Kit,main,2,444,85,2022-10-29,A repository full of beautiful UI examples in Flutter ,chatapp;expense-tracker;flutter;flutter-examples;flutter-material
+D0106,repo,duytq94/flutter-fb-reactions-animation,main,2,444,65,2024-02-18,The app to demo animation with Flutter by implement Facebook reactions,animation;demo;facebook-reactions;flutter
+D0107,repo,afgprogrammer/Flutter-Login-Page-UI,main,2,442,251,2023-10-21,Flutter Beautiful Login Page  design and Animation - day 12,flutter;flutter-animation;flutter-app;flutter-design;flutter-example
+D0108,repo,MarcusNg/flutter_netflix_responsive_ui,main,2,435,175,2024-08-10,https://youtu.be/rJKN_880b-M,
+D0109,repo,zubairehman/Portfolio-Demo,main,2,414,98,2022-02-26,A portfolio build by using flutter for web.,dart;dart-web;flutter;flutter-web;portfolio
+D0110,repo,flutter-devs/flutter_Ecommerce_UI_clone,main,2,407,83,2022-11-16,Demo UI of e-commerce app made with Flutter.,
+D0111,repo,AmitJoki/Enigma,main,2,402,119,2023-01-09,A full-fledged one-to-one chat app developed entirely in Flutter,authentication;chat;chat-application;dart;flutter
+D0112,repo,Norbert515/flutter_sequence_animation,main,2,392,32,2022-09-20,Orchestrate multiple animations with ease.,
+D0113,repo,afgprogrammer/Flutter-food-delivery-app-ui,main,2,387,106,2025-02-03,Flutter Food Delivery Application design and Animation - day 3,flutter;flutter-animation;flutter-app;flutter-delivery-app;flutter-design
+D0114,repo,vineeshvk/chat-app-flutter,main,2,387,141,2020-10-01,It's a fully functioning chat app built using flutter. With both one on one chats and group chats,chat-app;firebase-cloud-messaging;flutter;graphql
+D0115,repo,lollipopkit/flutter_gpt_box,main,2,387,33,2025-08-09,GPTBox - a third-party client for OpenAI API.,app;chat;chatgpt;flutter;gpt
+D0116,repo,devefy/Flutter-Adidas-Shoes-Ecommerce-App-UI,main,2,375,143,2021-10-01,,
+D0117,repo,pedromassango/titled_navigation_bar,main,2,375,59,2021-11-30,A beautiful and simple bottom navigation bar with smooth animation when switching selected item.,android-studio;bottom-navigation;bottom-navigation-view;bottomnavigationbar;bottomnavigationview
+D0118,repo,firgia/FD-Daily-Task,main,2,375,103,2021-12-05,Create responsive dashboard Daily Task design using Flutter,design;desktop-app;flutter;flutterweb;mobile-app
+D0119,repo,BakerJQ/Flutter-InfiniteCards,main,2,363,51,2019-05-15,"An infinite card switching UI for Flutter, support custom animation 自定义实现神奇动效的卡片切换视图",animation;card;cards;cardview;flutter
+D0120,repo,fluttercommunity/responsive_scaffold,main,2,360,43,2021-09-27,Responsive Scaffold - On mobile it shows a list and pushes to details and on tablet it shows the Lis,flutter;material;material-design;responsive;scaffold
+D0121,repo,Klerith/animate_do_package,main,2,359,40,2026-04-18,Animate_do Package,animations;dart;fernandoherrera;flutter
+D0122,repo,putraxor/flutter-login-ui,main,2,356,161,2021-11-07,Create a clean and simple login UI screen with a basic hero animation in Flutter,dart;flutter;hero-animation
+D0123,repo,BrunoJurkovic/flip_card,main,2,351,106,2025-03-23,UNMAINTAINED - Flutter widget that supports flipping with an animation.,card;dart;flutter;flutter-package
+D0124,repo,AseemWangoo/flutter_programs,main,2,346,217,2023-11-19,Experiments with Mobile,animations;cloudfunctions;dart;facebook-login;firebase
+D0125,repo,sbis04/explore,main,2,346,138,2023-05-22,A Flutter Web responsive website sample.,firebase-auth;flutter-web;responsive-design
+D0126,repo,rayliverified/FlutterGames,main,2,344,74,2026-04-16,Flutter app for purchasing and renting games. ,buy;demo;ecommerce;flutter;game
+D0127,repo,afgprogrammer/Flutter-Shoes-Shop-App,main,2,343,66,2023-10-22,Flutter Shoes Shop Application Design and Animation - day 15,100daysofcode;flutter;flutter-animation;flutter-app;flutter-application
+D0128,repo,afgprogrammer/Flutter-Splash-Screen-Animation,main,2,340,62,2023-08-02,Flutter Splash Screen design and Animation - day 8,flutter;flutter-animation;flutter-app;flutter-design;flutter-example
+D0129,repo,katariyanikhil/SaveIt,main,2,337,77,2022-05-13,"All in One Social Media (Facebook, WhatsApp, Instagram, YouTube, Tiktok ) downloader. It allows What",android;facebook;facebook-video-downloader;flutter;flutter-apps
+D0130,repo,hmziqrs/flutter-ui-designs,main,2,332,60,2024-11-20,"Collection of UI designs built with Flutter, runs on any platform: mobile, web & desktop.",animations;cross-platform;dart;desktop-app;flutter
+D0131,repo,thekeenant/fcharts,main,2,326,44,2020-06-22,":bar_chart: Create beautiful, responsive, animated charts using a simple and intuitive API.",animated;animation;charting-library;charts;dart
+D0132,repo,ishandeveloper/Chatter-App,main,2,308,117,2024-02-19,This is a flutter based modern messaging app where users can sign up and log in to chat with their f,android;android-app;apk;chat;chat-application
+D0133,repo,bluemix/Tourism-Demo,main,2,308,73,2018-10-25,"Flutter app backed by Redux, shows animations, internationalization (i18n), ClipPath, fonts and othe",animations;arabic;clippath;english;flutter
+D0134,repo,rutvik110/Flutter-Animations,main,2,307,48,2025-10-18,"Exploring ""Animations In Flutter"", having fun building and writing about them while doing design cha",animations;creative-coding;design-challenge;flutter
+D0135,repo,emrade/flutter-social,main,2,305,108,2019-10-12,A UI respresentation of a flutter social media app,
+D0136,repo,afgprogrammer/Flutter-Login-Page-3,main,2,301,80,2023-10-22,Flutter Beautiful Login Page Design and Animation - day 14,flutter;flutter-100-days;flutter-animation;flutter-app;flutter-application
+D0137,repo,TechnoPrashant/Sizer,main,2,301,84,2025-08-26,A flutter plugin for Easily make Flutter apps responsive. Automatically adapt UI to different screen,
+D0138,repo,letsar/flutter_sidekick,main,2,296,39,2022-03-26,Widgets for creating Hero-like animations between two widgets within the same screen.,animation;dart;flutter;flutter-widget;hero
+D0139,repo,iampawan/PokemonApp,main,2,295,123,2020-04-08,Pokemon App with animations and beautiful UI,dart;flutter;flutter-apps;flutter-examples;material-design
+D0140,repo,RivaanRanawat/blog-app-clean-architecture,main,2,294,90,2024-03-09,"Clean Architecture in Flutter using Supabase, Bloc, Hive, Get_It & FpDart.",
+D0141,repo,rahul-badgujar/EShopee-Flutter-eCommerce-App,main,2,294,108,2023-04-22,This is an eCommerce Application developed using FlutterFire (Flutter+Firebase). I have tried to col,android;dart;ecommerce;ecommerce-application;firebase
+D0142,repo,michaelroudnitski/Tabs,main,2,292,59,2021-06-14,The expense sharing app.,app;expense-sharing;finance;flutter;iou
+D0143,repo,iamSahdeep/fu_uber,main,2,288,115,2021-05-06,Flutter based taxi booking app (dummy) using provider.,flutter;flutter-app;flutter-apps;flutter-demo;flutter-examples
+D0144,repo,YYFlutter/flutter-animation-set,main,2,285,23,2021-05-15,🔥🔥🔥 Easy to build an animation set,animation;animation-set;curves;flutter
+D0145,repo,Ashwinbicholiya/Food-delivery-app,main,2,284,156,2022-05-20,food delivery App,android-app;android-application;firebase;firebase-auth;firebase-database
+D0146,repo,amirk3321/whatsApp_clone,main,2,281,97,2022-01-24,Flutter WhatsClone (with Firebase + Clean Architecture) this app follow clean architecture proposed ,bloc;clean-architecture;clean-code;cloud-firestore;cloud-storage
+D0147,repo,bapaws/answer,main,2,280,54,2023-07-10,小答是一款基于 ChatGPT API 的开源客户端。Chat Answer is an open source app based on ChatGPT.,android;app;chatgpt;flutter;ios
+D0148,repo,perpetio/fitness,main,2,279,99,2021-12-04,Example of Fitness app done using Flutter for iOS and Android platforms.,android;fitness;fitness-app;flutter;flutter-apps
+D0149,repo,afgprogrammer/Flutter-Login-Signup-page,main,2,279,59,2023-11-28,Flutter Login and Signup Page design and Animation - day 23,flutter;flutter-animation;flutter-design;flutter-login;flutter-signup
+D0150,repo,AkashDivya/SlimyCard-Animated-Flutter-Package,main,2,279,52,2022-04-26,SlimyCard provides a beautiful slime-like animation of a Card that separates into two different Card,animation;dart;flare-flutter;flutter;flutter-package
+D0151,repo,muhammadtalhasultan/Flutter-Food-Delivery-App,main,2,277,118,2022-03-15,Flutter Food Delivery App,android;flutte-ui;flutter;flutter-food-app;flutter-food-delivery-app
+D0152,repo,zhongmeizhi/fultter-example-app,main,2,277,63,2023-03-21,一个功能完整齐全的Bloc模式Flutter App项目。🍨更关注架构的SPA应用。，使用Node作为后台系统，使用了部分官方plugin，大体功能自己封装。🥰 有用请Star。,app;applications;dart;dart2;flutter
+D0153,repo,bizz84/flutter_animations_course_materials,main,2,274,92,2024-02-27,All projects from my Flutter Animations Course,flutter
+D0154,repo,dario-digregorio/flutter_responsive,main,2,271,37,2024-05-29,Hands-on guide to building a responsive Flutter application,adaptative;flutter;responsive
+D0155,repo,abuanwar072/Responsive-and-Animated-Portfolio-Flutter,main,2,269,132,2021-07-23,Today we will show you how you can create your developer portfolio website and app using flutter.,app;flutter;flutter-examples;website
+D0156,repo,Hamad-Anwar/Flutter-Responsive-Portfolio-WebApp,main,2,268,130,2023-08-26,Flutter portfolio Web is meticulously designed to provide a consistent and visually pleasing experie,flutter;flutter-app;flutter-apps;flutter-demo;flutter-design
+D0157,repo,ahmedgulabkhan/GroupChatApp,main,2,265,85,2020-10-26,"Developed a Group chat application using Flutter and Firebase, where users can register and create g",android-development;app-development;dart;dartlang;firebase
+D0158,repo,afgprogrammer/Flutter-Login-Page-Design,main,2,264,43,2023-10-22,Flutter Beautiful Login Page Design and Animation - day 13,flutter;flutter-100-days;flutter-animation;flutter-design;flutter-example
+D0159,repo,IshuPrabhakar/Heyy-chat-app,main,2,263,77,2023-04-26,"A Realtime Chat Application using flutter, Asp.Net Core Web Api, SignalR , WebRTC etc.",asp-net-core;csharp;dart;flutter;flutter-app
+D0160,repo,opxica/modular-ui,main,2,260,26,2024-05-21,Create consistent and responsive cross-platform Flutter app interfaces in a snap with Modular UI's f,dart;dart-package;flu;flutter;flutter-package
+D0161,repo,ishaileshmishra/flutter-ecommerce-app,main,2,255,55,2025-09-09,Flutter UI development guide,dart;ecommerce-application;flutter;flutter-android-ios;flutter-app
+D0162,repo,geeker-ai/geek_chat,main,2,253,21,2024-01-05,GeekChat is a app for multiple cutting-edge LLM(ChatGPT and Gemini) models that available on Desktop,android;azure-openai;chat;chatgpt;flutter
+D0163,repo,taydinadnan/BringApp-Delivery-service-app,main,2,248,95,2024-10-31,Online food ordering and delivery platform flutter iOS & Android  Food Shop App with a Admin Web pan,dart;delivery-ap;delivery-application;flutter;flutter-ui-challenges
+D0164,repo,AmirBayat0/Sneakers-shop-app-Flutter,main,2,245,58,2024-03-25, Sneakers shop application(Nike Shoes Store) using Dart & Flutter + Animation👟📱✨,flutter;flutter-advanced;flutter-app;flutter-application;flutter-apps
+D0165,repo,HasithaAthukorala/flutter-clean-architecture-sample,main,2,244,61,2021-04-20,Sample for flutter clean architecture with blocs and test driven development,
+D0166,repo,otakoyi/flutter_ddd_riverpod_example,main,2,242,54,2024-06-24,This is an example project for the article about implementing clean architecture in flutter with riv,
+D0167,repo,nateshmbhat/touchable,main,2,236,79,2023-10-19,The only flutter library to add gestures and animations to custom shapes you draw on your canvas.,canvas;custom-paint;custom-painter;custompaint;custompainter
+D0168,repo,mrezkys/marketky,main,2,235,60,2022-10-04,MarketKy is a Free Flutter E-Commerce App Starter Template that can help you develop an E-Commerce /,android;app-template;e-commerce;ecommerce;flutter
+D0169,repo,afgprogrammer/Flutter-ecommerce-app-with-getx,main,2,234,48,2025-02-18,Flutter e-commerce app example with GetX - day 59,100daysofcode;flutter;flutter-app;flutter-ecommerce;flutter-example
+D0170,repo,muhammadtalhasultan/flutter-login-ui-kit,main,2,228,54,2022-03-05,,flutter;flutter-apps;flutter-examples;flutter-login-screen;flutter-ui
+D0171,repo,GIfatahTH/animator,main,2,226,26,2023-05-12,A Flutter library that makes animation easer. It allows for separation of animation setup from the U,
+D0172,repo,CharlyKeleb/Animations,main,2,223,59,2026-01-07,Flutter animations,
+D0173,repo,ruskakimov/mooltik,main,2,223,38,2026-02-21,🧑‍🎨 Mobile app for drawing 2D animations,android;animation;animation-app;dart;dartlang
+D0174,repo,abuanwar072/Responsive-Blog-Theme-using-Flutter,main,2,222,119,2024-03-15,,
+D0175,repo,amirk3321/booking-management-dashboard,main,2,222,85,2024-02-29,"flutter Booking Management Dashboard responsive (web,mobile,tablet)",android-application;clean-code;flutter;flutter-ui;ios-app
+D0176,repo,TinoGuo/loading_indicator,main,2,214,36,2025-08-08,🚅Flutter out-of-the-box collection animations written in pure dart.,animation;animation-library;dart;flutter;loading-spinner
+D0177,repo,letsar/local_hero,main,2,213,49,2024-06-29,A widget which implicitly launches a hero animation when its position changed within the same route.,flutter;flutter-package;flutter-ui;flutter-widget
+D0178,repo,alperefesahin/flutter_social_chat,main,2,212,52,2025-05-19,Real-time social chat app with Firebase & GetStream — open-source and feature-rich,chat-app;firebase;flutter;flutter-chat;flutter-open-source
+D0179,repo,londonappbrewery/flash-chat-flutter,main,2,210,675,2024-08-21,Learn to Code While Building Apps - The Complete Flutter Development Bootcamp ,
+D0180,repo,iampawan/PortfolioX,main,2,203,65,2020-05-17,Responsive Portfolio App Made With Flutter With VelocityX,
+D0181,repo,VincentJouanne/flutter-bloc-clean-architecture,main,2,202,39,2022-05-14,🏛  Flutter clean architecture using the bloc library for state management. This repository aims to h,bloc;clean-architecture;dartz;emulator;firebase
+D0182,repo,sangvaleap/app-flutter-hotel-booking,main,2,202,78,2023-09-14,,
+D0183,repo,TencentCloud/chat-uikit-flutter,main,2,199,151,2025-12-04,"A powerful Flutter chat UI component library and business logic for Tencent Cloud Chat, creating sea",chat;flutter
+D0184,repo,afgprogrammer/Flutter-Facebook-Redesign,main,2,197,53,2025-01-31,Flutter Facebook Redesign Application Design and Animation - day 19,100daysofcode;facebook-redesign;flutter;flutter-animation;flutter-app
+D0185,repo,DevStack06/food-delivery-flutter,main,2,195,53,2021-04-18,"A basic food delivery app, which also has a Google Map integrated on it developed using flutter.",appdevelopment;dart;flutter;flutter-apps;food-delivery
+D0186,repo,martinoyovo/flutter-design-collection,main,2,195,35,2026-01-03,A collection of Flutter Custom Designs and Flutter UI Kits. Star the repo and follow me if you like ,
+D0187,repo,devinsays/flutter_todo,main,2,193,46,2021-07-01,Example Flutter to-do app that uses a REST API.,flutter;provider
+D0188,repo,Ronak99/FoodDelivery-App-UI,main,2,189,119,2020-09-30,"This repository hosts the code for a food delivery app UI, built in flutter, with ""Add to cart"" and ",
+D0189,repo,watery-desert/loading_animation_widget,main,2,189,51,2024-10-02,Flutter loading animation widget.,animation;flutter;flutter-package
+D0190,repo,rxlabz/flutter_animation_explorer,main,2,189,26,2019-08-18,📈 flutter animation explorer,animation;dart;easing;flutter
+D0191,repo,shubham-chhimpa/done_it,main,2,187,25,2021-10-04,DoneIt is a sample note app 📝 Flutter application 📱 built to demonstrate use of Clean Architecture t,bloc;clean-architecture;dart;flutter;sample
+D0192,repo,frideosapps/frideos_flutter,main,2,187,22,2023-11-22,"An all-in-one Fllutter package for state management, reactive objects, animations, effects, timed wi",bloc;bloc-pattern;dart;dart-library;dart2
+D0193,repo,tunitowen/tab_bar_animation,main,2,186,54,2020-01-30,Flutter app to demonstrate a tab bar animation found on Dribbble,
+D0194,repo,Codelessly/FlutterWebsite,main,2,184,47,2024-09-06,The flutter.dev website recreated in Flutter. https://gallery.codelessly.com/flutterwebsites/flutter,android;app;demo;flutter-ui;framework
+D0195,repo,CharlyKeleb/TravelersSociaApp-UiKit,main,2,183,49,2023-03-15,Flutter representation of a Travel Social App concept,android;dart;dribbble;flutter;flutter-app
+D0196,repo,apgapg/pie_chart,main,2,180,88,2024-02-06,Flutter Pie chart with animation ,chart;dart;flutter;package;pie
+D0197,repo,m-r-davari/flutter_3d_controller,main,2,180,41,2025-09-13,"The most complete Flutter package for rendering interactive 3D models in various formats (GLB, GLTF,",3d;3d-animation;3d-controller;3d-models;3d-objects
+D0198,repo,mogohary99/Flutter-WhatsApp-Clone-Clean-Architecture,main,2,179,50,2023-06-21,Flutter whatsApp Clone Clean Architecture ,bloc;camera;clean;clean-architecture;clean-code
+D0199,repo,AhmedLSayed9/shopzler,main,2,178,62,2021-09-23,"E-Commerce App built on Flutter Framework with Firebase as Backend, Multi-Module MVVM Architecture, ",android;ecommerce;flutter;flutter-app;flutter-apps
+D0200,repo,YeLwinOo-Steve/ye-lwin-oo,main,2,178,43,2025-08-22,My personal portfolio website made with Flutter with tons of seamless animations🍒🍃,
+D0201,repo,mtellect/Flutter-Ecommerce-App,main,2,177,113,2018-09-17,,
+D0202,repo,wiltonribeiro/animated_bottombar_flutter,main,2,174,24,2019-07-12,"Flutter component concept created with Flutter using Animations, Clip Path, Transform and Stream's p",
+D0203,repo,dvmjoshi/netflix_clone,main,2,174,49,2021-10-28,Netflix type clone app to learn animation and basic UI components..,android-application;animation;cross-platform;flutter;flutter-app
+D0204,repo,coi-dev/ox-coi,main,2,173,20,2020-10-28,OX COI Messenger - a Flutter app for the COI (Chat Over IMAP) standard,coi;flutter;flutter-app;imap;smtp
+D0205,repo,bahricanyesil/flutter-animated-login,main,2,173,41,2023-08-17,Fully responsive ready-made both login and signup screen with soft and pleasant animations.,animation;dart;flutter-examples;flutter-login;flutter-login-screen
+D0206,repo,Tkko/Flutter_dismissible_page,main,2,173,45,2023-06-23,"Flutter page widget that is dismissed by swipe gestures, with Hero style animations, Inspired by Fac",animation;dismissible;flutter;flutter-package;flutter-ui
+D0207,repo,7wilightxdev/flutter_firebase_ecommerce,main,2,172,40,2021-10-15,Ecommerce App (Flutter + BloC + Firebase),android;clean-architecture;ecommerce;firebase;firestore
+D0208,repo,HarshAndroid/ApnaChat-Realtime-Chat-App-In-Flutter-Firebase,main,2,171,62,2025-12-04,Chatting App In Flutter with Firebase | Dart,android-app;authentication;chat-application;firebase;firebase-auth
+D0209,repo,cytryn/loading-animations,main,2,171,19,2024-08-29,A Flutter package with a selection of simple yet very customizable set of loading animations.,animations;dart;dart-package;flutter;flutter-examples
+D0210,repo,bizz84/flutter_animations_gallery,main,2,169,24,2025-09-09,A showcase of the most common Flutter animation APIs.,flutter
+D0211,repo,Kennygunderman/snack-chat,main,2,167,64,2025-06-08,A chatting app focused on real-time data sync using firebase | Built with Flutter,
+D0212,repo,Dinesh-Sowndar/flutter_responsive_dashboard_admin_panel_ui,main,2,167,62,2023-06-07,Flutter Responsive dashboard / Admin panel UI,admin-dashboard;admin-panel;codemagic;dashboard;dashboard-templates
+D0213,repo,lukepighetti/sprung,main,2,166,12,2022-07-27,Drive realistic animations in Flutter with real physics,
+D0214,repo,VictorUvarov/provider_architecture_template,main,2,164,53,2020-10-23,A production ready flutter application template for the provider architecture.,architecture;boilerplate-front-end;dart;flutter;flutter-demo
+D0215,repo,muhammadtalhasultan/Flutter-E-Commerce-App-UI,main,2,163,60,2023-05-07,Flutter E-Commerce App Ui,android;ecommerce;ecommerce-app;flutter;flutter-apps
+D0216,repo,hosain-mohamed/Flutter-chat-App,main,2,163,58,2020-12-18,Chat application using Flutter and Firebase for backend.,
+D0217,repo,SpicyChair/pluvia_weather_flutter,main,2,162,16,2023-08-19,"Pluvia 🌦️ | A weather app with beautiful animations, built with Flutter.",android;flutter;mapbox-api;openweathermap;weather
+D0218,repo,mitchkoko/responsivedesign,main,2,162,63,2026-04-07,"Responsive design layout in Flutter — adapts to mobile, tablet, and desktop",dart;desktop;flutter;mobile;responsive-design
+D0219,repo,rrdhoi/SocialMediaApp,main,2,159,49,2024-04-11,"Social Media App built with Flutter - Clean & Modern UI, Clean Code, Custom Widget",clean-code;clean-ui;custom-widgets;flutter;flutter-cubit
+D0220,repo,joejellicoejia/Chi_Food,main,2,158,34,2022-06-16,Food Delivery App made by Flutter and Bloc,bloc;dart;flutter;flutter-apps;flutter-bloc
+D0221,repo,Dev-Salem/dribbble_recipe_challenge,main,2,157,39,2024-08-09,A Flutter app that demonstrates Flutter's ability to create a beautiful UI with complex animations.,
+D0222,repo,Ezaldeen99/Flutter-animations,main,2,156,27,2021-04-16,A collection of Animations that aims to improve the user experience for your next flutter project.,animation;animations;flutter;flutter-examples
+D0223,repo,Onix-Systems/onix-flutter-project-generator,main,2,155,24,2025-10-09,Flutter Project Generator is a tool for creating a new project with built-in Clean based architectur,bloc;clean-architecture;dart;flutter;generator
+D0224,repo,feMoraes0/fitness-ui,main,2,155,45,2024-08-08,A fitness app interface built with Flutter,app;clone-ui;dart;fitness;fitness-app
+D0225,repo,JideGuru/animation_playground,main,2,155,12,2026-04-08,This repo contains some animations that i implemented in my free time.,flutter;flutter-animations;flutter-app
+D0226,repo,alessandroaime/Weather,main,2,154,33,2020-01-27,A weather app built to learn how to use Canvas and Animation in Flutter.,android;dart;flutter;ios;weather
+D0227,repo,okaryo/CleanArchitectureTodoAppTrainingWithFlutter,main,2,153,59,2023-03-15,Todo App with Flutter + CleanArchitecture + sqflite + riverpod + state_norifier + freezed!,clean-architecture;flutter;freezed;riverpod;sqflite
+D0228,repo,Bernardi23/HeartBeatAppBar,main,2,152,22,2019-04-09,Cool looking animation in AppBar done with flutter!,
+D0229,repo,WahidNasri/flutter-mqtt-chat-client,main,2,150,34,2022-03-20,"A Chat app developed with Flutter, it uses MQTT protocol",chat;flutter;flutter-chat;flutter-mqtt;hivemq
+D0230,repo,piyushsinha24/Flutter_bloc_example,main,2,150,48,2020-02-26,Implement BLoC pattern using flutter_bloc.,bloc;flutter;flutter-bloc;state-management
+D0231,repo,cmdrootaccess/another-flushbar,main,2,150,93,2023-10-18,"A flexible widget for user notification. Customize your text, button, duration, animations and much ",flushbar;flutter
+D0232,repo,brocodev/flutter_samples,main,2,149,25,2023-09-04,Flutter samples focused on UI layout and interactions with animations.,android;animations;flutter;ios;mobile-app
+D0233,repo,senorprogramador/animator,main,2,149,19,2022-06-07,"Animation package for Flutter, inspired by Animate.css",
+D0234,repo,dimas-ibnu/flutter-ui-boilerplate,main,2,149,59,2022-10-25,Flutter ui boilerplate is easiest way to create new flutter project with clean code and well organiz,boilerplate-template;dark-themes;dart;dashboard;flutter
+D0235,repo,rcjuancarlosuwu/flutter_movie_ticket,main,2,148,40,2022-03-12,Flutter Movie Tickets App with Animations,flutter;flutteranimations
+D0236,repo,td-santos/Finance_App_Flutter,main,2,146,66,2020-04-18,Aplicativo Finanças Pessoas construído em Flutter.,finance;flutter
+D0237,repo,PrioxisTechnologies/FitnessApp,main,2,145,66,2023-06-23,Flutter Fitness workout app is a professional app template.,fitness;fitness-app;flutter;workout-apps
+D0238,repo,h65wang/flutter-animated-counter,main,2,145,45,2024-08-13,An implicit animation widget that flips from one number to another.,dart;flutter
+D0239,repo,yunweneric/flutter-widgethub,main,2,145,21,2026-01-10," From ready-to-use components and flexible layout blocks to smooth animations and striking effects, ",android;dart;dartl;flutter;flutteranimation
+D0240,repo,afgprogrammer/Flutter-Photography-Application,main,2,144,20,2023-11-28,Flutter Photography Application Design and Animation - day 22,animation;application;flutter;flutter-animation;flutter-app
+D0241,repo,omergamliel3/flutter-clean-architecture-app,main,2,142,46,2021-01-29,"Test-driven-design architecture news app, built with GetX and Flutter ",bloc;clean-architecture;flutter;getx;getx-cli
+D0242,repo,shubhamhackz/day_night_login,main,2,141,37,2020-08-11,A beautiful 🌅 day and night 🌃 animated login screen ready to give goosebumps and good vibes.,animation;animations;beautiful;beautiful-ui;dart
+D0243,repo,AmirBayat0/Food-Mobile-App-UI-Flutter,main,2,140,29,2023-02-23,Food Delivery Mobile App User Interface Powered by Flutter and GetX! 🍔📲💫,dartlang;flutter;flutter-apps;flutter-examples;flutter-ui
+D0244,repo,TheAlphamerc/flutter_yatch_booking,main,2,138,42,2019-07-21,Sample yatch booking app designed in flutter,
+D0245,repo,bachhoan88/FlutterCleanArchitecture,main,2,137,76,2023-02-10,Clean Architecture for Flutter,architecture;basecode;clean-architecture;cleanarchitecture;dart
+D0246,repo,SwaroopSambhayya/Food-UI-Transition,main,2,137,55,2024-11-05,A good demonstration of power of flutter animation with transition,
+D0247,repo,benjaken/flutter_vant_kit,main,2,136,38,2023-11-20,A Vant style flutter UI library.,flutter;flutter-ui;vant;vant-ui
+D0248,repo,mhmzdev/medkit-pharmacy-app,main,2,136,57,2020-07-19,To cure symptoms of various disease using medicines at home this app will act as guideline. Few anim,dart;flutter;medical-application;pharmacy
+D0249,repo,Flutter-Zone/Flutter-Zone-Food-App,main,2,135,79,2020-12-13,Food delivery app written in flutter,
+D0250,repo,Tauseef-Hilal/WhatsUp,main,2,135,54,2024-01-23,"The ultimate mobile chat app. This project brings you the closest experience to WhatsApp, crafted wi",android;android-app;chat;chat-app;chat-application
+D0251,repo,Santos-Enoque/admin_side_flutter_ecommerce_app,main,2,134,133,2020-07-04,,
+D0252,repo,SurajLad/VideoCall-App-Flutter,main,2,134,50,2025-09-01,Simple Video Calling App Made in Flutter Supporting Upto 4 peoples to have Video Call Together.,agora-flutter;chat;flutter;flutter-app;flutter-demo
+D0253,repo,aviacommerce/flutter-ecommerce,main,2,133,72,2020-10-30,Ecommerce app built with flutter,ecommerce;flutter;open-source
+D0254,repo,RivaanRanawat/flutter-google-docs-clone,main,2,133,52,2024-03-10,Responsive Google Docs Clone Tutorial Source Code developed using Flutter & Nodejs.,
+D0255,repo,CoderUni/responsive_sizer,main,2,133,21,2024-03-24,Responsive Sizer helps implement are responsive layout by providing helper widgets and extensions,adaptive;adaptive-layouts;flutter;hacktoberfest;responsive
+D0256,repo,mahdinazmi/Ecommerce-App-With-Flutter,main,2,132,53,2024-08-21,,
+D0257,repo,jonasN5/chat_ui_kit,main,2,132,39,2023-06-08,A complete Flutter chat UI kit,chat;flutter
+D0258,repo,orestesgaolin/animations_samples,main,2,132,14,2022-02-16,Flutter animation showcase,
+D0259,repo,vbalagovic/flutter-presetup,main,2,131,31,2026-01-30,"Pre setup flutter application with flavors, riverpod, go router and localizations",admob;dart;firebase;flutter;flutter-app
+D0260,repo,mitchkoko/moonbase-template,main,2,131,50,2025-09-23,"📱 Complete Flutter Social Media / Reddit type App Template with Authentication, Profiles, and Moneti",dart;flutter;revenucat;social-media;supabase
+D0261,repo,mahtab-ali/fitness_app_ui,main,2,128,61,2019-07-18,"Flutter tutorial explaining to create a fitness application UI incorporating use of custom fonts, ve",
+D0262,repo,Cleveroad/flutter_sliding_tutorial,main,2,128,20,2025-11-21,User onboarding library with smooth animation of objects and background colors,dart;dart-frameworks;dart-library;dart-package;dart2
+D0263,repo,Bernardi23/search_map_place,main,2,128,93,2021-08-29,This is a Flutter package that uses the Google Maps API to make a TextField that tries to autocomple,
+D0264,repo,serdarpolat/flutter_fitness_tracker_app_UI,main,2,126,34,2018-12-23,,
+D0265,repo,Santos-Enoque/flutter_ecommerce_app,main,2,124,95,2018-12-23,this is an ecommerce app that I built using the flutter frame work,
+D0266,repo,FlutterOpen/flutter-animations,main,2,124,20,2019-01-10,"Flutter animation tutorials, such common animation, flare animation.",animation;flare-flutter;flutter;layout
+D0267,repo,abuanwar072/Flutter-Responsive-UI,main,2,124,35,2022-02-18,,
+D0268,repo,AmirBayat0/Responsive_login_signup_screens_flutter,main,2,124,32,2023-10-07,Flutter Responsive Login and Signup Screens - Prepped and Ready for Immediate Use! 📱✨🔐,flutter-app;flutter-apps;flutter-examples;flutter-login-screen;flutter-lottie
+D0269,repo,pszklarska/hello_flutter,main,2,123,14,2018-10-26,A simple chat app written in Flutter with core features from Firebase SDK,
+D0270,repo,mohamadayash22/flutter-movie-app,main,2,122,53,2025-10-28,"Movie app made in Flutter with clean architecture using BLoC, Hive and the movie db API.",android;app;bloc;clean-architecture;dart
+D0271,repo,vykes-mac/labalaba,main,2,122,47,2022-10-10,Flutter chat app,
+D0272,repo,dvmjoshi/firebasecrud,main,2,122,35,2021-10-28,Rich UI and animation flutter app backed by firebase,android;android-app;android-ui;animation;firebase
+D0273,repo,dvmjoshi/people,main,2,122,34,2021-10-28,People is great app with smart UI with new look animation ,animation;dart;dartlang;flutter;flutter-apps
+D0274,repo,kleong153/flutter-web-admin,main,2,121,52,2024-03-15,Demo of responsive Flutter web with light/dark mode and multi language supported,admin-template;flutter;flutter-demo;flutter-examples;flutter-ui
+D0275,repo,HarshAndroid/Ai-Assistant-In-Flutter-Using-ChatGpt,main,2,120,41,2024-09-14,"AI Chatbot, Image Generator & Language Translator App | OpenAI ChatGPT | AI Assistant | Dart 3 & Flu",ai;ai-image-generator;ai-language;aiassistant;aiimagegenerator
+D0276,repo,HeavenOSK/flutter_swipable_stack,main,2,120,51,2024-03-14,"A widget for stacking cards, which users can swipe horizontally and vertically with beautiful animat",dart;flutter;tinder
+D0277,repo,backslashflutter/group_chatapp_flutter_firebase,main,2,119,74,2023-07-17,Chat app in Flutter Firebase with Group Based Functionalities (Email/Password Auth),firebase;firebase-auth;firebase-database;firebase-flutter;flutter
+D0278,repo,camphan12993/chat-app-ui,main,2,118,32,2020-04-15,Chat App UI using Neumorphism design with Flutter,dart;flutter;flutter-cha;flutter-ui
+D0279,repo,BlondelSeumo/Delivery-Boy-for-Groceries-Foods-Pharmacies-Stores-Flutter-App,main,2,117,45,2020-06-05,"Delivery Boy Flutter App + PHP Laravel Admin Panel, Mobile app solution using a flutter framework cr",
+D0280,repo,ShekarMudaliyar/social_share,main,2,116,262,2025-01-19,Flutter package to share images/videos/text on social media,
+D0281,repo,florent37/AnimatedWidgets,main,2,116,19,2023-07-24,Easily add animations on your screen with AnimatedWidgets. Made for Bloc pattern,alpha;anim;animation;bloc;controller
+D0282,repo,SayujSujeev/Responsive-Admin-Dashboard,main,2,115,34,2021-07-30,Flutter responsive Admin Dashboard,
+D0283,repo,enesakbal/Flutter-Clean-Architecture-Example,main,2,114,20,2025-02-02,Flutter Clean Architecture Example,bloc;clean-architecture;cubit-bloc;dart;flutter
+D0284,repo,palratnesh05/LoginAndRegistrationWithSocialMedia,main,2,114,21,2018-06-28,"Created a Project to design login screen, registration screen, login with google ,slider navigation ",flutter;flutter-apps;flutter-demo;flutter-examples;flutter-firebase
+D0285,repo,dwyl/flutter-bloc-tutorial,main,2,114,10,2023-09-04,A step-by-step example/tutorial explaining the benefits of the BLoC architecture and bloc library in,bloc;dart;flutter;flutter-app;state-management
+D0286,repo,akshayejh/flat_chat,main,2,114,49,2020-08-15,Free UI Kit for Flutter,dart;flutter;kit;ui
+D0287,repo,ShehanUdantha/clean_architecture_digital_marketplace,main,2,113,18,2025-10-19,"Develop an E-Commerce app in Flutter with clean architecture using Bloc, Firebase and the Stripe. ",android;bloc;clean-architecture;dart;e-commerce
+D0288,repo,eplnh/card_ui_kit,main,2,113,27,2018-08-23,A collection of cards that you can use easily and ready to be used in your Flutter applications.,
+D0289,repo,fayaz07/animated_splash,main,2,112,26,2021-07-03,"A light weight package for flutter apps, that easily shows a splash screen with a nice fade animatio",android;animation;flutter;ios;splashscreen
+D0290,repo,dhafinrayhan/dummymart,main,2,111,19,2025-03-29,"An example Flutter project that uses Riverpod, go_router, flutter_hooks, and Freezed.",flutter;flutter-hooks;freezed;go-router;riverpod
+D0291,repo,Chamidilshan/ChatGPT-App,main,2,110,24,2023-03-22,ChatGPT App is a conversational AI app built with flutter that you can use in mobile devices. You ca,android;android-app;api;chat-application;chatgpt
+D0292,repo,codeforany/fitness_workout_app_flutter_3_ui,main,2,110,63,2024-05-13,I have create full  Fitness  app UI UX fig file design convent Into flutter mobile app code create. ,
+D0293,repo,devrnt/book-library,main,2,109,29,2020-01-27,📚 A book library app for both Android & IOS ~ Flutter.dev project in Dart ,books;changenotifierprovider;dart;flutter;library
+D0294,repo,emrade/flutter-ghana-ui-challenge-week-1,main,2,108,41,2019-09-06,Flutter Ghana UI Challenge Week 1 - Social Media App,
+D0295,repo,AbdQader/flutter_ecommerce_app,main,2,107,18,2023-07-31,An E-Commerce App made with Flutter.,android;dart;ecommerce-application;flutter;flutter-
+D0296,repo,AmirBayat0/Fashion-eCommerce-app,main,2,107,28,2024-03-27,Flutter Fashion E-Commerce App! 💃🕺💼,android-application;ecommerce;ecommerce-application;ecommerce-framework;flutter
+D0297,repo,nirala96/Food-Ordering-App,main,2,107,33,2021-08-23,"A Food Ordering App made with Flutter, node and using MySQL Database ",android;dart;ecommerce;flutter;flutterawesome
+D0298,repo,takiuddin93/ChatApp,main,2,107,25,2021-03-02,"A Flutter Chat application, using Firebase for Google Sign In/Sign Up and exchange text, emoji and i",agora-sdk;chatapp;firebase;flutter;text-messaging
+D0299,repo,mitchkoko/responsivedashboard,main,2,106,54,2026-04-07,Responsive admin dashboard UI built with Flutter,dart;dashboard;flutter;responsive-design;ui
+D0300,repo,LiveLikeCounter/Flutter-Food-Delivery,main,2,105,43,2019-10-29,A Food Delivery App in Flutter,dart;flutter-apps;flutter-examples;food-delivery;uplabs-challenge
+D0301,repo,bharat-1809/glass_kit,main,2,105,22,2026-02-16,💎 A package containing widgets to implement glass morphism in flutter apps,dart;flutter;flutter-apps;flutter-package;glass-kit
+D0302,repo,gabryelferreira/chat_app,main,2,104,35,2021-05-09,"A chat app made with Flutter, Node.js, Socket.io, MongoDB, SQLite and Firebase Messaging.",
+D0303,repo,ahkohd/FlutterGamingApp,main,2,104,35,2022-06-26,🎮🔥 Game streaming app UI kit made with Flutter,
+D0304,repo,HanySameh/Flutter-Dashboard-Template,main,2,103,38,2023-09-28,Flutter Responsive Dashboard Template (Dribbble),dart;dashboard-templates;flutter;responsive;ui-design
+D0305,repo,HeyFlutter-Public/Flutter-Fitness-Dashboard-UI,main,2,102,41,2024-03-02,This is a complete Fitness Dashboard UI built in flutter. This repository is for education purpose s,
+D0306,repo,IsaiasCuvula/flutter_riverpod_todo_app,main,2,100,24,2023-08-15,"This is a simple Todo app built using Flutter and Riverpod, go_router and much more ... ",flutter;flutter-apps;flutter-examples;riverpod;riverpod-examples
+D0307,repo,iamnijat/healsense,main,2,100,30,2025-08-16,Take medications on time using a powerful medication reminder app. Made with DDD architecture + Drif,dart;ddd-architecture;drift;flutter;freezed
+D0308,repo,julienlebren/flutter_firebase_phone_auth_riverpod,main,2,100,24,2022-08-10,Flutter example project using Firebase Phone Authentication and Riverpod for state management,
+D0309,repo,IsaiasCuvula/quote_generator,main,2,95,15,2023-09-05,"Flutter App using  Clean Architecture, Riverpod, GoRoute, SQLite, Google Sign, Internationalization ",clean-architecture;dart;flutter;localization;navigation
+D0310,repo,jayeshpansheriya/awesome_extensions,main,2,95,31,2026-07-21,An extension to the widget that helps to reduce the boilerplate and adds some helpful methods. and y,avatar-image;awasome;awesome-extensions;dart;dart-extension
+D0311,repo,shirvanie/flutter_messenger_clean_architecture,main,2,94,20,2023-07-17,"Flutter Messenger Clean Architecture with Bloc, Cubit, Provider, RxDart, ObjectBox, SharedPreference",clean-architecture;clean-code;dart;dartlang;flutter
+D0312,repo,mo7amedaliEbaid/piiicks-ecommerce,main,2,94,17,2025-01-12,Flutter ecommerce built with clean architecture and bloc state management.,authentication;bloc;bloc-pattern;cache;cart
+D0313,repo,ssoad/flutter_riverpod_clean_architecture,main,2,92,30,2026-07-18,,flutter;flutter-examples;flutter-template;riverpod
+D0314,repo,muhammad369/ResponsiveGrid_Flutter,main,2,92,33,2026-02-11,Responsive Grid Layout for Flutter ,dart;flutter;grid;layout;responsive
+D0315,repo,aydozy/popcorn,main,2,91,1,2026-04-27,"🍿 Discover your next favorite movie. A Flutter app showcasing Clean Architecture, Bloc, and TMDB API",bloc;clean-architecture;dart;dio;flutter
+D0316,repo,Uuttssaavv/flutter_clean_arch,main,2,86,28,2023-12-18,Clean architecture in flutter using flutter_bloc as a reactive programming,bloc;dart;flutter
+D0317,repo,ChunhThanhDe/cinema-booking,main,2,84,29,2026-06-22,"Movie Booking App  🎬 🍿 -  A Completed Functional Flutter app for booking movie tickets, built with F",chunhthanhde;cinema-app;cinema-booking;firebase-auth;flutter
+D0318,repo,Yoga3911/flutter_bloc_clean_architecture,main,2,83,29,2023-07-11,Flutter Mini Project,bloc;bloc-example;bloc-pattern;clean-architecture;clean-architecture-example
+D0319,repo,DhytoDev/flutter-movie-app,main,2,73,26,2023-03-21,Implementation of Clean Architecture with Bloc Pattern and RX-Dart in Flutter,bloc;blocpattern;clean-architecture;dart;flutter
+D0320,repo,amirk3321/self-host-group-chat,main,2,71,17,2023-06-09,Self Host Group Chat App (firebase + clean architecture) is full functional group chat where you can,bloc;blocpattern;clean-architecture;clean-code;cubit
+D0321,repo,hunmer/Memento,main,2,69,12,2026-04-08,"Memento is a cross-platform application developed with Flutter, serving as a personal assistant app ",flutter;flutter-apps
+D0322,repo,khoren93/FlutterHub,main,2,65,14,2024-09-01,Cross-platform GitHub client in Flutter and BLoC clean architecture.,bloc;chopper;clean-architecture;dart;flutter
+D0323,repo,yusriltakeuchi/flutter_template,main,2,63,25,2026-03-14,"🚀 Production-ready Flutter template with Clean Architecture, BLoC, Freezed, AutoRoute, multi-flavor ",
+D0324,repo,amirk3321/netflix-clone,main,2,61,23,2020-10-18,Flutter Netflix Clone (with Backed Apis Integration + Clean Architecture) this app follow clean arch,bloc;clean-architecture;clean-code;cubit;flutter
+D0325,repo,Neosoft-Private-Limited/flutter_template,main,2,60,17,2023-05-04,This is a micro-framework for Flutter which is designed to help simplify developing apps. It provide,boilerplate;build;ci-cd;clean-architecture;dart
+D0326,repo,yunus6116/Flutter-Bloc-Clean-Architecture,main,2,58,17,2023-11-22,This Flutter application follows the Clean Architecture principles and utilizes the Bloc pattern for,flutter;flutter-bloc-pattern;flutter-clean-architecture
+D0327,repo,imamabdulazis/FlutterCleanArchitecture,main,2,58,17,2025-07-22,This is implementation clean architecture by Uncle Bob. We can implementation this project to make a,android;architecture;datasource;dio;flutter
+D0328,repo,murilosandiego/flutter-microblog,main,2,57,23,2022-03-15,"Flutter app with, TDD, clean architecture, design patterns, SOLID, unit tests, widget tests, cubit t",bloc;clean-architecture;cubit;design-patterns;flutter
+D0329,repo,AloisiusBagas/Gojek-UI-Clone,main,2,57,45,2026-02-17,A high-fidelity Flutter reproduction of the Gojek Super App. This project demonstrates advanced widg,
+D0330,repo,amirk3321/group_chat_room_responsive,main,2,55,22,2020-09-13,"Flutter group chat room responsive (with Firebase + Clean Architecture) [web,mobile,tablet] this app",bloc;firebase;web;widgets
+D0331,repo,iamnijat/habitonic,main,2,52,13,2025-08-16,Habit Tracker helps you build positive habits and keeps track of your day-to-day habits and routines,bloc;clean-architecture;dart;flutter;freezed
+D0332,repo,BrockMekonnen/flutter_clean_starter,main,2,35,2,2026-02-04,A production-ready Flutter project template following Clean Architecture and Modular Design principl,
+D0333,repo,VB10/flight_booking,main,2,30,5,2026-07-03,Flight App for refactoring real project,flutter;reactoring
+D0334,repo,RodrigoBertotti/flutter_chat_app_with_nodejs,main,1,98,40,2025-03-11,"A Flutter Chat App built with Node.js, MySQL, and WebSockets.",
+D0335,repo,zubairehman/Portfolio-Demo-1,main,1,98,24,2022-02-26,A portfolio build by using flutter for web.,dart-web;flutter;flutter-web;portfolio;portfolio-template
+D0336,repo,Ansh-Rathod/Flutter-Photoarc-app,main,1,97,22,2022-09-23,(Full-stack) Fully functional social media app (Instagram clone) written in flutter and dart with ba,android;app;exprees;flutter;flutter-apps
+D0337,repo,saket-shetty/Post-it,main,1,95,33,2021-06-24,social media app which is made entirely with flutter and firebase,firebase;flutter-apps;social-media
+D0338,repo,reafeichtinger/flutter_production_boilerplate_riverpod,main,1,91,19,2024-08-27,"A flutter boilerplate project containing riverpod, lints, hive, easy_translations and more! ",boilerplate;flutter;flutter-apps;flutter-demo;flutter-examples
+D0339,repo,swenes/chat_message_app_FLUTTER,main,1,88,20,2022-08-12,this is a message/chat app with light and dark theme options,
+D0340,repo,afgprogrammer/Flutter-simple-chat-app,main,1,87,19,2022-08-15,Simple chat app UI design in Flutter - Day 61. ,chat-app;flutter
+D0341,repo,himanshusharma89/relic_bazaar,main,1,86,87,2022-09-17,A Retro Theme-based e-commerce app for antiques. #Hack20,android;buying;dart;ecommerce;ensp
+D0342,repo,DNXEMPIRE-1/food-Restaurant-Flutter-App,main,1,86,22,2024-05-05,Restaurant/Food Delivery App UI kit in Flutter,flutter;food-app;food-delivery;food-delivery-app;food-delivery-application
+D0343,repo,dalpat98/Barber-Booking-App,main,1,85,29,2024-07-28,Barber Booking App (Part of Fashion recommendation system). You can see nearby available barbers and,appointment;barber;barbershop;booking;dart
+D0344,repo,V0-MVP/flutter-bloc-clean-architecture-boilerplate,main,1,84,37,2024-09-14,Flutter project boilerplate that adheres to the principles of Clean Architecture.,boilerplate;clean-architecture;dependency-injection;flutter;flutter-bloc
+D0345,repo,rashidwassan/flutter-ecommerce-app-ui,main,1,84,19,2022-10-02,A beautiful looking UI for e-commerce shoe app,dart;flutter;ui
+D0346,repo,hamid-kano/Biggest-Flutter-UI-Kit,main,1,83,21,2021-08-21,"As the name says, Prokit is the Biggest Flutter UI kit. It is the ultimate library of Flutter UI app",
+D0347,repo,itsezlife/yandex-eats-clone,main,1,83,12,2024-11-14,🍽️ Yandex Eats Clone built with Flutter. A fully-featured food delivery app replicating Yandex Eats ,bloc;dart;dart-frog;firebase;flutter
+D0348,repo,manishdayma/flutter_admin_responsive,main,1,83,33,2023-10-18,Flutter Admin Panel Made In Flutter 2.8,android-flutter;cross-platform-development;crossplatform;dart;flutter
+D0349,repo,tahseenquraishi/flutter_responsive_dashboard_ui,main,1,82,48,2021-05-17,In this repo I have build an awesome Flutter Responsive Dashboard ui. This Flutter UI challenge is t,
+D0350,repo,GeekAbdelouahed/flutter-web-portfolio,main,1,82,32,2022-03-16,Responsive portfolio using Flutter Web,dart;flutter;flutterweb;portfolio;responsive
+D0351,repo,alireza4585/Finance-App,main,1,81,50,2023-07-30,build finance app in flutter,app;dart;finance-app;flutter;hive
+D0352,repo,kamranbekirovyz/flutter-web-portfolio,main,1,80,22,2023-03-22,"🕸 Flutter WEB Portfolio: responsive layout, comment-rich codebase.",dart;flutter;flutterweb
+D0353,repo,SnowStar0423/ChatGPT-Flutter-App,main,1,79,12,2023-07-02,,
+D0354,repo,adityathakurxd/flutter_portfolio,main,1,77,95,2024-06-13,A responsive portfolio made using Flutter to customise and use!,flutter;flutter-apps;flutterweb;portfolio;template
+D0355,repo,swiftdo/web-demo,main,1,76,15,2025-03-24,"Responsive web app powered by Flutter + Appwrite, also support macOS",appwrite;blog;flutter;flutter-demo
+D0356,repo,tahseenquraishi/flutter-food-delivery-app,main,1,75,24,2021-04-25,In this repo I have build an awesome Flutter food delivery app ui. This Flutter UI challenge is take,
+D0357,repo,sangvaleap/app-flutter-firebase-chat,main,1,75,24,2023-09-14,,
+D0358,repo,lalitkumawat1m/Flutter_finance_app_ui,main,1,75,23,2023-08-09,Flutter Finance App with Beautiful UI,
+D0359,repo,tejasbadone/budgeto,main,1,75,31,2024-06-05,Budgeto is a money management prototype app that allows users to split their income into customizabl,dart2;dartlang;expenses-manager;expenses-tracker;finance
+D0360,repo,mahtab-ali/chat_app_ui,main,1,74,36,2019-07-10,Flutter chat application design to application conversion,
+D0361,repo,TarekAlabd/flutter-ecommerce-live-coding,main,1,73,33,2024-09-18,This is an ecommerce app built with Flutter & Dart,
+D0362,repo,sameeerkashyap/FoodMagic,main,1,73,31,2021-06-27,An AR App for Restaurants and Food Delivery ✨✨,appwrite;arcore-flutter-plugin;augmented-reality;blender-models;flutter
+D0363,repo,MohamadSobhy/Flutter-Chat-App,main,1,73,21,2020-08-04,,
+D0364,repo,TheAlphamerc/flutter_commun_app,main,1,73,22,2023-02-19,A social media platform where  you can build your own community. ,
+D0365,repo,amirk3321/flutter_chatgpt,main,1,72,26,2023-02-24,Flutter ChatGpt Complete Functional App with Clean Architecture,chatgpt;chatgpt-api;chatgpt3;clean-architecture;clean-code
+D0366,repo,mohak1283/chat-app-flutter,main,1,72,23,2020-10-02,It is a simple chat application made using Firebase and Flutter.,chat-app;flutter;flutter-apps;flutter-chat-app;flutter-firestore
+D0367,repo,tonydavidx/chattie-ui-design,main,1,72,30,2021-03-11,a chat app ui design made in flutter ,android;android-app;app-ui;dart;flutter
+D0368,repo,rohitsangwan01/flutter_pocketbase_chat,main,1,72,13,2023-05-26,A Flutter realtime chat app using pocketbase,
+D0369,repo,chunlee-thong/flutter-travel-booking,main,1,72,29,2022-09-08,A Flutter Travel Booking app UI concept,
+D0370,repo,Kalpesh209/flutter_taxi_booking_customer_app,main,1,71,43,2021-04-25,On Demand Taxi Booking App Customer App,cab-booking;cab-booking-app;cab-reservation-and-management;cab-service;cross-platform
+D0371,repo,mdrideout/flutter_hive_provider_example,main,1,70,14,2020-01-04,"A Flutter App example of managing state with Provider, while storing data persistently with Hive. ",
+D0372,repo,camphan12993/store_reponsive_dashboard,main,1,70,18,2021-09-21,Flutter Responsive Dashboard,dart;flutter;flutter-ui
+D0373,repo,woltapp/wolt_responsive_layout_grid,main,1,70,8,2023-07-17,Wolt Responsive Layout Grid library introduces the Flutter implementation of Material Design's respo,
+D0374,repo,GhanaTechLab/Familicious-App,main,1,68,21,2022-06-29,A social media app made with Flutter and Firebase,android;firebase;flutter;ghana;ios
+D0375,repo,tranphong9mx/flutter_booking_app,main,1,67,28,2020-12-31,"This is booking app that covered UX/UI was designed by ""Hananda Ilham Z"" on Uplabs.com",
+D0376,repo,varunon9/pocket-ai,main,1,66,18,2023-07-22,Pocket AI: OpenAI GPT-3.5 powered free chatbot android app in Flutter similar to Chat-GPT,chat-gpt;chat-gpt-app;chat-gpt-tool;chatbot;flutter
+D0377,repo,Maple0905/Flutter-Admin-Panel,main,1,66,18,2023-08-15,Responsive Admin Panel or Dashboard using Flutter,app;dashboard;dashboard-templates;flutter;web
+D0378,repo,andresrodriguez55/fullStackChatApp,main,1,65,10,2022-03-22,"Applied design patterns. Built with django, flutter and mongodb. Mobile messaging application which ",agile;agile-development;chat;chat-application;design-patterns
+D0379,repo,Kalpesh209/flutter_doctor_appointment_booking_app,main,1,65,19,2021-05-01,On Demand Doctor Appointment Booking App Built in Flutter,dart;doctor-appointment-booking;doctor-appointment-booking-system;doctor-appointment-management;flutter-doctor-appointment
+D0380,repo,CarmineToriello95/flight_booking_app_design_concept,main,1,65,26,2023-05-23,A flight booking app concept recreated in Flutter,
+D0381,repo,sbis04/responsive_design,main,1,65,22,2020-10-14,A Flutter sample app showing responsive layout design,flutter;responsive
+D0382,repo,displaykit/responsive_styles,main,1,65,3,2022-11-27,📐 It's a set of common utility strategies to work with responsive styles with Flutter and CSS in JS,desktop;flutter;mobile;responsive;styles
+D0383,repo,LaCoro/ConsumerFlutterApp,main,1,64,25,2024-04-04,Consumer app with Flutter,android;ecommerce;flutter;hacktoberfest2020;hactoberfest
+D0384,repo,congtieniuh/Flutter-Shopping-App-Bloc,main,1,64,33,2020-11-06,Shopping App. Training Project,bloc;cart;credit-card;ecommerce;firebase
+D0385,repo,Frave07/Flutter-Social-Media-App,main,1,64,25,2023-03-30,,
+D0386,repo,brinesoftwares/movie-booking-app-ui,main,1,63,15,2020-05-30,Visit our website for more Mobile and Web applications,android;booking-system;flutter;ios-app;movie
+D0387,repo,kzjn10/Flutter_Bloc_Movie_2,main,1,62,16,2020-10-03,The simple project uses Clean architecture.,
+D0388,repo,helloharendra/Complete-Food-Delivery-App-Flutter,main,1,62,34,2025-05-01,"A Complete Food Delivery Flutter App with Admin web portal. bacsically it contains (rider app,seller",dart;firebase;firebase-auth;firebase-database;firestore
+D0389,repo,anasfik/work-out-mobile-app,main,1,62,15,2022-09-25,"it's a mobile application for both android and ios made for work out and fitness purpose, but it can",android;dart;design;firebase;fitness-app
+D0390,repo,dileepadev-old/flutter-portfolio-site,main,1,62,13,2025-10-20,"Hello there, I'm Dileepa Bandara. This is my personal website (Flutter Version).",cross-platform;dart;dileepabandara;flutter;flutter-examples
+D0391,repo,utpal-barman/uShop-flutter-ecommerce-shop,main,1,60,12,2020-06-27,An E-commerce cross-platform mobile app using Flutter. This application is compatible with both Andr,flutter;flutter-ecommerce;flutter-shop;flutter-shop-app;flutter-shopping
+D0392,repo,udaykhalsa/flutter-django-chat-app,main,1,60,12,2024-01-10,,
+D0393,repo,kechankrisna/flutter_responsive_table,main,1,60,26,2023-04-26,,
+D0394,repo,MoazSayed7/Flutter-Chat-App-Firebase-Authentication-Messaging-WhatsApp-Like,main,1,59,17,2024-08-28,This Flutter project is a chat application inspired by WhatsApp. The app features a familiar interfa,cloudmessaging;firebase;firestore-database;flutter;flutter-chat
+D0395,repo,himanshugoyal77/salon_booking_app,main,1,59,27,2023-06-22,Salon booking app with flutter and firebase makes the process of scheduling appointments easier.,dart;firebase;firebase-auth;flutter;salon-management-system
+D0396,repo,prashant07ag/HealthTestBookingApp,main,1,59,20,2024-01-26, Flutter health app: Book tests & labs seamlessly! Firebase powers secure phone authentication & dat,firebase;firebase-authentication;flutter-application;lab-test-booking
+D0397,repo,ByteToBit-Technologies/Flutter-Grocery-Home,main,1,58,26,2019-10-11,Flutter Grocery Shopping App,dart;ecommerce;flutter;flutter-apps;flutter-material
+D0398,repo,kuldii/chat_apps,main,1,58,20,2021-08-14,Berikut merupakan source code Chat Apps dengan Flutter + GetX + Firebase,
+D0399,repo,frideosapps/data_examples,main,1,58,21,2020-05-17,An example app showing different ways to pass to and share data with widgets and pages.,bloc;flutter;flutter-apps;flutter-demo;flutter-examples
+D0400,repo,letsdoit07/flutter_webpage,main,1,58,51,2019-11-08,Code for Responsive Website Tutorial using Flutter,
+D0401,repo,sangvaleap/app-flutter-online-course-clean-architecture-bloc,main,1,57,14,2023-12-27,,
+D0402,repo,hussain-mustafa990/chatify_flutter_firebase_chat_application,main,1,57,42,2021-12-22,Flutter and Firebase Powered Chat App,
+D0403,repo,codewithguru/ChatAppUI,main,1,57,29,2020-05-25,Flutter Chat App UI.  (https://www.youtube.com/watch?v=S97vFJJErDU),
+D0404,repo,Shakleen/Leaf,main,1,57,21,2020-11-15,A social media app for plant lovers. Built using flutter for iOS and Android.,
+D0405,repo,Ethiel97/quicklist_desktop,main,1,57,12,2022-04-21,super productivity desktop app ui,dart;desktop;flutter;flutter-apps;flutter-ui
+D0406,repo,fireship-io/firechat-flutter,main,1,56,11,2021-09-29,Firebase chat app made with Flutter,
+D0407,repo,iampawan/FlutterChatApp,main,1,55,12,2021-11-07,Flutter Chat App with localization - powered by Stream,
+D0408,repo,tarush-r/End-To-End-Ecrypted-Chat-App,main,1,55,16,2021-10-13,"A secure end to end encrypted chat app made using flutter, nodeJs, mongoDB and sockets.",chat-application;end-to-end-encryption;flutter;mongodb;node-js
+D0409,repo,amitsingh6391/Academic-master,main,1,55,10,2023-06-10,Academic master (flutterfundamentals) is E-learning app where students can share their doubts wiith ,academic-project;e-learning;firebase-auth;firebase-database;flutter
+D0410,repo,SimaranMaurya007/period-tracker-web-app,main,1,55,3,2025-08-03,"Cross Platform period tracker web app built with Flutter and Firebase. Predicts menstrual cycles, in",
+D0411,repo,somritdasgupta/hypebard,main,1,54,12,2024-07-18,hypeBard is the most intelligent and beautiful smart AI chat app made using flutter and OpenAI's GPT,dart;flutter;llm;rest-api
+D0412,repo,Hamad-Anwar/Messenger-App-Backend-Firebase,main,1,53,19,2023-08-01,"Flutter chat application, a cutting-edge messaging platform that takes communication to new heights.",flutter;flutter-app;flutter-chat;flutter-chat-app;flutter-demo
+D0413,repo,emreesen27/Flutter-Sign-in-Button,main,1,53,18,2023-09-12,A Flutter package for generating sign in buttons for different social media accounts.,authentication;button;dart;flutter;flutter-plugin
+D0414,repo,SamarthMovaliya/ecommerce_app_flutter_firebase,main,1,52,6,2023-05-10,,
+D0415,repo,tejasbadone/E-Shop,main,1,52,13,2023-05-05,Our E-Commerce app is a prototype built using Flutter that offers a responsive UI and product detail,andriod;dart;dartlang;e-commerce;ecommerce
+D0416,repo,alphaolomi/food-app,main,1,52,16,2022-11-18,A minimal 🍔🍚🍝food delivery app,flutter;flutter-app;food;food-delivery;foodapp
+D0417,repo,RodrigoBertotti/flutter_group_chat_app_with_firebase,main,1,52,18,2025-03-11,"A complete Flutter Group Chat App with Firebase that supports video calls.  It handles typing, recei",agora;agora-flutter;agora-sdk;chat-room;cloud-firestore
+D0418,repo,hyderali0889/Trippo,main,1,52,51,2025-01-10,Trippo is an Uber clone built using Flutter for cross-platform mobile app development (iOS and Andro,
+D0419,repo,masfranzhuo/flutter_crud_with_bloc_library,main,1,52,15,2023-04-15,This is a Flutter CRUD example with flutter bloc library,architecture;bloc;bloc-architecture;crud;crud-application
+D0420,repo,ahmed-tarek-salem/ChatApp,main,1,51,12,2024-08-20,Chat app with flutter and firebase.,
+D0421,repo,halower/flutter-chart-app,main,1,51,2,2019-10-15,a chat app using flutter & dart & jpush,spring-boot;spring-cloud
+D0422,repo,ahm3tcelik/SocialText,main,1,51,13,2020-11-01,Flutter - Social Media & Realtime ChatApplication,
+D0423,repo,pedromassango/bloc_example,main,1,51,5,2019-03-28,BLoC pattern example,flutter;flutter-apps;flutter-bloc;flutter-examples
+D0424,repo,piyushsinha24/My-Portfolio,main,1,51,12,2020-02-26,Responsive design built with Flutter Web.,flutter;flutterweb;responsive-design;website
+D0425,repo,firgia/FD-Music,main,1,50,16,2021-10-03,Create responsive music design using Flutter,design;desktop-app;flutter;mobile-app;tablet-ui
+D0426,repo,miladkhalighi/food_delivery,main,1,49,5,2024-09-23,,dart;flutter;flutter-apps;flutter-examples;flutter-getx
+D0427,repo,ArunBalajiR/Flutter-Chat-Application,main,1,49,26,2023-04-17,Realtime Chat application using stream and linking with firebase firestore database build using flut,chat;chat-application;dart;firebase;flutter
+D0428,repo,amirk3321/flutter-chatgpt-clone,main,1,49,20,2023-02-24,Flutter ChatGpt Clone Complete Functional Web App with Clean Architecture,clean-architecture;clean-code;flutter;flutter-bloc-pattern;flutter-web-app
+D0429,repo,muxable/rtchat,main,1,49,25,2025-08-20,A chat app for IRL streamers.,android;firebase;flutter;ios;twitch
+D0430,repo,csells/flutter_ai_chat,main,1,49,12,2025-11-29,a full-fledged chat app built using the Flutter AI Toolkit and Vertex AI for Firebase,
+D0431,repo,sanbei101/flutter-chat-mini,main,1,49,2,2024-10-21,"一个由flutter构建的,supabase作为后端的极简聊天小app",chat;dart;flutter;flutter-apps;supabase
+D0432,repo,Amgad22318/RoomQuik,main,1,49,19,2023-04-05,"RoomQuik .. Flutter Booking App using: Flutter BLoC as state management, Dio for APIs handling, GetI",
+D0433,repo,lambiengcode/getx-template,main,1,48,8,2022-01-14,"Flutter GetX boilerplate — clean, scalable architecture with efficient state management",boilerplate;flutter;getx;starter;state-management
+D0434,repo,jameelsocorro/finance_app_ui,main,1,48,21,2020-04-24,This is a repository for converting a UI mockup for Finance App into Flutter App,
+D0435,repo,Nialixus/flutter_landing_page,main,1,48,42,2024-01-11,A Flutter landing page as single page template designed to showcase your product or service. Include,dart;flutter;landing-page;multi-platform;responsive
+D0436,repo,khurramrizvi/Portfolio,main,1,48,11,2021-04-19,A responsive portfolio app made with flutter web.,flutter;flutter-web;flutter2;portfolio;portfolio-website
+D0437,repo,ivansaul/flutter_todo_app,main,1,47,5,2024-02-14,"A minimalistic TODO app built with Flutter. State management is handled by Riverpod, and local datab",clean-architecture;dart;flutter;hive;isar
+D0438,repo,ouedyan/flutter-mobile-app-template,main,1,47,22,2025-03-03,"A production-ready Flutter template with Hooks Riverpod, Go Router, custom React Query-inspired hook",clean-architecture;code-generation;custom-hooks;dio-client;flutter
+D0439,repo,ahmedelbagory332/full_chat_flutter_app,main,1,47,15,2023-07-16,"flutter chat app with firebase , provider and api with all chat app functions",
+D0440,repo,rrdhoi/chatgpt,main,1,47,16,2023-02-20,Chatgpt App built with Flutter - Clean & Modern UI,chatgpt;chatgpt-api;flutter-chatgpt;mvvm-architecture
+D0441,repo,thecodepapaya/audio-chat,main,1,47,16,2021-09-26,A Flutter app to showcase audio message recording and playing in chat ,audio;flutter
+D0442,repo,Programmer9211/Chat_App_Flutter_Firebase,main,1,46,29,2021-10-04,,
+D0443,repo,VB10/WhatsApp-Chat,main,1,46,9,2022-02-26,Whatsapp Chat Screen with Flutter,flutter;flutter-ui;flutter-whatsapp
+D0444,repo,ibmkynl/ChitChat,main,1,46,7,2020-03-12,Simple dating app with Flutter bloc pattern,
+D0445,repo,SamarpanCoder2002/Generation,main,1,46,11,2023-01-25,"⭐ A Private, Secure, End-to-End Encrypted Messaging app made in Flutter(With Firebase and SQLite) th",android;chat;chat-application;chat-wallpaper;encryption
+D0446,repo,G1Joshi/Booking-App,main,1,46,7,2026-03-15,Full-Stack Dart Application using Flutter and Dart-Frog,backend;dart;dart-frog;flutter;frontend
+D0447,repo,amirk3321/food-delivery,main,1,45,26,2020-09-05,flutter food delivery,clean-architecture;clean-code;flutter;flutter-apps;flutter-ui
+D0448,repo,sha3rawi33/Sehhetna,main,1,45,23,2019-06-03,"Am writing about ""OUR"" achievement of winning the 2nd place in ""E-sus Mobile Applications Competitio",app;dart;dart-frameworks;dartlang;flutter
+D0449,repo,ibhavikmakwana/Manch,main,1,44,9,2024-05-15,Trying to develop an open source social media app,dart;flutter;social-network;supabase
+D0450,repo,shichunlei/flutter_chat,main,1,43,14,2020-10-30,利用极光IM仿微信app,chat;im;jiguang;jmessage;wechat
+D0451,repo,Vitaee/ChatApp,main,1,43,7,2024-01-26,A chat app with flutter and fast api,dart;fastapi;flutter;python;rest-api
+D0452,repo,tianhaoz95/photochat,main,1,43,16,2023-03-04,Works cool: I use a secure app to chat. Next level: I encrypt my chats with a private key. Intergala,android;encryption;flutter;ios;macos
+D0453,repo,iampawan/frenzychatapp,main,1,42,17,2020-04-08,Frenzy Chat App is written in flutter.,
+D0454,repo,trongtindev/chatwoot-flutter,main,1,42,10,2025-06-29,Cross-Platform app for chatwoot! Built with Flutter.,android;chatwoot;customer-support;flutter;flutter-apps
+D0455,repo,HajerWael/offline-flutter-nearby-chat-app,main,1,42,4,2023-06-05, Mobile App. built with flutter allows chatting between devices offline based on nearby connection p,chat;dart;flutter;nearby-connection;p2p
+D0456,repo,Koushikphy/Shared-Expense-Manager,main,1,42,11,2022-08-13,An Android and iOS app for managing group shared expenses.,android-app;budget-app;budget-management;budget-manager;budget-tracker
+D0457,repo,kaboc/flutter_provider_examples,main,1,42,8,2020-10-23,Examples of Flutter's provider package,examples;flutter;provider
+D0458,repo,momentous-developments/flutter-starter-app,main,1,41,10,2025-07-01,"🚀 Production-ready Flutter starter template with Riverpod, GoRouter, clean architecture & Material 3",android-app;flutter;flutter-example-app;flutter-examples;ios-app
+D0459,repo,tensor-programming/dart_flutter_chat_app,main,1,41,27,2018-02-24,,
+D0460,repo,mo7amedaliEbaid/garcon-restaurants-ecommerce,main,1,41,2,2024-07-27,Flutter Restaurants Management App - Firebase - Stripe,bloc;booking;cubit;dart;ecommerce
+D0461,repo,funwithflutter/flutter_stream_chat_app,main,1,40,20,2020-03-21,A chat application made in Flutter using the Stream platform,
+D0462,repo,fpatelm/Cupertino-Chat-App,main,1,40,17,2022-09-17,Chat App Flutter App for Android and iOS,firebase;firebase-auth;firebase-authentication;firebase-firestore;firebase-storage
+D0463,repo,zgramming/Flutter-Combo-Laravel,main,1,40,17,2020-11-07,Example application consume REST API laravel as backend ,android;flutter;laravel;mobile-app;mysql
+D0464,repo,Rea2er/flutter-food-delivery-app-starter,main,1,39,29,2021-09-22,,
+D0465,repo,qwertypool/Messenger-whatsapp-UI-Flutter,main,1,39,11,2021-07-21,Flutter chat-app UI with multiple themes & light + Dark mode.,chat-application;dark-theme;dart;flutter;light-theme
+D0466,repo,saileshbro/fitness_app_clone,main,1,39,8,2023-04-23,This is the fitness app clone in flutter,clone;dart;dribbble;dribbble-clone;fitness
+D0467,repo,nathansdev/flutter_food_delivery_ui_kit,main,1,38,13,2023-11-20,A flutter sample app with food delivery app design,delivery;flutter;flutter-app;flutter-demo;flutter-examples
+D0468,repo,reaster/cardano_wallet_sdk,main,1,38,19,2023-01-20,"Targeting Flutter apps, the Cardano Wallet SDK is a high-level Dart library for managing cryptocurre",ada;blockchain;cardano;cryptocurrency;dart
+D0469,repo,ml-opensource/flutter-template,main,1,37,23,2025-03-03,Flutter template using CLEAN architecture 🎯,clean-architecture;dart;domain-driven-design;flutter;flutter-app
+D0470,repo,flutter-devs/flutter_chat_ui_demo,main,1,37,12,2019-01-22,A Flutter app to showcase Chat UI.,
+D0471,repo,shashiben/flutter-video-conference,main,1,37,13,2022-06-26,A video conference app similar to zoom,agora;agoraio;chat;flutter;mvvm-architecture
+D0472,repo,Richard-bejide/spark,main,1,37,22,2022-06-15,A fullstack chat app built with flutter+firebase with video/audio call and a lot of other cool featu,chat;chat-application;firebase;firebase-auth;flutter
+D0473,repo,nandaydas/chat_app,main,1,37,4,2025-10-08,Connect instantly with friends using this sleek Flutter chat app — powered by Firebase and GetX for ,hacktoberfest;hacktoberfest2025
+D0474,repo,bizz84/json_placeholder_flutter_example,main,1,37,8,2022-11-24,Riverpod data caching and CRUD example with the JsonPlaceholder API,flutter
+D0475,repo,1hanzla100/flutter-yumniastic,main,1,36,18,2021-08-03,Yumniastic is a online food delivery service app built with Flutter and Django,dart;django;django-rest-framework;flutter;flutter-apps
+D0476,repo,umarwaseeem/Chat-Flutter-Firebase,main,1,36,14,2022-10-25,A full stack chat app made in Flutter and Firebase. Firebase auth provides the necessary authenticat,beginner-friendly;chat;chat-application;collaborate;communityexchange
+D0477,repo,roopaish/Flutter-RoadMap,main,1,36,8,2022-03-22,"Flutter Notes, Quiz App, Meals App, Expense App, Shop App, Great Places App, Chat App",chat-app;cheatsheet;dart;ecommerce;expense-tracker
+D0478,repo,Hahahaooovvv/flutter-follow-chat,main,1,36,5,2020-10-21,一个Flutter做的聊天交友APP,
+D0479,repo,nikhilkr72/finance_app_UI,main,1,36,18,2024-01-05,A finance app UI created in flutter,
+D0480,repo,kinoarizu/HC-Hospital-App,main,1,36,18,2023-12-12,HC Hospital [INDONESIAN ONLY] adalah aplikasi yang digunakan oleh pengguna untuk melakukan booking d,dart;doctor;firebase;flutter;health
+D0481,repo,alperefesahin/bare_bones_flutter,main,1,35,6,2025-02-19,"A modern Flutter template built on MVVM, featuring Firebase authentication, localization, and flexib",bloc;firebase;flutter;localization;mvvm
+D0482,repo,Akshay0701/food_delivery_app,main,1,35,9,2024-06-15,A Food App using Flutter & Firebase.,android-application;app;dart;delivery;firebase
+D0483,repo,timilehinjegede/foodie,main,1,35,7,2021-09-22,A Food Delivery Flutter application,
+D0484,repo,bipinct/jagnik,main,1,35,12,2020-01-06,"A Simple, beautiful and elegant photo Text merging app for your daily Image sharing activities on so",flutter;flutter-app;hacktoberfest
+D0485,repo,manosekar-m/Fin-Tracker,main,1,35,0,2026-05-01,"A premium personal finance tracker app built with Flutter, featuring Hive storage, Provider state ma",
+D0486,repo,ShokhrukhbekYuldoshev/Food-Ninja,main,1,34,7,2026-02-04,"Food Ninja is a food delivery app created using Flutter, Firebase, BLoC.",bloc;dart;dio;firebase;firestore
+D0487,repo,zyferlink/lyxa-live-flutter-app,main,1,34,1,2024-12-07,"LYXA Live is a dynamic social media app built with Flutter and Dart, designed to help users Share, L",
+D0488,repo,abhinishere/challo,main,1,32,7,2023-03-30,"Challo is a social media app built with Flutter, Firebase, Agora, and AWS.",flutter;flutter-app;flutter-firebase;flutter-social-app;flutter-social-network
+D0489,repo,priyanktejani/fiwork-freelance-networking-application,main,1,32,12,2023-01-23,A social media-like freelancing marketplace that connects customers with freelancers offering a vari,android;dart;firebase;firebaseauthentication;firestore-database
+D0490,repo,rawquesh/memebaaz,main,1,32,13,2023-09-29,"Memebaaz is a video/images sharing app, Anyone can share short videos and images through app, the me",android;app;flutter;flutter-android;flutter-app
+D0491,repo,The-Assembly/Authenticate-via-TensorFlow-Facial-Recognition-in-Flutter,main,1,32,19,2021-07-09,The power of machine learning allows us to change long-standing computing paradigms. One of these is,
+D0492,repo,agharshit08/Flutter-UI-Fitness-App,main,1,32,16,2020-08-14,,
+D0493,repo,feMoraes0/finance-ui,main,1,32,13,2019-11-06,A Flutter app made to clone a finance UI.,clone;dart;finance;flutter;multi-platform
+D0494,repo,hellochirag/Cab-Booking-Flutter-Web-App,main,1,32,25,2019-06-19,Cab Booking Web App in Flutter,
+D0495,repo,wisnuwiry/flutter-starter,main,1,31,11,2022-08-10,A boilerplate project was created in flutter using Clean Architecture & TDD.,boilerplate;boilerplate-template;clean-architecture;clean-code;dart
+D0496,repo,serdarpolat/flutter_foode,main,1,31,11,2021-10-04,Flutter food delivery app,
+D0497,repo,luxecraft/develove,main,1,31,4,2022-12-08,Social media for super cool developers 🧑🏾‍💻👋🏽,design;flutter;forum;hacktoberfest;nextjs
+D0498,repo,Mirzaazmath/flutter_flight_app_ui,main,1,31,21,2023-10-06,A Flight booking App with Beautiful Animations,android;animation;app;complex;dart
+D0499,repo,pottekkat/food-delivery-app-ui,main,1,30,8,2020-07-09,A UI for a food delivery app developed using Flutter for iOS and Android. Click on the link to downl,android;flutter;flutter-examples;flutter-ui;food-delivery
+D0500,repo,mikirinkode/sports_venue_booking_app,main,1,30,15,2025-04-13,A demo of Sport Venue Booking app and my learning of creating beautiful UI Design using Flutter.,android;booking-app;flutter;flutter-demo;sportsbook-area
