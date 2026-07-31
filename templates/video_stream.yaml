@@ -1,0 +1,6 @@
+name: VIDEO_STREAM
+keywords: ["video", "stream", "streaming", "reels", "shorts", "player", "download"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["feed", "player", "channels", "downloads"]
+key_features: ["video", "offline"]
