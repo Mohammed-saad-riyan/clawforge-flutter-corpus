@@ -1,0 +1,6 @@
+name: TASK_TODO
+keywords: ["todo", "task", "tasks", "reminder", "planner", "calendar", "notes"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["tasks", "calendar", "reminders"]
+key_features: ["local_db", "notifications"]
