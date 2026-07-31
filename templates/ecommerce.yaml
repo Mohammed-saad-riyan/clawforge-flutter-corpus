@@ -1,0 +1,6 @@
+name: ECOMMERCE
+keywords: ["shop", "store", "ecommerce", "cart", "checkout", "order", "product", "catalog", "payment"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["home", "products", "cart", "checkout", "orders"]
+key_features: ["payments", "inventory"]
