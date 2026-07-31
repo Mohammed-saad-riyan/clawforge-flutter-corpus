@@ -1,0 +1,142 @@
+templates:
+  - name: SOCIAL_MEDIA
+    keywords: ["social", "feed", "post", "stories", "dm", "profile", "instagram", "facebook", "x", "twitter"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["feed", "profile", "chat", "stories", "notifications"]
+    key_features: ["real_time", "media_upload"]
+
+  - name: ECOMMERCE
+    keywords: ["shop", "store", "ecommerce", "cart", "checkout", "order", "product", "catalog", "payment"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["home", "products", "cart", "checkout", "orders"]
+    key_features: ["payments", "inventory"]
+
+  - name: FOOD_DELIVERY
+    keywords: ["food", "delivery", "restaurant", "order", "swiggy", "zomato", "uber eats"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["splash", "onboarding", "auth", "home", "restaurant_detail", "cart", "checkout", "order_tracking", "orders", "profile"]
+    models: ["User", "Restaurant", "MenuItem", "CartItem", "Order", "Address", "Review", "Category"]
+    services: ["AuthService", "RestaurantService", "CartService", "OrderService", "LocationService", "PaymentService", "NotificationService"]
+    packages: ["flutter_riverpod", "go_router", "dio", "google_maps_flutter", "geolocator", "flutter_stripe", "cached_network_image", "shimmer"]
+
+  - name: RIDE_SHARING
+    keywords: ["ride", "taxi", "cab", "booking", "driver", "map", "tracking", "uber", "ola", "lyft"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["map", "booking", "tracking", "history"]
+    key_features: ["location", "sockets"]
+
+  - name: MESSAGING
+    keywords: ["chat", "message", "messaging", "whatsapp", "telegram", "socket", "encryption", "dm"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["chats", "contacts", "settings"]
+    key_features: ["websocket", "encryption"]
+
+  - name: FINTECH
+    keywords: ["bank", "wallet", "finance", "fintech", "transactions", "cards", "account", "payment", "invest"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["dashboard", "transactions", "cards", "settings"]
+    key_features: ["security", "biometrics"]
+
+  - name: FITNESS
+    keywords: ["fitness", "workout", "gym", "diet", "health", "steps", "calories", "training"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["workouts", "progress", "diet", "profile"]
+    key_features: ["charts", "sensors"]
+
+  - name: EDUCATION
+    keywords: ["education", "course", "learning", "lesson", "quiz", "student", "academy", "class"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["courses", "lessons", "quiz", "progress"]
+    key_features: ["video", "offline"]
+
+  - name: BOOKING
+    keywords: ["booking", "reserve", "reservation", "ticket", "appointment", "appointment booking"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["search", "details", "book", "reservations"]
+    key_features: ["calendar", "payments"]
+
+  - name: NEWS_BLOG
+    keywords: ["news", "blog", "article", "content", "bookmark", "magazine"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["feed", "article", "bookmarks", "categories"]
+    key_features: ["infinite_scroll"]
+
+  - name: TASK_TODO
+    keywords: ["todo", "task", "tasks", "reminder", "planner", "calendar", "notes"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["tasks", "calendar", "reminders"]
+    key_features: ["local_db", "notifications"]
+
+  - name: HEALTHCARE
+    keywords: ["health", "hospital", "doctor", "clinic", "appointment", "records", "patient"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["appointments", "records", "chat"]
+    key_features: ["video_call", "security"]
+
+  - name: REAL_ESTATE
+    keywords: ["real estate", "property", "listing", "house", "apartment", "rent", "buy"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["listings", "map", "details", "saved"]
+    key_features: ["maps", "filters"]
+
+  - name: MUSIC_AUDIO
+    keywords: ["music", "audio", "podcast", "player", "playlist", "song"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["player", "playlists", "library", "search"]
+    key_features: ["background_audio"]
+
+  - name: VIDEO_STREAM
+    keywords: ["video", "stream", "streaming", "reels", "shorts", "player", "download"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["feed", "player", "channels", "downloads"]
+    key_features: ["video", "offline"]
+
+  - name: MARKETPLACE
+    keywords: ["marketplace", "sell", "buy", "listing", "chat", "p2p", "classifieds"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["listings", "chat", "profile", "transactions"]
+    key_features: ["p2p", "payments"]
+
+  - name: TRAVEL
+    keywords: ["travel", "trip", "itinerary", "flight", "hotel", "tour", "vacation"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["search", "booking", "itinerary", "maps"]
+    key_features: ["offline_maps"]
+
+  - name: PRODUCTIVITY
+    keywords: ["productivity", "notes", "workspace", "files", "sync", "calendar"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["notes", "tasks", "calendar", "files"]
+    key_features: ["sync", "widgets"]
+
+  - name: GAMING
+    keywords: ["game", "gaming", "leaderboard", "score", "arcade", "multiplayer"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["game", "leaderboard", "store", "profile"]
+    key_features: ["animations", "state"]
+
+  - name: BASIC_CRUD
+    keywords: ["crud", "admin", "dashboard", "list", "detail", "form", "settings"]
+    architecture: clean_architecture
+    state_management: riverpod
+    screens: ["list", "detail", "form", "settings"]
+    key_features: ["simple_crud_app"]
