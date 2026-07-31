@@ -1,0 +1,53 @@
+name: FOOD_DELIVERY
+keywords: ["food", "delivery", "restaurant", "order", "swiggy", "zomato", "uber eats"]
+architecture: clean_architecture
+state_management: riverpod
+screens:
+  - name: splash
+    path: lib/features/splash/
+  - name: onboarding
+    path: lib/features/onboarding/
+  - name: auth
+    path: lib/features/auth/
+    sub_screens: [login, register, otp, forgot_password]
+  - name: home
+    path: lib/features/home/
+    sub_screens: [restaurant_list, search, filters]
+  - name: restaurant_detail
+    path: lib/features/restaurant/
+  - name: cart
+    path: lib/features/cart/
+  - name: checkout
+    path: lib/features/checkout/
+  - name: order_tracking
+    path: lib/features/tracking/
+  - name: orders
+    path: lib/features/orders/
+  - name: profile
+    path: lib/features/profile/
+models:
+  - User
+  - Restaurant
+  - MenuItem
+  - CartItem
+  - Order
+  - Address
+  - Review
+  - Category
+services:
+  - AuthService
+  - RestaurantService
+  - CartService
+  - OrderService
+  - LocationService
+  - PaymentService
+  - NotificationService
+packages:
+  - flutter_riverpod
+  - go_router
+  - dio
+  - google_maps_flutter
+  - geolocator
+  - flutter_stripe
+  - cached_network_image
+  - shimmer
