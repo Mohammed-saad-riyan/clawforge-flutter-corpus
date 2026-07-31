@@ -1,0 +1,31 @@
+source_id,kind,repo_full_name,ref,quality,notes
+R001,repo,flutter/flutter,master,5,Official framework baseline
+R002,repo,flutter/samples,main,5,Official sample apps
+R003,repo,flutter/packages,main,5,Official package sources
+R004,repo,flutter/website,main,5,Official docs and guides
+R005,repo,flutter/tests,main,5,Contributed test coverage
+R006,repo,brianegan/flutter_architecture_samples,main,4,Architecture patterns
+R007,repo,bizz84/starter_architecture_flutter_firebase,main,5,Reference architecture app
+R008,repo,Erengun/Flutter-Riverpod-2.0-Template,main,5,Riverpod Freezed GoRouter template
+R009,repo,momentous-developments/flutter-starter-app,main,5,Production starter app
+R010,repo,DevDabbagh/Flutter-Riverpod-Clean-Architecture-Template,main,5,Riverpod clean architecture template
+R011,repo,Uuttssaavv/flutter-clean-architecture-riverpod,main,5,Clean architecture Riverpod starter
+R012,repo,ssoad/flutter_riverpod_clean_architecture,main,5,Clean architecture with Riverpod
+R013,repo,guilherme-v/flutter-clean-architecture-example,main,4,Architecture comparison
+R014,repo,SimpleBoilerplates/Flutter,main,4,Boilerplate stack
+R015,repo,namanh11611/flutter_mvvm_riverpod,main,4,MVVM Riverpod Supabase starter
+R016,repo,momshaddinury/flutter_template,main,4,Production-ready template
+R017,repo,bizz84/go_router_deep_links_example,master,4,Routing and deep link patterns
+R018,repo,Amir-beigi-84/flutter-clean-architecture,main,4,Command template with multiple layers
+R019,repo,reafeichtinger/flutter_production_boilerplate_riverpod,main,4,Production boilerplate with linting
+R020,repo,GetStream/flutter-video-samples,main,4,Real-world SDK integration samples
+R021,repo,fluttercommunity/flutter_styleguide,main,4,Team conventions and style
+R022,repo,scalio/bazel-flutter,main,3,Build system reference
+R023,repo,djanogly/starter_architecture_flutter_firebase-1,main,4,Older architecture fork
+R024,repo,parrottkim/flutter_riverpod_clean_architecture,main,4,Riverpod clean architecture variant
+R025,repo,flutter/samples.github.io,main,3,Auxiliary samples site if accessible
+R026,repo,felangel/bloc,main,4,Bloc patterns for comparison
+R027,repo,rrousselGit/riverpod,master,5,State management baseline and docs
+R028,repo,oleksii-pavlyk/go_router_example,main,4,Router examples
+R029,repo,ensivo/flutter_clean_architecture,main,4,Clean architecture patterns
+R030,repo,ResoCoder/flutter-tdd-clean-architecture-course,master,4,TDD clean architecture reference
