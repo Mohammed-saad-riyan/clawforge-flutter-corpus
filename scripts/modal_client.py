@@ -58,7 +58,7 @@ class ModalClient:
             "https://mohammed-saad-riyan--clawforge-llm-v1-chat-completions.modal.run"
         )
         self.timeout = timeout
-        self._client = httpx.Client(timeout=timeout)
+        self._client = httpx.Client(timeout=timeout, follow_redirects=True)
 
     def generate(
         self,
