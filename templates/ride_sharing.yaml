@@ -1,0 +1,6 @@
+name: RIDE_SHARING
+keywords: ["ride", "taxi", "cab", "booking", "driver", "map", "tracking", "uber", "ola", "lyft"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["map", "booking", "tracking", "history"]
+key_features: ["location", "sockets"]
