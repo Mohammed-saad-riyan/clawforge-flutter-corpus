@@ -1,0 +1,6 @@
+name: REAL_ESTATE
+keywords: ["real estate", "property", "listing", "house", "apartment", "rent", "buy"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["listings", "map", "details", "saved"]
+key_features: ["maps", "filters"]
