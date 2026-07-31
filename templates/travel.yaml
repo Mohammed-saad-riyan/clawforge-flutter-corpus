@@ -1,0 +1,6 @@
+name: TRAVEL
+keywords: ["travel", "trip", "itinerary", "flight", "hotel", "tour", "vacation"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["search", "booking", "itinerary", "maps"]
+key_features: ["offline_maps"]
