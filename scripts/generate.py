@@ -5,9 +5,10 @@ ClawForge Flutter Generator - Main generation pipeline.
 Pipeline:
 1. User prompt → Template matcher (rule-based, fast)
 2. Template → Knowledge retriever (widgets, patterns, packages)
-3. Context assembly (template + knowledge)
-4. Modal/Qwen 2.5 Coder → Generated code
-5. (Future) Validation → Repair loop
+3. Template → Snippet retriever (actual code implementations)
+4. Context assembly (template + knowledge + code snippets)
+5. Modal/Qwen 2.5 Coder → Generated code
+6. (Future) Validation → Repair loop
 
 Usage:
     python scripts/generate.py "Build a food delivery app"
@@ -22,13 +23,14 @@ import json
 import yaml
 import argparse
 from pathlib import Path
-from dataclasses import dataclass
-from typing import Optional, Dict
+from dataclasses import dataclass, field
+from typing import Optional, Dict, List
 from datetime import datetime
 
 # Import our modules
 from match_template import match_template, TemplateMatch
 from knowledge_retriever import KnowledgeRetriever, RetrievalResult
+from snippet_retriever import SnippetRetriever, Snippet
 from modal_client import ModalClient, GenerationResponse
 
 
@@ -37,6 +39,7 @@ class GenerationResult:
     prompt: str
     template: TemplateMatch
     knowledge: RetrievalResult
+    snippets: List[Snippet]
     response: GenerationResponse
     generated_at: str
 
@@ -55,6 +58,7 @@ class GenerationResult:
             "generated_at": self.generated_at,
             "packages": self.knowledge.packages,
             "patterns": [p.name for p in self.knowledge.patterns],
+            "snippets_used": [{"name": s.name, "type": s.type, "patterns": s.patterns} for s in self.snippets],
         }
         with open(output_dir / f"{timestamp}_metadata.json", "w") as f:
             json.dump(metadata, f, indent=2)
@@ -73,6 +77,7 @@ class ClawForgeGenerator:
         self,
         templates_dir: Optional[Path] = None,
         knowledge_dir: Optional[Path] = None,
+        snippets_dir: Optional[Path] = None,
     ):
         """
         Initialize the generator.
@@ -80,14 +85,17 @@ class ClawForgeGenerator:
         Args:
             templates_dir: Path to templates directory
             knowledge_dir: Path to curated/extracted directory
+            snippets_dir: Path to curated/snippets directory
         """
         project_root = Path(__file__).parent.parent
         self.templates_dir = templates_dir or project_root / "templates"
         self.knowledge_dir = knowledge_dir or project_root / "curated" / "extracted"
+        self.snippets_dir = snippets_dir or project_root / "curated" / "snippets"
         self.output_dir = project_root / "output"
 
         # Load components
         self.retriever = KnowledgeRetriever(self.knowledge_dir)
+        self.snippet_retriever = SnippetRetriever(self.snippets_dir)
         self.client = ModalClient()
 
         # Load templates
@@ -135,7 +143,7 @@ class ClawForgeGenerator:
         # Get full template
         template = self.template_map.get(template_match.name, {})
 
-        # Step 2: Retrieve knowledge
+        # Step 2: Retrieve knowledge (metadata)
         if verbose:
             print("\n2️⃣  Retrieving knowledge...")
 
@@ -146,25 +154,49 @@ class ClawForgeGenerator:
             print(f"   ✅ Patterns: {len(knowledge.patterns)}")
             print(f"   ✅ Packages: {len(knowledge.packages)}")
 
-        # Step 3: Build context
+        # Step 3: Retrieve code snippets (actual implementations)
         if verbose:
-            print("\n3️⃣  Assembling context...")
+            print("\n3️⃣  Retrieving code snippets...")
+
+        snippets = self.snippet_retriever.retrieve_for_template(
+            template,
+            user_prompt,
+            max_snippets=8,
+            max_chars=12000,
+        )
+
+        if verbose:
+            print(f"   ✅ Snippets: {len(snippets)}")
+            for s in snippets[:5]:
+                print(f"      - {s.name} ({s.type}) [{s.lines} lines]")
+            if len(snippets) > 5:
+                print(f"      ... and {len(snippets) - 5} more")
+
+        # Step 4: Build context
+        if verbose:
+            print("\n4️⃣  Assembling context...")
 
         template_yaml = yaml.dump(template, default_flow_style=False)
         knowledge_context = knowledge.to_context_string()
+        snippet_context = self.snippet_retriever.to_context_string(snippets)
+
+        # Combine knowledge and snippets
+        full_context = f"{knowledge_context}\n\n{snippet_context}"
 
         if verbose:
             print(f"   ✅ Template context: {len(template_yaml)} chars")
             print(f"   ✅ Knowledge context: {len(knowledge_context)} chars")
+            print(f"   ✅ Snippet context: {len(snippet_context)} chars")
+            print(f"   ✅ Total context: {len(full_context)} chars")
 
-        # Step 4: Generate code
+        # Step 5: Generate code
         if verbose:
-            print("\n4️⃣  Generating code (this may take a moment)...")
+            print("\n5️⃣  Generating code (this may take a moment)...")
 
         response = self.client.generate_flutter(
             user_prompt=user_prompt,
             template_context=template_yaml,
-            knowledge_context=knowledge_context,
+            knowledge_context=full_context,
             max_tokens=max_tokens,
         )
 
@@ -177,6 +209,7 @@ class ClawForgeGenerator:
             prompt=user_prompt,
             template=template_match,
             knowledge=knowledge,
+            snippets=snippets,
             response=response,
             generated_at=datetime.now().isoformat(),
         )
@@ -292,12 +325,19 @@ Examples:
                 template_match = match_template(args.prompt)
                 template = generator.template_map.get(template_match.name, {})
                 knowledge = generator.retriever.retrieve_for_template(template, args.prompt)
+                snippets = generator.snippet_retriever.retrieve_for_template(
+                    template, args.prompt, max_snippets=8, max_chars=12000
+                )
 
                 print("\n🔍 DRY RUN - Would send:")
                 print(f"\nTemplate: {template_match.name}")
                 print(f"Patterns: {[p.name for p in knowledge.patterns]}")
                 print(f"Packages: {knowledge.packages[:10]}...")
-                print(f"\nKnowledge context:\n{knowledge.to_context_string()}")
+                print(f"\nSnippets ({len(snippets)}):")
+                for s in snippets:
+                    print(f"  - {s.name} ({s.type}) [{s.lines} lines] {s.patterns}")
+                print(f"\nKnowledge context:\n{knowledge.to_context_string()[:1000]}...")
+                print(f"\nSnippet context:\n{generator.snippet_retriever.to_context_string(snippets[:3])[:2000]}...")
             else:
                 result = generator.generate(
                     args.prompt,
