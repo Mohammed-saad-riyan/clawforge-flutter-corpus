@@ -1,0 +1,6 @@
+name: SOCIAL_MEDIA
+keywords: ["social", "feed", "post", "stories", "dm", "profile", "instagram", "facebook", "x", "twitter"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["feed", "profile", "chat", "stories", "notifications"]
+key_features: ["real_time", "media_upload"]
