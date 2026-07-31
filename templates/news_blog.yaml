@@ -1,0 +1,6 @@
+name: NEWS_BLOG
+keywords: ["news", "blog", "article", "content", "bookmark", "magazine"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["feed", "article", "bookmarks", "categories"]
+key_features: ["infinite_scroll"]
