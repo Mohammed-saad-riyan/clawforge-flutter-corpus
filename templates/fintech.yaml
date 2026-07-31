@@ -1,0 +1,6 @@
+name: FINTECH
+keywords: ["bank", "wallet", "finance", "fintech", "transactions", "cards", "account", "payment", "invest"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["dashboard", "transactions", "cards", "settings"]
+key_features: ["security", "biometrics"]
