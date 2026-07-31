@@ -1,0 +1,6 @@
+name: PRODUCTIVITY
+keywords: ["productivity", "notes", "workspace", "files", "sync", "calendar"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["notes", "tasks", "calendar", "files"]
+key_features: ["sync", "widgets"]
