@@ -1,0 +1,6 @@
+name: FITNESS
+keywords: ["fitness", "workout", "gym", "diet", "health", "steps", "calories", "training"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["workouts", "progress", "diet", "profile"]
+key_features: ["charts", "sensors"]
