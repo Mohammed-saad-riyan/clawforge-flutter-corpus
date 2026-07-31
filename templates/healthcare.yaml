@@ -1,0 +1,6 @@
+name: HEALTHCARE
+keywords: ["health", "hospital", "doctor", "clinic", "appointment", "records", "patient"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["appointments", "records", "chat"]
+key_features: ["video_call", "security"]
