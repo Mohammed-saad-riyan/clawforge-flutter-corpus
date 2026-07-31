@@ -1,0 +1,6 @@
+name: GAMING
+keywords: ["game", "gaming", "leaderboard", "score", "arcade", "multiplayer"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["game", "leaderboard", "store", "profile"]
+key_features: ["animations", "state"]
