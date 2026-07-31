@@ -1,0 +1,6 @@
+name: BOOKING
+keywords: ["booking", "reserve", "reservation", "ticket", "appointment", "appointment booking"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["search", "details", "book", "reservations"]
+key_features: ["calendar", "payments"]
