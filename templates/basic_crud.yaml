@@ -1,0 +1,6 @@
+name: BASIC_CRUD
+keywords: ["crud", "admin", "dashboard", "list", "detail", "form", "settings"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["list", "detail", "form", "settings"]
+key_features: ["simple_crud_app"]
