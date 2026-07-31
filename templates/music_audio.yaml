@@ -1,0 +1,6 @@
+name: MUSIC_AUDIO
+keywords: ["music", "audio", "podcast", "player", "playlist", "song"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["player", "playlists", "library", "search"]
+key_features: ["background_audio"]
