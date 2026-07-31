@@ -1,0 +1,6 @@
+name: EDUCATION
+keywords: ["education", "course", "learning", "lesson", "quiz", "student", "academy", "class"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["courses", "lessons", "quiz", "progress"]
+key_features: ["video", "offline"]
