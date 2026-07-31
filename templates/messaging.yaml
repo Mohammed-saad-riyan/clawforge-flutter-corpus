@@ -1,0 +1,6 @@
+name: MESSAGING
+keywords: ["chat", "message", "messaging", "whatsapp", "telegram", "socket", "encryption", "dm"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["chats", "contacts", "settings"]
+key_features: ["websocket", "encryption"]
