@@ -1,0 +1,6 @@
+name: MARKETPLACE
+keywords: ["marketplace", "sell", "buy", "listing", "chat", "p2p", "classifieds"]
+architecture: clean_architecture
+state_management: riverpod
+screens: ["listings", "chat", "profile", "transactions"]
+key_features: ["p2p", "payments"]
