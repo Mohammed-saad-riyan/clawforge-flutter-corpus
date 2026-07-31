@@ -1,0 +1,5642 @@
+{
+  "project": {
+    "name": "rickmorty",
+    "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006",
+    "description": "A new Flutter project.",
+    "packages": {
+      "bloc": "^8.1.2",
+      "bloc_concurrency": "^0.2.2",
+      "bloc_test": "^9.1.3",
+      "cached_network_image": "^3.2.3",
+      "cupertino_icons": "^1.0.2",
+      "dio": "^5.1.2",
+      "equatable": "^2.0.5",
+      "flutter_animate": "^4.2.0",
+      "flutter_bloc": "^8.1.3",
+      "flutter_localizations": "git/path",
+      "flutter_mobx": "^2.0.6+5",
+      "flutter_riverpod": "^2.3.6",
+      "get_it": "^7.6.0",
+      "get_it_mixin": "^4.2.0",
+      "google_fonts": "^6.2.1",
+      "intl": "any",
+      "material_color_utilities": "^0.8.0",
+      "provider": "^6.0.5",
+      "shared_preferences": "^2.1.2",
+      "stream_transform": "^2.1.0",
+      "mobx": "^2.2.1",
+      "meta": "^1.9.1"
+    },
+    "dev_packages": {
+      "flutter_test": "git/path",
+      "flutter_lints": "^3.0.2",
+      "test": "^1.24.1",
+      "mocktail": "^1.0.3",
+      "mockingjay": "^0.5.0",
+      "build_runner": "^2.3.3",
+      "mobx_codegen": "^2.1.1"
+    },
+    "flutter_version": "flutter",
+    "dart_sdk": ">=3.0.1 <4.0.0"
+  },
+  "files": [
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/character_repository_impl_test.dart",
+      "imports": [
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/character_repository_impl.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/local/local_storage.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/network/api.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockApi",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/character_repository_impl_test.dart",
+          "line_number": 9,
+          "extends": "Mock",
+          "implements": [
+            "Api"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "MockLocalStorage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/character_repository_impl_test.dart",
+          "line_number": 11,
+          "extends": "Mock",
+          "implements": [
+            "LocalStorage"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "mocktail",
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/dto/character_dto_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/data/dto/character_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/dto/location_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/dto/location_dto_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/data/dto/location_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/source/local/local_storage_test.dart",
+      "imports": [
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/local/local_storage.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:shared_preferences/shared_preferences.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockSharedPreferences",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/data/source/local/local_storage_test.dart",
+          "line_number": 8,
+          "extends": "Mock",
+          "implements": [
+            "SharedPreferences"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "mocktail",
+        "rickmorty",
+        "shared_preferences",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/domain/entity/character_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/domain/entity/location_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/location.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/domain/usecase/get_all_characters_test.dart",
+      "imports": [
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/repository/character_repository.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockCharacterRepository",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/domain/usecase/get_all_characters_test.dart",
+          "line_number": 7,
+          "extends": "Mock",
+          "implements": [
+            "CharacterRepository"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "mocktail",
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": [
+        "repository"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/list_page/view/character_page_test.dart",
+      "imports": [
+        {
+          "path": "package:bloc_test/bloc_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/list_page/bloc/character_page_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterBlocMock",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/list_page/view/character_page_test.dart",
+          "line_number": 13,
+          "extends": "MockBloc<CharacterPageEvent, CharacterPageState>",
+          "implements": [
+            "CharacterPageBloc"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc_test",
+        "flutter",
+        "flutter_bloc",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/list_page/bloc/character_page_bloc_test.dart",
+      "imports": [
+        {
+          "path": "package:bloc_test/bloc_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/list_page/bloc/character_page_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MockGetAllCharacters",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/list_page/bloc/character_page_bloc_test.dart",
+          "line_number": 9,
+          "extends": "Mock",
+          "implements": [
+            "GetAllCharacters"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc_test",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/list_page/bloc/character_page_state_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/list_page/bloc/character_page_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/details_page/view/character_details_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/details_page/bloc/character_details_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/details_page/bloc/character_details_state_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/details_page/bloc/character_details_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_bloc/details_page/bloc/character_details_bloc_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/details_page/bloc/character_details_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/list_page/cubit/character_page_cubit_test.dart",
+      "imports": [
+        {
+          "path": "package:bloc_test/bloc_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/list_page/cubit/character_page_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc_test",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/list_page/cubit/character_page_state_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/list_page/cubit/character_page_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/list_page/view/character_page_test.dart",
+      "imports": [
+        {
+          "path": "package:bloc_test/bloc_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/list_page/cubit/character_page_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageCubitMock",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/list_page/view/character_page_test.dart",
+          "line_number": 13,
+          "extends": "MockCubit<CharacterPageState>",
+          "implements": [
+            "CharacterPageCubit"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc_test",
+        "flutter",
+        "flutter_bloc",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/details_page/cubit/character_details_state_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/details_page/cubit/character_details_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/details_page/cubit/character_details_cubit_test.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/details_page/cubit/character_details_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:test/test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty",
+        "test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_cubit/details_page/view/character_details_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/details_page/cubit/character_details_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_riverpod/list_page/view/character_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/providers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_riverpod",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_mobx/list_page/controller/character_page_controller_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/list_page/store/character_page_store.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_mobx/list_page/view/character_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_provider/list_page/change_notifier/character_page_change_notifier_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/list_page/change_notifier/character_page_change_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_provider/list_page/view/character_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_provider/details_page/change_notifier/character_details_change_notifier_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/details_page/change_notifier/character_details_change_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_provider/details_page/view/character_details_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:provider/provider.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/details_page/change_notifier/character_details_change_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_test",
+        "provider",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_get_it/list_page/view/character_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mocktail/mocktail.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/injector.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../helper/pump_app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_test",
+        "mocktail",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_get_it/details_page/controller/character_details_controller_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/details_page/controller/character_details_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/using_get_it/details_page/view/character_details_page_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/details_page/controller/character_details_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/injector.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../../../../../../fixtures/fixtures.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_test",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/helper/pump_app.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:mockingjay/mockingjay.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "GetAllCharactersMock",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/lib/layers/presentation/helper/pump_app.dart",
+          "line_number": 7,
+          "extends": "Mock",
+          "implements": [
+            "GetAllCharacters"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "flutter_test",
+        "mockingjay",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/test/fixtures/fixtures.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/data/dto/character_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/dto/location_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_animate/flutter_animate.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/app_root.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/injector.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:shared_preferences/shared_preferences.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_animate",
+        "flutter_riverpod",
+        "rickmorty",
+        "shared_preferences"
+      ],
+      "patterns_detected": [
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/character_repository_impl.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/data/source/local/local_storage.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/network/api.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/repository/character_repository.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterRepositoryImpl",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/character_repository_impl.dart",
+          "line_number": 6,
+          "extends": null,
+          "implements": [
+            "CharacterRepository"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "repository"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/dto/location_dto.dart",
+      "imports": [
+        {
+          "path": "dart:convert",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/location.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LocationDto",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/dto/location_dto.dart",
+          "line_number": 5,
+          "extends": "Location",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/dto/character_dto.dart",
+      "imports": [
+        {
+          "path": "dart:convert",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/dto/location_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDto",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/dto/character_dto.dart",
+          "line_number": 6,
+          "extends": "Character",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/source/network/api.dart",
+      "imports": [
+        {
+          "path": "package:dio/dio.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/dto/character_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "Api",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/source/network/api.dart",
+          "line_number": 6,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "ApiImpl",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/source/network/api.dart",
+          "line_number": 10,
+          "extends": null,
+          "implements": [
+            "Api"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "dio",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/source/local/local_storage.dart",
+      "imports": [
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/dto/character_dto.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:shared_preferences/shared_preferences.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LocalStorage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/source/local/local_storage.dart",
+          "line_number": 7,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "LocalStorageImpl",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/data/source/local/local_storage.dart",
+          "line_number": 16,
+          "extends": null,
+          "implements": [
+            "LocalStorage"
+          ],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "rickmorty",
+        "shared_preferences"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/repository/character_repository.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterRepository",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/repository/character_repository.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "repository"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/entity/location.dart",
+      "imports": [
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "Location",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/entity/location.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [
+            "EquatableMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "equatable"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/entity/character.dart",
+      "imports": [
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/location.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "Character",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/entity/character.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [
+            "EquatableMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "equatable",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/usecase/get_all_characters.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/repository/character_repository.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "GetAllCharacters",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/domain/usecase/get_all_characters.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/assets.dart",
+      "imports": [
+        {
+          "path": "dart:ui",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "Asset",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/assets.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/app_root.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_animate/flutter_animate.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/character_repository_impl.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/local/local_storage.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/network/api.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/theme.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/app_using_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/app_using_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/app_using_get_it.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/app_using_mobx.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/app_using_provider.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/app_using_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/main.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppRoot",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/app_root.dart",
+          "line_number": 16,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_AppRootState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/app_root.dart",
+          "line_number": 23,
+          "extends": "State<AppRoot>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_animate",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/theme.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:google_fonts/google_fonts.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:material_color_utilities/material_color_utilities.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CustomTheme",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/theme.dart",
+          "line_number": 6,
+          "extends": "ThemeExtension<CustomTheme>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "google_fonts",
+        "material_color_utilities"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/app_using_bloc.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppUsingBloc",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/app_using_bloc.dart",
+          "line_number": 6,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AppView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/app_using_bloc.dart",
+          "line_number": 24,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/view/character_page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_header.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_loading.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/list_page/bloc/character_page_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/view/character_page.dart",
+          "line_number": 14,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/view/character_page.dart",
+          "line_number": 31,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/view/character_page.dart",
+          "line_number": 46,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "__ContentState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/view/character_page.dart",
+          "line_number": 53,
+          "extends": "State<_Content>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_event.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "CharacterPageEvent",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_event.dart",
+          "line_number": 3,
+          "extends": "Equatable",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "FetchNextPageEvent",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_event.dart",
+          "line_number": 10,
+          "extends": "CharacterPageEvent",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_bloc.dart",
+      "imports": [
+        {
+          "path": "package:bloc/bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:bloc_concurrency/bloc_concurrency.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_transform/stream_transform.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageBloc",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_bloc.dart",
+          "line_number": 18,
+          "extends": "Bloc<CharacterPageEvent, CharacterPageState>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc",
+        "bloc_concurrency",
+        "equatable",
+        "rickmorty",
+        "stream_transform"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_state.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "CharacterPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/list_page/bloc/character_page_state.dart",
+          "line_number": 5,
+          "extends": "Equatable",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_bloc/details_page/bloc/character_details_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterDetailsView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+          "line_number": 33,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+          "line_number": 51,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "EpisodeItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/view/character_details_page.dart",
+          "line_number": 173,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/bloc/character_details_event.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "CharacterDetailsEvent",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/bloc/character_details_event.dart",
+          "line_number": 4,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/bloc/character_details_state.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "CharacterDetailsState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/bloc/character_details_state.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [
+            "EquatableMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/bloc/character_details_bloc.dart",
+      "imports": [
+        {
+          "path": "package:bloc/bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:meta/meta.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsBloc",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_bloc/details_page/bloc/character_details_bloc.dart",
+          "line_number": 10,
+          "extends": "Bloc<CharacterDetailsEvent, CharacterDetailsState>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc",
+        "equatable",
+        "meta",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/app_using_cubit.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppUsingCubit",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/app_using_cubit.dart",
+          "line_number": 6,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AppView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/app_using_cubit.dart",
+          "line_number": 23,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/cubit/character_page_cubit.dart",
+      "imports": [
+        {
+          "path": "package:bloc/bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageCubit",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/cubit/character_page_cubit.dart",
+          "line_number": 8,
+          "extends": "Cubit<CharacterPageState>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc",
+        "equatable",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/cubit/character_page_state.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "CharacterPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/cubit/character_page_state.dart",
+          "line_number": 5,
+          "extends": "Equatable",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/view/character_page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_header.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_loading.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/list_page/cubit/character_page_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/view/character_page.dart",
+          "line_number": 14,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/view/character_page.dart",
+          "line_number": 31,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/view/character_page.dart",
+          "line_number": 46,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "__ContentState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/list_page/view/character_page.dart",
+          "line_number": 53,
+          "extends": "State<_Content>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/cubit/character_details_cubit.dart",
+      "imports": [
+        {
+          "path": "package:bloc/bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsCubit",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/cubit/character_details_cubit.dart",
+          "line_number": 7,
+          "extends": "Cubit<CharacterDetailsState>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "bloc",
+        "equatable",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/cubit/character_details_state.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "CharacterDetailsState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/cubit/character_details_state.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [
+            "EquatableMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_cubit/details_page/cubit/character_details_cubit.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterDetailsView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+          "line_number": 31,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+          "line_number": 49,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "EpisodeItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_cubit/details_page/view/character_details_page.dart",
+          "line_number": 169,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/providers.dart",
+      "imports": [
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/character_repository_impl.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/local/local_storage.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/network/api.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/repository/character_repository.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/main.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_riverpod",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/app_using_riverpod.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppUsingRiverpod",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/app_using_riverpod.dart",
+          "line_number": 4,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AppView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/app_using_riverpod.dart",
+          "line_number": 18,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/notifier/character_state_notifier.dart",
+      "imports": [
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/list_page/notifier/character_page_state.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/providers.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterStateNotifier",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/notifier/character_state_notifier.dart",
+          "line_number": 13,
+          "extends": "StateNotifier<CharacterPageState>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": true,
+          "provider_type": "state_notifier",
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_riverpod",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/notifier/character_page_state.dart",
+      "imports": [
+        {
+          "path": "package:equatable/equatable.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/notifier/character_page_state.dart",
+          "line_number": 6,
+          "extends": "Equatable",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "equatable",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_header.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_loading.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/details_page/view/details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/list_page/notifier/character_page_state.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/list_page/notifier/character_state_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "line_number": 14,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "line_number": 26,
+          "extends": "ConsumerStatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "consumer_stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CharacterViewState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "line_number": 33,
+          "extends": "ConsumerState<CharacterView>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "line_number": 58,
+          "extends": "ConsumerStatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "consumer_stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "__ContentState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/list_page/view/character_page.dart",
+          "line_number": 67,
+          "extends": "ConsumerState<_Content>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_riverpod",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "viewmodel",
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/notifier/details_page_notifier.dart",
+      "imports": [
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/details_page/notifier/details_page_state.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "DetailsPageNotifier",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/notifier/details_page_notifier.dart",
+          "line_number": 9,
+          "extends": "Notifier<DetailsPageState>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": true,
+          "provider_type": "notifier",
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_riverpod",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/notifier/details_page_state.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "DetailsPageState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/notifier/details_page_state.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/view/details_page.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_riverpod/flutter_riverpod.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_riverpod/details_page/notifier/details_page_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "DetailsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/view/details_page.dart",
+          "line_number": 10,
+          "extends": "ConsumerWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "consumer",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterDetailsView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/view/details_page.dart",
+          "line_number": 33,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_riverpod/details_page/view/details_page.dart",
+          "line_number": 51,
+          "extends": "ConsumerWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "consumer",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "flutter_riverpod",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "riverpod"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item_header.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterListItemHeader",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item_header.dart",
+          "line_number": 3,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterListItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item.dart",
+          "line_number": 7,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ItemDescription",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item.dart",
+          "line_number": 43,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ItemPhoto",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item.dart",
+          "line_number": 101,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item_loading.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterListItemLoading",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/shared/character_list_item_loading.dart",
+          "line_number": 3,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/app_using_mobx.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_bloc/flutter_bloc.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppUsingMobX",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/app_using_mobx.dart",
+          "line_number": 7,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AppView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/app_using_mobx.dart",
+          "line_number": 32,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_bloc",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/view/character_page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_mobx/flutter_mobx.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:provider/provider.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_header.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_loading.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/list_page/store/character_page_store.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "line_number": 16,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "line_number": 39,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CharacterViewState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "line_number": 48,
+          "extends": "State<CharacterView>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "line_number": 70,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "__ContentState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/view/character_page.dart",
+          "line_number": 79,
+          "extends": "State<_Content>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "flutter_mobx",
+        "provider",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/store/character_page_store.dart",
+      "imports": [
+        {
+          "path": "package:mobx/mobx.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageStoreBase",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/list_page/store/character_page_store.dart",
+          "line_number": 11,
+          "extends": null,
+          "implements": [],
+          "mixins": [
+            "Store"
+          ],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "mobx",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/details_page/view/character_details_page.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_mobx/flutter_mobx.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_mobx/details_page/store/character_details_page_store.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/details_page/view/character_details_page.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterDetailsView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/details_page/view/character_details_page.dart",
+          "line_number": 32,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/details_page/view/character_details_page.dart",
+          "line_number": 52,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "flutter_mobx",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/details_page/store/character_details_page_store.dart",
+      "imports": [
+        {
+          "path": "package:mobx/mobx.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsPageStoreBase",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_mobx/details_page/store/character_details_page_store.dart",
+          "line_number": 9,
+          "extends": null,
+          "implements": [],
+          "mixins": [
+            "Store"
+          ],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "mobx",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/app_using_provider.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:provider/provider.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppUsingProvider",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/app_using_provider.dart",
+          "line_number": 6,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AppView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/app_using_provider.dart",
+          "line_number": 24,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "provider",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/change_notifier/character_page_change_notifier.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageChangeNotifier",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/change_notifier/character_page_change_notifier.dart",
+          "line_number": 7,
+          "extends": "ChangeNotifier",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": true,
+          "provider_type": "change_notifier",
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/view/character_page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:provider/provider.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_header.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_loading.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/list_page/change_notifier/character_page_change_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "line_number": 14,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "line_number": 30,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CharacterViewState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "line_number": 37,
+          "extends": "State<CharacterView>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "line_number": 58,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "__ContentState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/list_page/view/character_page.dart",
+          "line_number": 65,
+          "extends": "State<_Content>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "provider",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/change_notifier/character_details_change_notifier.dart",
+      "imports": [
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsChangeNotifier",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/change_notifier/character_details_change_notifier.dart",
+          "line_number": 4,
+          "extends": "ChangeNotifier",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": true,
+          "provider_type": "change_notifier",
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:provider/provider.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_provider/details_page/change_notifier/character_details_change_notifier.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterDetailsView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+          "line_number": 31,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+          "line_number": 49,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "EpisodeItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_provider/details_page/view/character_details_page.dart",
+          "line_number": 166,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "provider",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/injector.dart",
+      "imports": [
+        {
+          "path": "package:get_it/get_it.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/character_repository_impl.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/local/local_storage.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/data/source/network/api.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/repository/character_repository.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/details_page/controller/character_details_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/main.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "get_it",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/app_using_get_it.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppUsingGetIt",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/app_using_get_it.dart",
+          "line_number": 4,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AppView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/app_using_get_it.dart",
+          "line_number": 13,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+      "imports": [
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/usecase/get_all_characters.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPageController",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+          "line_number": 7,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "controller"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/view/character_page.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:get_it_mixin/get_it_mixin.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_header.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/shared/character_list_item_loading.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/list_page/controller/character_page_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "line_number": 13,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "line_number": 25,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [
+            "GetItStatefulWidgetMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CharacterViewState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "line_number": 32,
+          "extends": "State<CharacterView>",
+          "implements": [],
+          "mixins": [
+            "GetItStateMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "line_number": 53,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [
+            "GetItStatefulWidgetMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "__ContentState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/list_page/view/character_page.dart",
+          "line_number": 60,
+          "extends": "State<_Content>",
+          "implements": [],
+          "mixins": [
+            "GetItStateMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "get_it_mixin",
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "viewmodel"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/controller/character_details_controller.dart",
+      "imports": [
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsController",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/controller/character_details_controller.dart",
+          "line_number": 3,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "rickmorty"
+      ],
+      "patterns_detected": [
+        "controller"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+      "imports": [
+        {
+          "path": "package:cached_network_image/cached_network_image.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:get_it_mixin/get_it_mixin.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/domain/entity/character.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/details_page/controller/character_details_controller.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:rickmorty/layers/presentation/using_get_it/injector.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CharacterDetailsPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+          "line_number": 11,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "CharacterDetailsView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+          "line_number": 30,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_Content",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+          "line_number": 48,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [
+            "GetItMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "EpisodeItem",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S006/lib/layers/presentation/using_get_it/details_page/view/character_details_page.dart",
+          "line_number": 166,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "cached_network_image",
+        "flutter",
+        "get_it_mixin",
+        "rickmorty"
+      ],
+      "patterns_detected": []
+    }
+  ],
+  "summary": {
+    "total_files": 88,
+    "total_classes": 111,
+    "total_widgets": 67,
+    "total_providers": 4,
+    "packages_used": [
+      "bloc",
+      "bloc_concurrency",
+      "bloc_test",
+      "cached_network_image",
+      "dio",
+      "equatable",
+      "flutter",
+      "flutter_animate",
+      "flutter_bloc",
+      "flutter_mobx",
+      "flutter_riverpod",
+      "flutter_test",
+      "get_it",
+      "get_it_mixin",
+      "google_fonts",
+      "material_color_utilities",
+      "meta",
+      "mobx",
+      "mockingjay",
+      "mocktail",
+      "provider",
+      "rickmorty",
+      "shared_preferences",
+      "stream_transform",
+      "test"
+    ],
+    "patterns_detected": [
+      "bloc",
+      "controller",
+      "dio",
+      "repository",
+      "riverpod",
+      "viewmodel"
+    ],
+    "widget_types": {
+      "stateful": 9,
+      "state": 9,
+      "stateless": 45,
+      "consumer_stateful": 2,
+      "consumer": 2
+    },
+    "provider_types": {
+      "state_notifier": 1,
+      "notifier": 1,
+      "change_notifier": 2
+    }
+  }
+}

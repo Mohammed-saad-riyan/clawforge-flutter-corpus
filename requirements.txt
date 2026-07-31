@@ -1,0 +1,13 @@
+# ClawForge Flutter Corpus
+# Install with: uv pip install -r requirements.txt
+
+# Core dependencies
+pyyaml>=6.0
+httpx>=0.28.0
+
+# Optional: for better async support
+anyio>=4.0
+
+# Dev dependencies (uncomment if needed)
+# pytest>=7.0
+# ruff>=0.1

@@ -1,0 +1,367 @@
+{
+  "project": null,
+  "files": [
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/scripts/update_tests.dart",
+      "imports": [],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/main.dart",
+      "imports": [
+        {
+          "path": "dart:convert",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "dart:developer",
+          "is_package": false,
+          "alias": "developer",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "dart:io",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": "math",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/scheduler.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/widgets.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:vm_service/vm_service.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:vm_service/vm_service_io.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "tests/cupertino_alert_dialog.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "tests/expanding_expansion_panel.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "tests/expanding_shadows.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "tests/page_flip.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "TestScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/main.dart",
+          "line_number": 89,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_TestScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/main.dart",
+          "line_number": 98,
+          "extends": "State<TestScreen>",
+          "implements": [],
+          "mixins": [
+            "TickerProviderStateMixin"
+          ],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "Slate",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/main.dart",
+          "line_number": 180,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "StoryBoard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/main.dart",
+          "line_number": 191,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "vm_service"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/expanding_shadows.dart",
+      "imports": [
+        {
+          "path": "package:flutter/widgets.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ExpandingPhysicalModel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/expanding_shadows.dart",
+          "line_number": 12,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "ExpandingBlurs",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/expanding_shadows.dart",
+          "line_number": 38,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/page_flip.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": "math",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/widgets.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PageFlipTest",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/page_flip.dart",
+          "line_number": 9,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/cupertino_alert_dialog.dart",
+      "imports": [
+        {
+          "path": "package:flutter/cupertino.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [
+            "FlutterLogo"
+          ],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CupertinoDialogTest",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/cupertino_alert_dialog.dart",
+          "line_number": 8,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/expanding_expansion_panel.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ExpandingExpansionPanel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S024/skp_generator/lib/tests/expanding_expansion_panel.dart",
+          "line_number": 7,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    }
+  ],
+  "summary": {
+    "total_files": 6,
+    "total_classes": 9,
+    "total_widgets": 9,
+    "total_providers": 0,
+    "packages_used": [
+      "flutter",
+      "vm_service"
+    ],
+    "patterns_detected": [
+      "bloc"
+    ],
+    "widget_types": {
+      "stateful": 1,
+      "state": 1,
+      "stateless": 7
+    },
+    "provider_types": {}
+  }
+}

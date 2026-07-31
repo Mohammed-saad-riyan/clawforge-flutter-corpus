@@ -1,0 +1,5431 @@
+{
+  "project": {
+    "name": "stream_video_flutter_samples_workspace",
+    "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020",
+    "description": null,
+    "packages": {},
+    "dev_packages": {
+      "melos": "^3.0.0"
+    },
+    "flutter_version": null,
+    "dart_sdk": ">=2.18.1 <3.0.0"
+  },
+  "files": [
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/chat_notifications.dart",
+      "imports": [
+        {
+          "path": "package:firebase_messaging/firebase_messaging.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter_local_notifications/flutter_local_notifications.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat/stream_chat.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User",
+            "CurrentPlatform"
+          ]
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "firebase_messaging",
+        "flutter",
+        "flutter_local_notifications",
+        "stream_chat",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/stream_video_init.dart",
+      "imports": [
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_push_notification/stream_video_push_notification.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "stream_video_flutter",
+        "stream_video_push_notification"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/credential_store.dart",
+      "imports": [
+        {
+          "path": "dart:convert",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:shared_preferences/shared_preferences.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "UserCredentials",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/credential_store.dart",
+          "line_number": 9,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "CredentialStore",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/credential_store.dart",
+          "line_number": 45,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "shared_preferences"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/channel_screen.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User"
+          ]
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "call_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChannelScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/channel_screen.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/app_config.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "AppConfig",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/app_config.dart",
+          "line_number": 37,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/channel_list_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User",
+            "CurrentPlatform"
+          ]
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "channel_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChannelListScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/channel_list_screen.dart",
+          "line_number": 8,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ChannelListScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/channel_list_screen.dart",
+          "line_number": 17,
+          "extends": "State<ChannelListScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/firebase_options.dart",
+      "imports": [
+        {
+          "path": "package:firebase_core/firebase_core.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [
+            "FirebaseOptions"
+          ],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [
+            "defaultTargetPlatform"
+          ],
+          "hide": []
+        },
+        {
+          "path": "firebase_options.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "DefaultFirebaseOptions",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/firebase_options.dart",
+          "line_number": 16,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "firebase_core",
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:firebase_core/firebase_core.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:firebase_messaging/firebase_messaging.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat/stream_chat.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User",
+            "CurrentPlatform"
+          ]
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_push_notification/stream_video_push_notification.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:video_ringing_with_chat_push/firebase_options.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "auto_login_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "chat_notifications.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "credential_store.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "user_picker_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "UserPickerApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/main.dart",
+          "line_number": 137,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_UserPickerAppState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/main.dart",
+          "line_number": 151,
+          "extends": "State<UserPickerApp>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "firebase_core",
+        "firebase_messaging",
+        "flutter",
+        "stream_chat",
+        "stream_chat_flutter",
+        "stream_video_flutter",
+        "stream_video_push_notification",
+        "video_ringing_with_chat_push"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/user_picker_screen.dart",
+      "imports": [
+        {
+          "path": "package:firebase_messaging/firebase_messaging.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:permission_handler/permission_handler.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat/stream_chat.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User",
+            "CurrentPlatform"
+          ]
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_push_notification/stream_video_push_notification.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "chat_notifications.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "credential_store.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "stream_video_init.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "UserPickerScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/user_picker_screen.dart",
+          "line_number": 20,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "firebase_messaging",
+        "flutter",
+        "permission_handler",
+        "stream_chat",
+        "stream_chat_flutter",
+        "stream_video_flutter",
+        "stream_video_push_notification"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/in_call_chat.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "InCallChat",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/in_call_chat.dart",
+          "line_number": 7,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/auto_login_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat/stream_chat.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User",
+            "CurrentPlatform"
+          ]
+        },
+        {
+          "path": "app.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "chat_notifications.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "credential_store.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "stream_video_init.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "user_picker_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AutoLoginScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/auto_login_screen.dart",
+          "line_number": 17,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "AutoLoginScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/auto_login_screen.dart",
+          "line_number": 33,
+          "extends": "State<AutoLoginScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/call_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User"
+          ]
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "in_call_chat.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CallScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/call_screen.dart",
+          "line_number": 13,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CallScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/call_screen.dart",
+          "line_number": 22,
+          "extends": "State<CallScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/app.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:firebase_messaging/firebase_messaging.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User",
+            "CurrentPlatform"
+          ]
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "call_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "chat_notifications.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [
+            "handleChatNotification",
+            "isChatNotification",
+            "isMissedCallNotification",
+            "handleMissedCallNotification"
+          ],
+          "hide": []
+        },
+        {
+          "path": "home_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "RingingExampleApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/app.dart",
+          "line_number": 20,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_RingingExampleAppState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/app.dart",
+          "line_number": 38,
+          "extends": "State<RingingExampleApp>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "firebase_messaging",
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/home_screen.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter_background.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:video_ringing_with_chat_push/chat_notifications.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_push_notification/stream_video_push_notification.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "call_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "channel_list_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HomeScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/home_screen.dart",
+          "line_number": 14,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HomeScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/home_screen.dart",
+          "line_number": 30,
+          "extends": "State<HomeScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_CallTab",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/home_screen.dart",
+          "line_number": 131,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_DeviceTokensScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/home_screen.dart",
+          "line_number": 273,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_DeviceTokensScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_ringing_with_chat_push/lib/home_screen.dart",
+          "line_number": 280,
+          "extends": "State<_DeviceTokensScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter",
+        "stream_video_push_notification",
+        "video_ringing_with_chat_push"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/app_config.dart",
+      "imports": [
+        {
+          "path": "env/env.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/sample_user.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "SampleUser",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/sample_user.dart",
+          "line_number": 2,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat_starter/screens/login_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MainApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/main.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat_starter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/user_mapper.dart",
+      "imports": [
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": "video",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_room_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AudioRoomScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_room_screen.dart",
+          "line_number": 4,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/login_screen.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat_starter/app_config.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat_starter/sample_user.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat_starter/screens/audio_rooms_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LoginScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/login_screen.dart",
+          "line_number": 6,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat_starter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_rooms_screen.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat_starter/screens/audio_room_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AudioRoomsScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_rooms_screen.dart",
+          "line_number": 5,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_AudioRoomsScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_rooms_screen.dart",
+          "line_number": 14,
+          "extends": "State<AudioRoomsScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_EmptyState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_rooms_screen.dart",
+          "line_number": 108,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ErrorState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/audio_rooms_screen.dart",
+          "line_number": 138,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat_starter",
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/participant_avatar.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ParticipantAvatar",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/participant_avatar.dart",
+          "line_number": 4,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/permission_requests.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PermissionRequests",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/permission_requests.dart",
+          "line_number": 4,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_PermissionRequestsState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/permission_requests.dart",
+          "line_number": 12,
+          "extends": "State<PermissionRequests>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/audio_room_actions.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AudioRoomActions",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/audio_room_actions.dart",
+          "line_number": 6,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_AudioRoomActionsState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/audio_room_actions.dart",
+          "line_number": 15,
+          "extends": "State<AudioRoomActions>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/chat_sheet.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChatSheet",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/screens/widgets/chat_sheet.dart",
+          "line_number": 5,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/env/env.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "Env",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/audio_room_with_chat_starter/lib/env/env.dart",
+          "line_number": 9,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/app_config.dart",
+      "imports": [
+        {
+          "path": "env/env.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/sample_user.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "SampleUser",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/sample_user.dart",
+          "line_number": 2,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:chat_with_video_starter/screens/login_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/main.dart",
+          "line_number": 10,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "chat_with_video_starter",
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/user_mapper.dart",
+      "imports": [
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": [
+            "User"
+          ]
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/channel_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChannelScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/channel_screen.dart",
+          "line_number": 5,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/channel_list_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChannelListScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/channel_list_screen.dart",
+          "line_number": 3,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ChannelListScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/channel_list_screen.dart",
+          "line_number": 12,
+          "extends": "State<ChannelListScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/login_screen.dart",
+      "imports": [
+        {
+          "path": "package:chat_with_video_starter/sample_user.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LoginScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/login_screen.dart",
+          "line_number": 7,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "chat_with_video_starter",
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/attachment/call_attachment_builder.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CallAttachmentWidgetBuilder",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/screens/attachment/call_attachment_builder.dart",
+          "line_number": 5,
+          "extends": "StreamAttachmentWidgetBuilder",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/env/env.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "Env",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/quickstart_kits/chat_with_video_starter/lib/env/env.dart",
+          "line_number": 9,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/test/widget_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/app_config.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AppConfig",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/app_config.dart",
+          "line_number": 20,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "ChannelInfo",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/app_config.dart",
+          "line_number": 69,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HostScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 7,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HostScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 14,
+          "extends": "State<HostScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_GoingLiveOverlay",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 114,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ChannelPickerScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 142,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ChannelCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 194,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_GoLiveButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 250,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_BroadcastScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 300,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_BroadcastHeader",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 357,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_BroadcastControls",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/host_screen.dart",
+          "line_number": 442,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/call_manager.dart",
+      "imports": [
+        {
+          "path": "package:flutter/foundation.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CallManager",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/call_manager.dart",
+          "line_number": 4,
+          "extends": "ChangeNotifier",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": true,
+          "provider_type": "change_notifier",
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:permission_handler/permission_handler.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "home_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LivestreamFeedApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/main.dart",
+          "line_number": 13,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_LivestreamFeedAppState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/main.dart",
+          "line_number": 20,
+          "extends": "State<LivestreamFeedApp>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_UserPickerScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/main.dart",
+          "line_number": 76,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "permission_handler",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "call_manager.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "FeedScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 7,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_FeedScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 14,
+          "extends": "State<FeedScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_LivestreamPage",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 72,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ActiveVideo",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 123,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ConnectingOverlay",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 144,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_OfflineOverlay",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 168,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ChannelInfoOverlay",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 201,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_LiveBadge",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 275,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ViewerBadge",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 316,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_BackButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/feed_screen.dart",
+          "line_number": 364,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/home_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "feed_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "host_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HomeScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/home_screen.dart",
+          "line_number": 6,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_UserInfoCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/home_screen.dart",
+          "line_number": 92,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ActionCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/home_screen.dart",
+          "line_number": 140,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HowToTestCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_feed/lib/home_screen.dart",
+          "line_number": 200,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/app_config.dart",
+      "imports": [
+        {
+          "path": "env/env.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/sample_user.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "SampleUser",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/sample_user.dart",
+          "line_number": 2,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat/env/env.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/screens/login_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/main.dart",
+          "line_number": 19,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat",
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": [
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/user_mapper.dart",
+      "imports": [
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": "video",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_room_screen.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat/screens/widgets/audio_room_actions.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/screens/widgets/participant_avatar.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/screens/widgets/permission_requests.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/screens/widgets/chat_sheet.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AudioRoomScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_room_screen.dart",
+          "line_number": 9,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_AudioRoomScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_room_screen.dart",
+          "line_number": 23,
+          "extends": "State<AudioRoomScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat",
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/login_screen.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat/env/env.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/sample_user.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/screens/audio_rooms_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:audio_room_with_chat/user_mapper.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LoginScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/login_screen.dart",
+          "line_number": 11,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat",
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_rooms_screen.dart",
+      "imports": [
+        {
+          "path": "package:audio_room_with_chat/screens/audio_room_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AudioRoomsScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_rooms_screen.dart",
+          "line_number": 6,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_AudioRoomsScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_rooms_screen.dart",
+          "line_number": 18,
+          "extends": "State<AudioRoomsScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_EmptyState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_rooms_screen.dart",
+          "line_number": 184,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ErrorState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/audio_rooms_screen.dart",
+          "line_number": 214,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "audio_room_with_chat",
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/participant_avatar.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ParticipantAvatar",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/participant_avatar.dart",
+          "line_number": 4,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/permission_requests.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "PermissionRequests",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/permission_requests.dart",
+          "line_number": 4,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_PermissionRequestsState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/permission_requests.dart",
+          "line_number": 12,
+          "extends": "State<PermissionRequests>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/audio_room_actions.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "AudioRoomActions",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/audio_room_actions.dart",
+          "line_number": 6,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_AudioRoomActionsState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/audio_room_actions.dart",
+          "line_number": 15,
+          "extends": "State<AudioRoomActions>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/chat_sheet.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChatSheet",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/screens/widgets/chat_sheet.dart",
+          "line_number": 4,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/env/env.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "Env",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/audio_room_with_chat/lib/env/env.dart",
+          "line_number": 9,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/test/widget_test.dart",
+      "imports": [
+        {
+          "path": "package:flutter_test/flutter_test.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter_test"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/app_config.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "AppConfig",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/app_config.dart",
+          "line_number": 19,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:permission_handler/permission_handler.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "home_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MulticallApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/main.dart",
+          "line_number": 13,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MulticallAppState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/main.dart",
+          "line_number": 20,
+          "extends": "State<MulticallApp>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_UserPickerScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/main.dart",
+          "line_number": 80,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "permission_handler",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CallScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 8,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CallScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 22,
+          "extends": "State<CallScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_RoomSession",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 359,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "_MediaPreferences",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 368,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "_JoiningOverlay",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 386,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_RoomPane",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 416,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_RoomPaneContent",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 524,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_InactiveRoomPlaceholder",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 604,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_PaneInfoBanner",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 661,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_RoomStatusChip",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 687,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CallControls",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 712,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ControlButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/call_screen.dart",
+          "line_number": 792,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/home_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "call_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HomeScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/home_screen.dart",
+          "line_number": 7,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HomeScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/home_screen.dart",
+          "line_number": 23,
+          "extends": "State<HomeScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_UserInfoCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/home_screen.dart",
+          "line_number": 148,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_RoomCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/home_screen.dart",
+          "line_number": 196,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HowItWorksCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_multicall/lib/home_screen.dart",
+          "line_number": 266,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/app_config.dart",
+      "imports": [
+        {
+          "path": "env/env.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/sample_user.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "SampleUser",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/sample_user.dart",
+          "line_number": 2,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:chat_with_video_call/env/env.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:chat_with_video_call/screens/login_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MyApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/main.dart",
+          "line_number": 19,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "chat_with_video_call",
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/user_mapper.dart",
+      "imports": [
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": "chat",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": "video",
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "sample_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [],
+      "top_level_functions": [],
+      "packages_used": [
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/channel_screen.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:chat_with_video_call/screens/attachment/call_attachment_builder.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChannelScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/channel_screen.dart",
+          "line_number": 8,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "chat_with_video_call",
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/channel_list_screen.dart",
+      "imports": [
+        {
+          "path": "package:chat_with_video_call/app_config.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:chat_with_video_call/screens/channel_screen.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ChannelListScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/channel_list_screen.dart",
+          "line_number": 6,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ChannelListScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/channel_list_screen.dart",
+          "line_number": 15,
+          "extends": "State<ChannelListScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "chat_with_video_call",
+        "flutter",
+        "stream_chat_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/login_screen.dart",
+      "imports": [
+        {
+          "path": "package:chat_with_video_call/env/env.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:chat_with_video_call/sample_user.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:chat_with_video_call/user_mapper.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "../app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "channel_list_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LoginScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/login_screen.dart",
+          "line_number": 11,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "chat_with_video_call",
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/attachment/call_attachment_builder.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_chat_flutter/stream_chat_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "CallAttachmentWidgetBuilder",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/screens/attachment/call_attachment_builder.dart",
+          "line_number": 5,
+          "extends": "StreamAttachmentWidgetBuilder",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_chat_flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/env/env.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "Env",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/chat_with_video_call/lib/env/env.dart",
+          "line_number": 9,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": true,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/livestream_screen.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_filters/video_effects_manager.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "scoreboard_channel.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "scoreboard_settings_dialog.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LiveStreamScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/livestream_screen.dart",
+          "line_number": 19,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_LiveStreamScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/livestream_screen.dart",
+          "line_number": 35,
+          "extends": "State<LiveStreamScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_LivestreamLiveView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/livestream_screen.dart",
+          "line_number": 110,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ScoreboardControls",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/livestream_screen.dart",
+          "line_number": 193,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_filters",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/scoreboard_channel.dart",
+      "imports": [
+        {
+          "path": "package:flutter/services.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ScoreboardChannel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/scoreboard_channel.dart",
+          "line_number": 7,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        },
+        {
+          "name": "ScoreboardConfig",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/scoreboard_channel.dart",
+          "line_number": 41,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/tutorial_user.dart",
+      "imports": [
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_keys.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "TutorialUser",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/tutorial_user.dart",
+          "line_number": 6,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "login_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "MainApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/main.dart",
+          "line_number": 25,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/login_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_keys.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "home_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "tutorial_user.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LoginScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/login_screen.dart",
+          "line_number": 8,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_LoginScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/login_screen.dart",
+          "line_number": 15,
+          "extends": "State<LoginScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/app_keys.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "AppKeys",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/app_keys.dart",
+          "line_number": 7,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/scoreboard_settings_dialog.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "scoreboard_channel.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "_ScoreboardSettingsDialog",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/scoreboard_settings_dialog.dart",
+          "line_number": 17,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ScoreboardSettingsDialogState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/scoreboard_settings_dialog.dart",
+          "line_number": 25,
+          "extends": "State<_ScoreboardSettingsDialog>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/home_screen.dart",
+      "imports": [
+        {
+          "path": "dart:math",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:permission_handler/permission_handler.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "livestream_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "login_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HomeScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/home_screen.dart",
+          "line_number": 10,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HomeScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_overlay/lib/home_screen.dart",
+          "line_number": 17,
+          "extends": "State<HomeScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "permission_handler",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "floating_call_panel.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "ViewerLivestreamScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 15,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ViewerLivestreamScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 24,
+          "extends": "State<ViewerLivestreamScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_ViewerContent",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 250,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_OfflineOverlay",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 274,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_ViewerTopBar",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 312,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CallHostButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 379,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_RingingIndicator",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/viewer_livestream_screen.dart",
+          "line_number": 425,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/app_config.dart",
+      "imports": [],
+      "classes": [
+        {
+          "name": "AppConfig",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/app_config.dart",
+          "line_number": 19,
+          "extends": null,
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": false,
+          "widget_type": null,
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": null
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [],
+      "patterns_detected": []
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/main.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:permission_handler/permission_handler.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_noise_cancellation/noise_cancellation_audio_processor.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "home_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "LivestreamWithCallApp",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/main.dart",
+          "line_number": 14,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_LivestreamWithCallAppState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/main.dart",
+          "line_number": 21,
+          "extends": "State<LivestreamWithCallApp>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_UserPickerScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/main.dart",
+          "line_number": 89,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "permission_handler",
+        "stream_video_flutter",
+        "stream_video_noise_cancellation"
+      ],
+      "patterns_detected": [
+        "bloc",
+        "dio"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+      "imports": [
+        {
+          "path": "dart:async",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "floating_call_panel.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HostLivestreamScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 19,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HostLivestreamScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 28,
+          "extends": "State<HostLivestreamScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_HostBroadcastView",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 255,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_PausedPlaceholder",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 306,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_LiveBadgeRow",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 343,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HostControls",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 400,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_EndLiveButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 428,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_IncomingCallSheet",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 453,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_CircleActionButton",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/host_livestream_screen.dart",
+          "line_number": 543,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/home_screen.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "app_config.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "host_livestream_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "viewer_livestream_screen.dart",
+          "is_package": false,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "HomeScreen",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/home_screen.dart",
+          "line_number": 8,
+          "extends": "StatefulWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateful",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HomeScreenState",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/home_screen.dart",
+          "line_number": 26,
+          "extends": "State<HomeScreen>",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "state",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": true
+        },
+        {
+          "name": "_UserInfoCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/home_screen.dart",
+          "line_number": 170,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_HowItWorksCard",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/home_screen.dart",
+          "line_number": 237,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": [
+        "bloc"
+      ]
+    },
+    {
+      "path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/floating_call_panel.dart",
+      "imports": [
+        {
+          "path": "package:flutter/material.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        },
+        {
+          "path": "package:stream_video_flutter/stream_video_flutter.dart",
+          "is_package": true,
+          "alias": null,
+          "show": [],
+          "hide": []
+        }
+      ],
+      "classes": [
+        {
+          "name": "FloatingCallPanel",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/floating_call_panel.dart",
+          "line_number": 8,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        },
+        {
+          "name": "_MiniControl",
+          "file_path": "/Users/mohammedriyan/Downloads/clawforge-flutter-corpus/raw/github/S020/packages/video_livestream_with_call/lib/floating_call_panel.dart",
+          "line_number": 133,
+          "extends": "StatelessWidget",
+          "implements": [],
+          "mixins": [],
+          "methods": [],
+          "is_abstract": false,
+          "is_widget": true,
+          "widget_type": "stateless",
+          "is_provider": false,
+          "provider_type": null,
+          "is_state": false
+        }
+      ],
+      "top_level_functions": [],
+      "packages_used": [
+        "flutter",
+        "stream_video_flutter"
+      ],
+      "patterns_detected": []
+    }
+  ],
+  "summary": {
+    "total_files": 82,
+    "total_classes": 160,
+    "total_widgets": 135,
+    "total_providers": 1,
+    "packages_used": [
+      "audio_room_with_chat",
+      "audio_room_with_chat_starter",
+      "chat_with_video_call",
+      "chat_with_video_starter",
+      "firebase_core",
+      "firebase_messaging",
+      "flutter",
+      "flutter_local_notifications",
+      "flutter_test",
+      "permission_handler",
+      "shared_preferences",
+      "stream_chat",
+      "stream_chat_flutter",
+      "stream_video_filters",
+      "stream_video_flutter",
+      "stream_video_noise_cancellation",
+      "stream_video_push_notification",
+      "video_ringing_with_chat_push"
+    ],
+    "patterns_detected": [
+      "bloc",
+      "dio"
+    ],
+    "widget_types": {
+      "stateless": 75,
+      "stateful": 30,
+      "state": 30
+    },
+    "provider_types": {
+      "change_notifier": 1
+    }
+  }
+}
