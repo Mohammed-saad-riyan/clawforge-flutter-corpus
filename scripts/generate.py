@@ -33,6 +33,7 @@ from knowledge_retriever import KnowledgeRetriever, RetrievalResult
 from snippet_retriever import SnippetRetriever, Snippet
 from semantic_retriever import SemanticRetriever, SemanticMatch
 from modal_client import ModalClient, GenerationResponse
+from scaffold_project import ProjectScaffolder
 
 
 @dataclass
@@ -72,6 +73,24 @@ class GenerationResult:
             f.write(self.response.text)
 
         print(f"💾 Saved to: {output_dir / timestamp}_*")
+
+    def scaffold(self, output_dir: Optional[Path] = None, project_name: Optional[str] = None) -> Path:
+        """
+        Scaffold a complete Flutter project from the generated output.
+
+        Args:
+            output_dir: Base directory for generated projects
+            project_name: Override project name
+
+        Returns:
+            Path to the generated project
+        """
+        scaffolder = ProjectScaffolder(output_dir=output_dir)
+        return scaffolder.scaffold_from_text(
+            self.response.text,
+            project_name=project_name,
+            overwrite=False,
+        )
 
 
 class ClawForgeGenerator:
@@ -257,9 +276,15 @@ class ClawForgeGenerator:
                 if len(result.response.text) > 2000:
                     print(f"\n... ({len(result.response.text) - 2000} more characters)")
 
-                # Offer to save
-                save = input("\n💾 Save to file? (y/n): ").strip().lower()
-                if save == "y":
+                # Offer to scaffold or save
+                action = input("\n💾 [s]caffold project / [r]aw save / [n]one? (s/r/n): ").strip().lower()
+                if action == "s":
+                    project_path = result.scaffold(
+                        output_dir=self.output_dir.parent / "generated",
+                    )
+                    print(f"\n🚀 Flutter project ready at: {project_path}")
+                    print(f"   Run: cd {project_path} && flutter pub get && flutter run")
+                elif action == "r":
                     result.save(self.output_dir)
 
                 print()
@@ -283,6 +308,7 @@ def main():
         epilog="""
 Examples:
     python generate.py "Build a food delivery app"
+    python generate.py "Build a login app" --scaffold
     python generate.py --interactive
     python generate.py "Create a fitness tracker" --save
         """
@@ -318,6 +344,17 @@ Examples:
         action="store_true",
         help="Show what would be sent without calling Modal",
     )
+    parser.add_argument(
+        "--scaffold",
+        action="store_true",
+        help="Generate a complete Flutter project with multiple files",
+    )
+    parser.add_argument(
+        "--project-name",
+        type=str,
+        default=None,
+        help="Override project name for scaffolding",
+    )
 
     args = parser.parse_args()
 
@@ -352,7 +389,15 @@ Examples:
                     verbose=not args.quiet,
                 )
 
-                if args.quiet:
+                if args.scaffold:
+                    # Scaffold a complete Flutter project
+                    project_path = result.scaffold(
+                        output_dir=generator.output_dir.parent / "generated",
+                        project_name=args.project_name,
+                    )
+                    print(f"\n🚀 Flutter project ready at: {project_path}")
+                    print(f"   Run: cd {project_path} && flutter pub get && flutter run")
+                elif args.quiet:
                     print(result.response.text)
                 else:
                     print("\n📄 GENERATED CODE:")

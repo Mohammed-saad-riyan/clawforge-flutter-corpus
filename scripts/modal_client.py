@@ -211,6 +211,22 @@ class ModalClient:
             "- Write type-safe code with no dynamic types",
             "- Generate complete, runnable code",
             "",
+            "OUTPUT FORMAT:",
+            "You MUST output each file with this exact format:",
+            "",
+            "### lib/main.dart",
+            "```dart",
+            "// code here",
+            "```",
+            "",
+            "### lib/features/auth/login_screen.dart",
+            "```dart",
+            "// code here",
+            "```",
+            "",
+            "IMPORTANT: Each file must start with ### followed by the path (e.g., ### lib/main.dart)",
+            "then a dart code block. Generate ALL required files for a complete working app.",
+            "",
         ]
 
         if template_context:
@@ -225,7 +241,7 @@ class ModalClient:
             parts.append(knowledge_context)
             parts.append("")
 
-        parts.append("Generate the complete Flutter application code.")
+        parts.append("Generate the complete Flutter application with ALL files in the format specified above.")
 
         return "\n".join(parts)
 
