@@ -5,7 +5,7 @@ ClawForge Flutter Generator - Main generation pipeline.
 Pipeline:
 1. User prompt → Template matcher (rule-based, fast)
 2. Template → Knowledge retriever (widgets, patterns, packages)
-3. Template → Snippet retriever (actual code implementations)
+3. Template → Semantic retriever (embeddings-based code search)
 4. Context assembly (template + knowledge + code snippets)
 5. Modal/Qwen 2.5 Coder → Generated code
 6. (Future) Validation → Repair loop
@@ -24,13 +24,14 @@ import yaml
 import argparse
 from pathlib import Path
 from dataclasses import dataclass, field
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, Union
 from datetime import datetime
 
 # Import our modules
 from match_template import match_template, TemplateMatch
 from knowledge_retriever import KnowledgeRetriever, RetrievalResult
 from snippet_retriever import SnippetRetriever, Snippet
+from semantic_retriever import SemanticRetriever, SemanticMatch
 from modal_client import ModalClient, GenerationResponse
 
 
@@ -39,7 +40,7 @@ class GenerationResult:
     prompt: str
     template: TemplateMatch
     knowledge: RetrievalResult
-    snippets: List[Snippet]
+    snippets: List[SemanticMatch]  # Now uses semantic matches
     response: GenerationResponse
     generated_at: str
 
@@ -58,7 +59,10 @@ class GenerationResult:
             "generated_at": self.generated_at,
             "packages": self.knowledge.packages,
             "patterns": [p.name for p in self.knowledge.patterns],
-            "snippets_used": [{"name": s.name, "type": s.type, "patterns": s.patterns} for s in self.snippets],
+            "snippets_used": [
+                {"name": s.name, "type": s.type, "patterns": s.patterns, "score": s.score}
+                for s in self.snippets
+            ],
         }
         with open(output_dir / f"{timestamp}_metadata.json", "w") as f:
             json.dump(metadata, f, indent=2)
@@ -95,7 +99,10 @@ class ClawForgeGenerator:
 
         # Load components
         self.retriever = KnowledgeRetriever(self.knowledge_dir)
-        self.snippet_retriever = SnippetRetriever(self.snippets_dir)
+        self.semantic_retriever = SemanticRetriever(
+            embeddings_dir=project_root / "curated" / "embeddings",
+            snippets_dir=self.snippets_dir,
+        )
         self.client = ModalClient()
 
         # Load templates
@@ -154,21 +161,21 @@ class ClawForgeGenerator:
             print(f"   ✅ Patterns: {len(knowledge.patterns)}")
             print(f"   ✅ Packages: {len(knowledge.packages)}")
 
-        # Step 3: Retrieve code snippets (actual implementations)
+        # Step 3: Semantic code search (embeddings-based)
         if verbose:
-            print("\n3️⃣  Retrieving code snippets...")
+            print("\n3️⃣  Semantic code search...")
 
-        snippets = self.snippet_retriever.retrieve_for_template(
+        snippets = self.semantic_retriever.search_for_template(
             template,
             user_prompt,
-            max_snippets=8,
-            max_chars=12000,
+            max_results=8,
+            include_code=True,
         )
 
         if verbose:
             print(f"   ✅ Snippets: {len(snippets)}")
             for s in snippets[:5]:
-                print(f"      - {s.name} ({s.type}) [{s.lines} lines]")
+                print(f"      - {s.name} ({s.type}) [score: {s.score:.3f}]")
             if len(snippets) > 5:
                 print(f"      ... and {len(snippets) - 5} more")
 
@@ -178,7 +185,7 @@ class ClawForgeGenerator:
 
         template_yaml = yaml.dump(template, default_flow_style=False)
         knowledge_context = knowledge.to_context_string()
-        snippet_context = self.snippet_retriever.to_context_string(snippets)
+        snippet_context = self.semantic_retriever.to_context_string(snippets)
 
         # Combine knowledge and snippets
         full_context = f"{knowledge_context}\n\n{snippet_context}"
@@ -325,19 +332,19 @@ Examples:
                 template_match = match_template(args.prompt)
                 template = generator.template_map.get(template_match.name, {})
                 knowledge = generator.retriever.retrieve_for_template(template, args.prompt)
-                snippets = generator.snippet_retriever.retrieve_for_template(
-                    template, args.prompt, max_snippets=8, max_chars=12000
+                snippets = generator.semantic_retriever.search_for_template(
+                    template, args.prompt, max_results=8, include_code=True
                 )
 
                 print("\n🔍 DRY RUN - Would send:")
                 print(f"\nTemplate: {template_match.name}")
                 print(f"Patterns: {[p.name for p in knowledge.patterns]}")
                 print(f"Packages: {knowledge.packages[:10]}...")
-                print(f"\nSnippets ({len(snippets)}):")
+                print(f"\nSnippets ({len(snippets)}) - Semantic search:")
                 for s in snippets:
-                    print(f"  - {s.name} ({s.type}) [{s.lines} lines] {s.patterns}")
+                    print(f"  - {s.name} ({s.type}) [score: {s.score:.3f}] {s.patterns}")
                 print(f"\nKnowledge context:\n{knowledge.to_context_string()[:1000]}...")
-                print(f"\nSnippet context:\n{generator.snippet_retriever.to_context_string(snippets[:3])[:2000]}...")
+                print(f"\nSnippet context:\n{generator.semantic_retriever.to_context_string(snippets[:3])[:2000]}...")
             else:
                 result = generator.generate(
                     args.prompt,
