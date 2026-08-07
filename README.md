@@ -253,7 +253,9 @@ See [CLAWFORGE.md](CLAWFORGE.md) for complete technical documentation including:
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Note on corpus data:** The code snippets in `curated/` are extracted from open-source Flutter repositories. Each source repository retains its original license. See `sources/sources.csv` for the full list of source repositories.
 
 ---
 

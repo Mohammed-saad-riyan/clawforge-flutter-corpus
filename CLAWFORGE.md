@@ -473,7 +473,9 @@ class MyApp extends StatelessWidget {
 
 ## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**Corpus Attribution:** The code snippets in `curated/` are extracted from open-source Flutter repositories for educational and research purposes. Each source repository retains its original license. The full list of source repositories is available in `sources/sources.csv`.
 
 ## Credits
 
